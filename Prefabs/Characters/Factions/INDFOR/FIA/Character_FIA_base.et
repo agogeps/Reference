@@ -1,9 +1,0 @@
-SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base.et" {
- ID "520EC961A090B1EE"
- components {
-  ESCT_CharacterInitComponent "{6206F0300E48CBA7}" {
-  }
-  ESCT_LocationPatrollerComponent "{6206F0306DB6833A}" {
-  }
- }
-}

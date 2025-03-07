@@ -1,6 +1,0 @@
-SCR_AIGroup : "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et" {
- ID "0000000000000001"
- m_aUnitPrefabSlots {
-  "{CD180E80EE8EB701}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MilitaryPoliceman.et" "{15A90B2AAA2C3232}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MilitaryPoliceman_Carbine.et" "{15A90B2AAA2C3232}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MilitaryPoliceman_Carbine.et" "{15A90B2AAA2C3232}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MilitaryPoliceman_Carbine.et" "{74F517160D99A281}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MilitaryPoliceman_Rifle.et" "{74F517160D99A281}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MilitaryPoliceman_Rifle.et"
- }
-}

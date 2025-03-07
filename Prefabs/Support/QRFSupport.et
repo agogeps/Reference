@@ -1,8 +1,0 @@
-ESCT_QRFSupport {
- ID "61331AD8FF5CC033"
- components {
-  RplComponent "{61B508220F466DAB}" {
-   Streamable Disabled
-  }
- }
-}

@@ -1,7 +1,0 @@
-SCR_ChimeraCharacter : "{894628A45793E7A0}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_BaseLoadout.et" {
- ID "520EC961A090B1EE"
- components {
-  ESCT_SupportCallerComponent "{61AEC9EFD1E871A3}" {
-  }
- }
-}

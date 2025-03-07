@@ -1,9 +1,0 @@
-GenericEntity : "{EB1DF9D81A55F5D9}Prefabs/Systems/AmbientVehicles/Escapists_AmbientVehicleSpawnpoint_Enemy.et" {
- ID "5D5E85F95F31C6F0"
- components {
-  SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-   "faction affiliation" "FIA"
-  }
- }
- coords 4834.441 113.98 8099.522
-}

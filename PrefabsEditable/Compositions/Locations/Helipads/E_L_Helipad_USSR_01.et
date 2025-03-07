@@ -1,8 +1,0 @@
-StaticModelEntity : "{B00E14C07DEE788A}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_USSR_01.et" {
- ID "5282DCB5DFC8538F"
- components {
-  RplComponent "{606AECA06BCF601E}" {
-  }
- }
- coords 0 0 0
-}

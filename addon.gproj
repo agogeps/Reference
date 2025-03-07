@@ -1,8 +1,0 @@
-GameProject {
- ID "Escapist"
- GUID "64B10702CFDB094C"
- TITLE "Escapist" 
- Dependencies {
-  "5F16D7E4A1CBE075" "58D0FB3206B6F859"
- }
-}

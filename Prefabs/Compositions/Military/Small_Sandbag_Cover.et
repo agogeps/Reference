@@ -1,7 +1,0 @@
-GenericEntity : "{55D508179EF5E64A}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_US_01.et" {
- ID "5282DCB5DFC8538F"
- coords 3260.817 2.292 2874.514
- angleX 1.262
- angleY -130.471
- angleZ 0.1
-}

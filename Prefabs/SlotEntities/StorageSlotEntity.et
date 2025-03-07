@@ -1,9 +1,0 @@
-ESCT_StorageSlotEntity {
- ID "619ED383678105D5"
- components {
-  Hierarchy "{619ED3837F12F2AC}" {
-  }
- }
- coords 2.247 0.135 0.324
- angleY -88.993
-}

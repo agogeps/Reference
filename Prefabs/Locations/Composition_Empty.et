@@ -1,9 +1,0 @@
-GenericEntity {
- ID "605A9576E2E02B88"
- components {
-  RplComponent "{605A95769D99E369}" {
-  }
-  Hierarchy "{605A95769E6BA83F}" {
-  }
- }
-}

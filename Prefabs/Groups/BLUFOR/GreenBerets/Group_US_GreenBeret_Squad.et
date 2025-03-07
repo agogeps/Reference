@@ -1,7 +1,0 @@
-SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
- ID "0000000000000001"
- components {
-  ESCT_SupportCallReactionGroupComponent "{61B27CDE84FAC452}" {
-  }
- }
-}

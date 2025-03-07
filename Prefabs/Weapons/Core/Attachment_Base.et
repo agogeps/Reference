@@ -1,7 +1,0 @@
-GameEntity {
- ID "4BA426CBAED42A14"
- components {
-  ESCT_LocationItemComponent "{619D42B708F2EAF2}" {
-  }
- }
-}
