@@ -1,0 +1,473 @@
+GenericEntity : "{3B47502BD0C6E3C8}PrefabsEditable/Compositions/Locations/E_Location_Base.et" {
+ ID "617EF4B50D28275F"
+ coords 0 0 0
+ angleY 270
+ {
+  $grp GenericEntity : "{0B0C600941B2A6A8}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_plastic.et" {
+   {
+    ID "62D2B01920F8A9C6"
+    components {
+     Hierarchy "{5CB0D991B00CC617}" {
+      Enabled 1
+     }
+    }
+    coords 5.819 0 4.107
+    angleY -95.987
+   }
+   {
+    ID "62D2B01920FAFA36"
+    components {
+     Hierarchy "{62D2B019976C5880}" {
+     }
+    }
+    coords -6.217 0 -3.249
+    angleY -95.987
+   }
+   {
+    ID "62D2B01920FF045E"
+    components {
+     Hierarchy "{5CB0D991B00CC617}" {
+      Enabled 1
+     }
+    }
+    coords 5.971 0 2.658
+    angleY -95.987
+   }
+   {
+    ID "62D2B01920FF6E9A"
+    components {
+     Hierarchy "{5CB0D991B00CC617}" {
+      Enabled 1
+     }
+    }
+    coords 6.132 0 0.842
+    angleY 84.013
+   }
+  }
+  GenericEntity : "{0B49B43A41505E92}Prefabs/Structures/Military/CamoNets/US/CamoNet_Folded_US.et" {
+   ID "62D2B01920FEF9B2"
+   components {
+    Hierarchy "{62D2B019EBE7761B}" {
+    }
+   }
+   coords -4.786 0 -1.059
+   angleY -97.511
+  }
+  GenericEntity : "{17A78A0D3701386A}Prefabs/Compositions/Misc/SubCompositions/Garbage/Tire_Stack_Garbage_01.et" {
+   ID "62D2B01920FEF9B0"
+   coords -4.989 0 -0.219
+   angleY -93.975
+  }
+  $grp GenericEntity : "{31A455F7FD8DCE84}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_plastic.et" {
+   {
+    ID "62D2B01920F8847A"
+    components {
+     Hierarchy "{5D6CFDF2A472AD44}" {
+      Enabled 1
+     }
+    }
+    coords 6.428 0 -1.592
+    angleY 84.013
+   }
+   {
+    ID "62D2B01920FAFA33"
+    components {
+     Hierarchy "{62D2B019950727A0}" {
+     }
+    }
+    coords -6.024 0.005 -5.778
+    angleY -95.987
+   }
+   {
+    ID "62D2B01920FEF9BB"
+    components {
+     Hierarchy "{5D6CFDF2A472AD44}" {
+      Enabled 1
+     }
+    }
+    coords 6.093 0 -6.7
+    angleY 173.047
+   }
+  }
+  GenericEntity : "{342E852E9A1847EA}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_medium.et" {
+   ID "62D2B01920F8A9C3"
+   components {
+    Hierarchy "{62D2B019C367A318}" {
+    }
+   }
+   coords 4.548 0 0.555
+   angleY -51.683
+  }
+  GenericEntity : "{35F2A674E602198F}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_plastic.et" {
+   ID "62D2B01920F8A9CD"
+   components {
+    Hierarchy "{5E6911EB282392FB}" {
+    }
+   }
+   coords 5.098 0 5.395
+   angleY 174.21
+  }
+  GenericEntity : "{4433CC4880AFA51C}Prefabs/Structures/Signs/Military/Dst/SignRectangle_01_75x45_double_dst_VehicleRepair_US_01.et" {
+   ID "62D2B01920F973A7"
+   components {
+    Hierarchy "{62D2B019DFA017A2}" {
+    }
+   }
+   coords 5.446 0.421 5.469
+   angleY -5.987
+  }
+  GenericEntity : "{5519B339E041781E}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Wall_BarbedWire_US_01.et" {
+   ID "62D2B01920FAFA3B"
+   coords -6.115 0 1.49
+   angleY -95.987
+   {
+    StaticModelEntity {
+     ID "5CB0D991B00D09F6"
+     coords -6.231 1.254 0.77
+     angleY -90
+    }
+    StaticModelEntity {
+     ID "5CB0D991FC833332"
+     coords -6.403 1.282 0.331
+     angleY -90
+    }
+   }
+  }
+  $grp StaticModelEntity : "{55A3DA68E58453A1}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v2.et" {
+   {
+    ID "62D2B01920F80506"
+    components {
+     Hierarchy "{5CB0D991B00CC60E}" {
+      Enabled 1
+     }
+    }
+    coords 6.784 0 -5.951
+    angleY -94.836
+   }
+   {
+    ID "62D2B01920F80507"
+    components {
+     Hierarchy "{5CB0D991B00CC60E}" {
+      Enabled 1
+     }
+    }
+    coords 6.398 0 -2.275
+    angleY -94.836
+   }
+   {
+    ID "62D2B01920F848B1"
+    components {
+     Hierarchy "{5CB0D991B00CC60E}" {
+      Enabled 1
+     }
+    }
+    coords 6.064 0 0.916
+    angleY -94.836
+   }
+   {
+    ID "62D2B01920F8644B"
+    components {
+     Hierarchy "{5CB0D991B00CC60E}" {
+      Enabled 1
+     }
+    }
+    coords 5.689 0 4.491
+    angleY -94.836
+   }
+   {
+    ID "62D2B01920F9065F"
+    components {
+     Hierarchy "{5CB0D991B00CC60E}" {
+      Enabled 1
+     }
+    }
+    coords -0.507 0 -7.561
+    angleY -5.987
+   }
+   {
+    ID "62D2B01920F973D8"
+    components {
+     Hierarchy "{5CB0D991B00CC60E}" {
+      Enabled 1
+     }
+    }
+    coords -4.326 0 -7.961
+    angleY -5.987
+   }
+   {
+    ID "62D2B01920F9CCA9"
+    components {
+     Hierarchy "{5CB0D991B00CC60E}" {
+      Enabled 1
+     }
+    }
+    coords 3.242 0 -7.168
+    angleY -5.987
+   }
+   {
+    ID "62D2B01920F9CCAA"
+    components {
+     Hierarchy "{5CB0D991B00CC60E}" {
+      Enabled 1
+     }
+    }
+    coords 6.188 0 -6.859
+    angleY -5.987
+   }
+   {
+    ID "62D2B01920FAC5F6"
+    components {
+     Hierarchy "{5CB0D991B00CC60E}" {
+      Enabled 1
+     }
+    }
+    coords -6.128 0 -6.75
+    angleY -94.836
+   }
+   {
+    ID "62D2B01920FAE801"
+    components {
+     Hierarchy "{5CB0D991B00CC60E}" {
+      Enabled 1
+     }
+    }
+    coords -6.347 0 -3.927
+    angleY -94.836
+   }
+  }
+  GenericEntity : "{5789E2676151FD33}Prefabs/Structures/Military/CamoNets/US/CamoNet_Small_Top_US.et" {
+   ID "62D2B01920FEF9BC"
+   coords -5.644 0.047 1.795
+   angleY -22.162
+  }
+  $grp GenericEntity : "{6CD65604C7945A66}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_03.et" {
+   {
+    ID "62D2B01920FA4649"
+    coords 2.059 0.5 -2.258
+    angleY 159.319
+   }
+   {
+    ID "62D2B01920FA464A"
+    coords -2.764 0 -2.97
+    angleY -141.761
+   }
+   {
+    ID "62D2B01920FAFA39"
+    coords 2.373 0.568 2.622
+    angleY 179.906
+   }
+   {
+    ID "62D2B01920FAFA3E"
+    coords -1.947 0.5 3.313
+    angleY -95.987
+   }
+  }
+  GenericEntity : "{7B6EDBC3E88ECD97}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Tracks_03.et" {
+   ID "62D2B01920FA4675"
+   coords 0.581 0 -3.071
+   angleY -145.399
+   {
+    DecalEntity {
+     ID "56E0B29FE0923701"
+     angleX -90
+     angleY -129.839
+     angleZ -180
+    }
+   }
+  }
+  GenericEntity : "{86BA5E5CD528D5BC}Prefabs/Props/Military/Sandbags/Sandbag_01_end_plastic.et" {
+   ID "62D2B01920F8A9C2"
+   components {
+    Hierarchy "{5E6911EB2823FA9A}" {
+    }
+   }
+   coords 3.648 0 5.303
+   angleY 177.178
+  }
+  GenericEntity : "{8751F77B1038FC72}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_large.et" {
+   ID "62D2B01920F8A9C1"
+   components {
+    Hierarchy "{62D2B019C5AA576D}" {
+    }
+   }
+   coords 4.555 0 2.615
+   angleY -95.987
+  }
+  GenericEntity : "{894A1AFDCB71CD0D}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_02.et" {
+   ID "62D2B01920FAFA3F"
+   coords 0.226 0.5 2.675
+   angleY -95.987
+  }
+  GenericEntity : "{9EF2973AE46B5AFC}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Tracks_02.et" {
+   ID "62D2B01920FA4674"
+   coords -0.038 0 4.029
+   angleY 98.521
+  }
+  GenericEntity : "{9F35A268E0DD98A4}Prefabs/Props/Military/Fuel/MobileWaterTank_US_01_fuel.et" {
+   ID "62D2B01920FF045C"
+   components {
+    Hierarchy "{62D2B019C683EB66}" {
+    }
+   }
+   coords 4.406 0 -3.769
+   angleY -28.547
+  }
+  ESCT_VehicleSpawnPoint : "{B2E25648324D259A}Prefabs/Misc/VehicleSpawnPoint.et" {
+   ID "62D2B01920FAFA2C"
+   coords 0.284 0 -2.466
+   angleY -3.547
+   m_bIsSpawnGuaranteed 1
+   m_aIncludedEditableEntityLabels {
+    3 20 21
+   }
+   m_aExcludedEditableEntityLabels {
+    51
+   }
+   m_bRequireAllIncludedLabels 1
+  }
+  GenericEntity : "{B350840088390760}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Stack_01.et" {
+   ID "62D2B01920FEF9B7"
+   coords -4.67 -0.001 -5.713
+   angleY -5.987
+  }
+  GenericEntity : "{BC2FDA7C84AB753B}Prefabs/Compositions/Misc/SubCompositions/Workbench_Cluttered_US_01.et" {
+   ID "62D2B01920FAE80A"
+   coords -4.973 0 1.629
+   angleY 85.317
+  }
+  GenericEntity : "{C599195C442D7125}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_CigarButts_01.et" {
+   ID "62D2B01920FEF9B5"
+   coords -3.965 0 2.77
+   angleY -95.987
+  }
+  GenericEntity : "{C8A9F7FDDF3CE851}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Radio_01.et" {
+   ID "62D2B01920FEF9BF"
+   coords -4.897 0 -3.961
+   angleY -114.95
+  }
+  $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+   {
+    ID "62D2B01920FAE80C"
+    components {
+     Hierarchy "{5D647736AC15734C}" {
+      Enabled 1
+     }
+    }
+    coords -3.231 -0.001 -1.216
+    angleY -1.092
+   }
+   {
+    ID "62D2B01920FAFA2E"
+    components {
+     Hierarchy "{5D647736AC15734C}" {
+      Enabled 1
+     }
+    }
+    coords -3.063 -0.001 -4.968
+    angleY -3.728
+   }
+   {
+    ID "62D2B01920FF97FC"
+    components {
+     Hierarchy "{5D647736AC15734C}" {
+      Enabled 1
+     }
+    }
+    coords -3.303 -0.001 2.548
+    angleY -179.817
+   }
+  }
+  ESCT_EquipmentSlotEntity : "{D5BD96A48EC924ED}Prefabs/SlotEntities/WeaponSlotEntity.et" {
+   ID "62D2B02D344D0D00"
+   coords -4.654 1.023 1.072
+   angleY 118.244
+  }
+  GenericEntity : "{E58EB485925C24CA}Prefabs/Props/Core/ExplosiveBarrel_01_Dynamic.et" {
+   ID "62D2B01920F8A9C9"
+   components {
+    Hierarchy "{622A7A2727C24A39}" {
+    }
+   }
+   coords 5.216 0 -2.966
+   angleY -121.729
+  }
+  GenericEntity : "{E9CDA137E0F1DCAA}Prefabs/Compositions/Misc/SubCompositions/CrateWooden_Cluttered_US_02.et" {
+   ID "62D2B01920F8A9CF"
+   coords 4.83 -0.008 3.994
+   angleY -8.145
+  }
+  GenericEntity : "{EB66EE2298D16D18}Prefabs/Props/Civilian/SackTruck_01.et" {
+   ID "62D2B01920FAE805"
+   components {
+    Hierarchy "{62D2B019E0170D04}" {
+    }
+   }
+   coords -4.864 0 -1.998
+   angleX 16.641
+   angleY 86.886
+   angleZ 0.823
+  }
+  ESCT_CharacterSpawnPoint : "{F28B2B542F6C684A}Prefabs/CharacterSpawnPoint.et" {
+   ID "62D2B02DDE48EB65"
+   coords -3.261 0.087 1.878
+   angleY 16.473
+  }
+  $grp GenericEntity : "{F29A05EBA7063E7C}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_plastic.et" {
+   {
+    ID "62D2B01920FE1900"
+    components {
+     Hierarchy "{5D70BA354E208E2C}" {
+      Enabled 1
+     }
+    }
+    coords 6.912 0 -4.67
+    angleY -96.953
+   }
+   {
+    ID "62D2B01920FE1EA9"
+    components {
+     Hierarchy "{62D2B019F10BE46E}" {
+     }
+    }
+    coords 3.139 0 -7.066
+    angleY -5.987
+   }
+   {
+    ID "62D2B01920FE1EAA"
+    components {
+     Hierarchy "{62D2B019F31D4505}" {
+     }
+    }
+    coords 0.472 0 -7.24
+    angleY 174.013
+   }
+   {
+    ID "62D2B01920FE237D"
+    components {
+     Hierarchy "{62D2B019F5026EE7}" {
+     }
+    }
+    coords -2.212 0 -7.627
+    angleY -5.987
+   }
+   {
+    ID "62D2B01920FF97E3"
+    components {
+     Hierarchy "{62D2B019F6A1366C}" {
+     }
+    }
+    coords -4.879 0 -7.801
+    angleY 174.013
+   }
+  }
+  GenericEntity : "{F76BD5785C7FE191}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_ObservationPoint.et" {
+   ID "62D2B02E45637824"
+   components {
+    Hierarchy "{5E989B7FD55F3618}" {
+    }
+   }
+   coords 3.47 0 3.837
+   angleY -96.377
+  }
+ }
+}

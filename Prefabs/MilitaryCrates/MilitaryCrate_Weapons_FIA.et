@@ -1,0 +1,22 @@
+GenericEntity : "{5076A73E199C2101}Prefabs/MilitaryCrates/MilitaryCrate_Weapons_Base.et" {
+ ID "619ED3851EB9C905"
+ components {
+  MeshObject "{619ED3859C584A0B}" {
+   Object "{819ED3266EE5113B}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Weapon_01.xob"
+   Materials {
+    MaterialAssignClass "{619ED3840AEC9D25}" {
+     SourceMaterial "EquipmentBoxWooden_Weapon_01"
+     AssignedMaterial "{6864083D30F4F63D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Weapon_01_FIA.emat"
+    }
+    MaterialAssignClass "{619ED3840AEC9D09}" {
+     SourceMaterial "EquipmentBoxWooden_Weapon_01_Decal"
+     AssignedMaterial "{1BB946314607B6A7}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_decal_FIA.emat"
+    }
+   }
+  }
+  SCR_FactionAffiliationComponent "{619EED62871A4761}" {
+   "faction affiliation" "FIA"
+  }
+ }
+ coords 135.096 1 93.352
+}

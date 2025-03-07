@@ -1,0 +1,10 @@
+ESCT_EquipmentSlotEntity : "{B4C134B2413523BB}Prefabs/SlotEntities/EquipmentSlotEntity_Base.et" {
+ ID "6148FD0BA61EE7FA"
+ components {
+  ESCT_EquipmentSlotArsenalComponent "{6148FD0853C5BB7C}" {
+   m_eSupportedArsenalItemTypes 463806
+   m_eSupportedArsenalItemModes 242
+  }
+ }
+ coords 2.486 1.106 4.918
+}

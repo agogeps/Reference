@@ -1,0 +1,91 @@
+ESCT_Radio : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SignalsManagerComponent "{60FF0285ABA506E9}" {
+  }
+  SoundComponent "{60FEF24A8F0DCA1F}" {
+   Filenames {
+    "{91C8252E676F82BE}Sounds/Radio/Props_RadioStation_US.acp" "{FF80E8CE2943F584}Sounds/Radio/Props_RadioStation_Messages.acp"
+   }
+   DistanceManagement 1
+   IncludeInactive 1
+   SoundPoints {
+    SoundPointInfo dynamic {
+     Offset 0.1311 0.0536 0.1316
+    }
+   }
+  }
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{0F55504A35401163}Assets/Props/Military/Radios/RadioStation_ANPRC77_01.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "SmallDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  ActionsManagerComponent "{5F34737C2EDD6F88}" {
+   ActionContexts {
+    UserActionContext "{5F34737C2B598BE1}" {
+     ContextName "RadioActionContext"
+     Position PointInfo "{5F34737C31ECBF7E}" {
+      Offset -0.1007 0.083 0.1659
+     }
+     Radius 1
+     Omnidirectional 0
+    }
+    UserActionContext "{6190B25ACBE6A268}" {
+     ContextName "TuneFrequencyContext"
+     Position PointInfo "{6190B25ADE5B9B48}" {
+      Offset -0.0402 0.0724 0.151
+     }
+     Radius 1
+     Omnidirectional 0
+    }
+   }
+   additionalActions {
+    ESCT_RadioAction "{5F34737C05E632CD}" {
+     ParentContextList {
+      "RadioActionContext"
+     }
+     UIInfo UIInfo "{5F34737C01AFDBF1}" {
+      Name "#Escapists-UserAction_SendSignal"
+     }
+     VisibilityRange 2
+     "Sort Priority" -1
+    }
+    ESCT_TuneRadioFrequencyAction "{6190B25BD924A1CC}" {
+     ParentContextList {
+      "TuneFrequencyContext"
+     }
+     UIInfo UIInfo "{6190B25BD2E32D9B}" {
+      Name "#Escapists-UserAction_TuneFrequency"
+     }
+     VisibilityRange 2
+     Duration 2
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{6190B25A90D01E2F}" {
+      m_sSoundProject "{91C8252E676F82BE}Sounds/Radio/Props_RadioStation_US.acp"
+      m_sSoundEventName "SOUND_RADIO_TUNING"
+     }
+     m_vSoundOffset 0.133 0.054 0.135
+    }
+    ESCT_ReceiveRadioMessageAction "{6192855724B57ACF}" {
+     ParentContextList {
+      "RadioActionContext"
+     }
+     UIInfo UIInfo "{5F347371F5EE7BEC}" {
+      Name "#Escapists-UserAction_ReceiveMessage"
+     }
+     VisibilityRange 2
+     "Sort Priority" -1
+    }
+   }
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+  Hierarchy "{5F34737C2D3B7C7D}" {
+  }
+ }
+ coords -0.104 0.9 -0.162
+ angleY 4.26
+}

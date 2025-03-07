@@ -1,0 +1,401 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ {
+  PanelWidgetClass "{5F16F7D0D9368387}" {
+   Name "MainPanel"
+   Slot FrameWidgetSlot "{5F16F7D0D9368362}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX 0.893
+    OffsetLeft 0.893
+    PositionY -1.785
+    OffsetTop -1.785
+    SizeX 640
+    OffsetRight -640.893
+    SizeY 680
+    OffsetBottom -678.214
+    Alignment 0.5 0.5
+   }
+   {
+    BlurWidgetClass "{5F2F1014897691C2}" {
+     Name "Blur0"
+     Slot FrameWidgetSlot "{5488B961554C8ACC}" {
+      Anchor 0 0 1 1
+      PositionX 43.304
+      OffsetLeft 0
+      PositionY 613.344
+      OffsetTop 0
+      SizeX -1920
+      OffsetRight 0
+      SizeY -1080
+      OffsetBottom 0
+     }
+     Color 0 0 0 0.981
+    }
+    VerticalLayoutWidgetClass "{5F2F1014FE7E5B66}" {
+     Name "LeftBorder"
+     Slot FrameWidgetSlot "{5488B97DD3B5AB4A}" {
+      Anchor 0 0.05 0.05 0.95
+      PositionX 96
+      OffsetLeft 0
+      PositionY -54
+      OffsetTop 0
+      SizeX 4
+      OffsetRight 0
+      SizeY -942
+      OffsetBottom 0
+     }
+     {
+      FrameWidgetClass "{5F2F1014CFE2508A}" {
+       Name "Frame0"
+       Slot LayoutSlot "{5F2F128294C28E2E}" {
+       }
+      }
+     }
+    }
+    VerticalLayoutWidgetClass "{5F2F1014DDC41EC1}" {
+     Name "RightBorder"
+     Slot FrameWidgetSlot "{5488B97DD3B5AB4A}" {
+      Anchor 0.95 0.05 1 0.95
+      PositionX -1824
+      OffsetLeft 0
+      PositionY 0
+      OffsetTop 0
+      SizeX 0
+      OffsetRight 0
+      SizeY 0
+      OffsetBottom 0
+     }
+     "Is Enabled" 0
+     {
+      FrameWidgetClass "{5F2F1014D700DB29}" {
+       Name "Frame0"
+       Slot LayoutSlot "{5F2F128294C28E03}" {
+       }
+      }
+     }
+    }
+    VerticalLayoutWidgetClass "{5F2F10140E5E85A1}" {
+     Name "Layout"
+     Slot FrameWidgetSlot "{5488B97C9D82063F}" {
+      Anchor 0.05 0.05 0.95 0.95
+      PositionX 0
+      OffsetLeft 0
+      PositionY 0
+      OffsetTop 0
+      SizeX 0
+      OffsetRight 0
+      SizeY 0
+      OffsetBottom 0
+     }
+     {
+      FrameWidgetClass "{60CECDFC9D847B03}" {
+       Name "Header"
+       Slot LayoutSlot "{5F171BB8002ECA5C}" {
+       }
+       {
+        ImageWidgetClass "{60CECDFC9D847B02}" {
+         Name "GameModeLogo"
+         Slot FrameWidgetSlot "{5F171BBE4364B221}" {
+          Anchor 0.5 0.5 0.5 0.5
+          PositionX 0
+          OffsetLeft 0
+          OffsetTop 0
+          SizeX 0
+          OffsetRight 0
+          SizeY 0
+          OffsetBottom 0
+          Alignment 0.5 0.5
+          SizeToContent 1
+         }
+         Texture "{1AE5049A903F31C7}UI/Images/ecapists-logo-4-3_no_bg.edds"
+         Size 256 256
+        }
+       }
+      }
+      OverlayWidgetClass "{60CECDFC90C46F12}" {
+       Name "TextHeader"
+       Slot LayoutSlot "{60CECDF2EBBD7A68}" {
+        HorizontalAlign 1
+        VerticalAlign 1
+        Padding -6 0 0 0
+       }
+       {
+        VerticalLayoutWidgetClass "{60CECDFCC6E0F924}" {
+         Name "VerticalLayout0"
+         Slot OverlayWidgetSlot "{60CECDFCC6E0F90C}" {
+         }
+         {
+          HorizontalLayoutWidgetClass "{60CECDFCF7A6A9F7}" : "{829BC1189A899017}UI/layouts/WidgetLibrary/BaseElements/WLib_Label.layout" {
+           Name "ModNameLabel"
+           Slot LayoutSlot "{55367D9A1530D6F9}" {
+            HorizontalAlign 1
+            VerticalAlign 1
+            Padding 0 0 0 4
+           }
+           "Fill Origin" Center
+           {
+            TextWidgetClass "{554CD830975E8F3E}" {
+             Prefab "{554CD830975E8F3E}"
+             Slot LayoutSlot "{554CD830975E8F2A}" {
+              Padding -2 0 0 0
+             }
+             Text "Escapists"
+             "Font Size" 26
+             "Min Font Size" 24
+             "Horizontal Alignment" Center
+             FontProperties FontProperties "{546AF489DFD25402}" {
+              Font "{CD2634D279AB011A}UI/Fonts/Roboto/Roboto_Bold.fnt"
+             }
+            }
+           }
+          }
+          TextWidgetClass "{60FE5E1A57873F6F}" {
+           Name "VersionText"
+           Slot LayoutSlot "{60FE5E1A57873F42}" {
+           }
+           Text "VERSION"
+           "Horizontal Alignment" Center
+           "Vertical Alignment" Center
+          }
+         }
+        }
+       }
+      }
+      VerticalLayoutWidgetClass "{60CECDFC9D847B62}" {
+       Name "Content"
+       Slot LayoutSlot "{5F2F128294C28DED}" {
+        SizeMode Fill
+       }
+       "Fill Origin" Center
+       {
+        VerticalLayoutWidgetClass "{60CECDF3CB20B12D}" {
+         Name "Contributors"
+         Slot LayoutSlot "{60CECDF3CB20B130}" {
+          Padding 0 0 0 4
+         }
+         {
+          OverlayWidgetClass "{60CECDFC9D847B60}" {
+           Name "HeaderGroup0"
+           Slot LayoutSlot "{5F2E9366BF8FF7EF}" {
+           }
+           {
+            HorizontalLayoutWidgetClass "{60CECDFC9D847B67}" : "{829BC1189A899017}UI/layouts/WidgetLibrary/BaseElements/WLib_Label.layout" {
+             Name "ContributorsHeaderLabel"
+             Slot OverlayWidgetSlot "{5F2E936E2BA9E561}" {
+              HorizontalAlign 0
+             }
+             {
+              TextWidgetClass "{554CD830975E8F3E}" {
+               Prefab "{554CD830975E8F3E}"
+               Slot LayoutSlot "{554CD830975E8F2A}" {
+                Padding 16 8 8 8
+               }
+               Color 0.761 0.386 0.08 1
+               Text "#Escapists-AboutMenu_Author_Label"
+               "Font Size" 22
+               "Min Font Size" 22
+               FontProperties FontProperties "{546AF489DFD25402}" {
+                Font "{CD2634D279AB011A}UI/Fonts/Roboto/Roboto_Bold.fnt"
+               }
+              }
+             }
+            }
+           }
+          }
+          OverlayWidgetClass "{60CECDF3972075C6}" {
+           Name "TextGroup0"
+           Slot LayoutSlot "{5F2E9366BF8FF7EF}" {
+           }
+           {
+            HorizontalLayoutWidgetClass "{60CECDF3972075C5}" : "{829BC1189A899017}UI/layouts/WidgetLibrary/BaseElements/WLib_Label.layout" {
+             Name "ContributorsLabel"
+             Slot OverlayWidgetSlot "{5F2E936E2BA9E561}" {
+              HorizontalAlign 0
+             }
+             {
+              TextWidgetClass "{554CD830975E8F3E}" {
+               Prefab "{554CD830975E8F3E}"
+               Slot LayoutSlot "{554CD830975E8F2A}" {
+                Padding 16 0 8 4
+               }
+               Text "Socrates"
+               "Font Size" 16
+               "Min Font Size" 16
+               FontProperties FontProperties "{546AF489DFD25402}" {
+                Font "{E2CBA6F76AAA42AF}UI/Fonts/Roboto/Roboto_Regular.fnt"
+                Italic 1
+               }
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+        FrameWidgetClass "{60CEE671B6C93319}" {
+         Name "EmptySpaceFill0"
+         Slot LayoutSlot "{60CEE671B6C932E2}" {
+          SizeMode Fill
+         }
+        }
+        VerticalLayoutWidgetClass "{60CECDF36C87F82B}" {
+         Name "Links"
+         Slot LayoutSlot "{60CECDF3CB20B130}" {
+          Padding 0 0 0 4
+         }
+         {
+          OverlayWidgetClass "{60CECDF36C87F82A}" {
+           Name "HeaderGroup1"
+           Slot LayoutSlot "{5F2E9366BF8FF7EF}" {
+           }
+           {
+            HorizontalLayoutWidgetClass "{60CECDF36C87F828}" : "{829BC1189A899017}UI/layouts/WidgetLibrary/BaseElements/WLib_Label.layout" {
+             Name "GithubHeaderLabel"
+             Slot OverlayWidgetSlot "{5F2E936E2BA9E561}" {
+              HorizontalAlign 0
+             }
+             {
+              TextWidgetClass "{554CD830975E8F3E}" {
+               Prefab "{554CD830975E8F3E}"
+               Slot LayoutSlot "{554CD830975E8F2A}" {
+                Padding 16 8 8 8
+               }
+               Color 0.761 0.386 0.08 1
+               Text "#Escapists-AboutMenu_Links_Label"
+               "Font Size" 22
+               "Min Font Size" 22
+               FontProperties FontProperties "{546AF489DFD25402}" {
+                Font "{CD2634D279AB011A}UI/Fonts/Roboto/Roboto_Bold.fnt"
+               }
+              }
+             }
+            }
+           }
+          }
+          OverlayWidgetClass "{60CECDF36C87F82F}" {
+           Name "TextGroup1"
+           Slot LayoutSlot "{5F2E9366BF8FF7EF}" {
+           }
+           {
+            HorizontalLayoutWidgetClass "{60CECDF36C87F82E}" : "{829BC1189A899017}UI/layouts/WidgetLibrary/BaseElements/WLib_Label.layout" {
+             Name "DiscordLabel"
+             Slot OverlayWidgetSlot "{5F2E936E2BA9E561}" {
+              HorizontalAlign 0
+             }
+             {
+              TextWidgetClass "{554CD830975E8F3E}" {
+               Prefab "{554CD830975E8F3E}"
+               Slot LayoutSlot "{554CD830975E8F2A}" {
+                Padding 16 0 8 4
+               }
+               Text "https://discord.com/channels/105462288051380224/1217934660827611276"
+               "Font Size" 16
+               "Min Font Size" 16
+               FontProperties FontProperties "{546AF489DFD25402}" {
+                Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+               }
+              }
+             }
+            }
+           }
+          }
+          OverlayWidgetClass "{60CEE1A2246DFDBD}" {
+           Name "TextGroup0"
+           Slot LayoutSlot "{5F2E9366BF8FF7EF}" {
+           }
+           {
+            HorizontalLayoutWidgetClass "{60CEE1A2246DFDBC}" : "{829BC1189A899017}UI/layouts/WidgetLibrary/BaseElements/WLib_Label.layout" {
+             Name "DonationsLabel"
+             Slot OverlayWidgetSlot "{5F2E936E2BA9E561}" {
+              HorizontalAlign 0
+             }
+             {
+              TextWidgetClass "{554CD830975E8F3E}" {
+               Prefab "{554CD830975E8F3E}"
+               Slot LayoutSlot "{554CD830975E8F2A}" {
+                Padding 16 0 8 4
+               }
+               Text "https://boosty.to/socrates/donate"
+               "Font Size" 16
+               "Min Font Size" 16
+               FontProperties FontProperties "{546AF489DFD25402}" {
+                Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+               }
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+        FrameWidgetClass "{60CEE6718B795FF3}" {
+         Name "EmptySpaceFill1"
+         Slot LayoutSlot "{60CEE671B6C932E2}" {
+          SizeMode Fill
+         }
+        }
+        FrameWidgetClass "{60CEE67199C49FB3}" {
+         Name "EmptySpaceFill2"
+         Slot LayoutSlot "{60CEE671B6C932E2}" {
+          SizeMode Fill
+         }
+        }
+       }
+      }
+      VerticalLayoutWidgetClass "{5F2F1017CE2D8D67}" {
+       Name "Footer"
+       Slot LayoutSlot "{5488B97C9D81FC1B}" {
+        VerticalAlign 1
+        Padding 0 0 0 0
+        FillWeight 0.075
+       }
+       {
+        ImageWidgetClass "{5F2F101735418A17}" {
+         Name "FooterSeparator"
+         Slot LayoutSlot "{5F2F128294C2F37F}" {
+         }
+         Clipping True
+         Color 0.122 0.122 0.122 1
+         Size 32 1
+        }
+        OverlayWidgetClass "{5F171BB871880255}" {
+         Name "Buttons"
+         Slot LayoutSlot "{5F171BA1CF03FB64}" {
+          Padding 0 4 0 0
+         }
+         {
+          HorizontalLayoutWidgetClass "{5F171BBBA09E65F1}" {
+           Name "ButtonLayout"
+           Slot OverlayWidgetSlot "{5F171BBBA09E65A3}" {
+            HorizontalAlign 3
+           }
+           {
+            ButtonWidgetClass "{5F271E6D86C5DFB7}" : "{08CF3B69CB1ACBC4}UI/layouts/WidgetLibrary/Buttons/WLib_NavigationButton.layout" {
+             Name "BackButton"
+             Slot LayoutSlot "{5F271E6DE9DA738D}" {
+             }
+             components {
+              SCR_InputButtonComponent "{5D346C3DD81D95CD}" {
+               m_sActionName "EscapistsAboutBack"
+               m_sLabel "#Escapists-AboutMenu_Back"
+              }
+             }
+            }
+            FrameWidgetClass "{5F171BBBE9408A12}" {
+             Name "ButtonSpaceFill"
+             Slot LayoutSlot "{5F171BA1CF03FAA3}" {
+              SizeMode Fill
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

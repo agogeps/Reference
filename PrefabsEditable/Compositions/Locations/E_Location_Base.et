@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "617EF4B50D28275F"
+ components {
+  FactionAffiliationComponent "{617EF4AA53E236D3}" {
+  }
+  SCR_SlotCompositionComponent "{617EF4B5967FA82A}" {
+  }
+  RplComponent "{617EF4AA66B28585}" {
+  }
+  Hierarchy "{617EF4AA4D8FE36D}" {
+  }
+ }
+ coords 66.658 1 125.184
+ Flags 1027
+}

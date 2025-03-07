@@ -1,0 +1,24 @@
+ESCT_Location : "{BDC1C7D6833F4410}Prefabs/LocationTypes/Location_Base.et" {
+ ID "5F34A696233BA600"
+ components {
+  ESCT_LocationMilBuildingManagerComponent "{60C4C4D08FA81A5E}" {
+   Enabled 0
+  }
+  ESCT_LocationTurretManagerComponent "{62089900883A26FB}" {
+  }
+  ESCT_LocationVehicleManagerComponent "{6208990080574FB3}" {
+  }
+  ESCT_LocationWeaponRackManagerComponent "{620899039554C4EC}" {
+  }
+  ESCT_MapDescriptorComponent "{60D65A3AE823D8DA}" {
+   m_ItemDef "AR_icon_recon_outpost"
+   m_ItemScale 2
+  }
+  ESCT_MilitaryBuildingStorageComponent "{6157490CB0B15EF8}" {
+   Enabled 0
+  }
+ }
+ coords 171.537 1 82.724
+ m_eLocationType Hideout
+ m_bIsInsurgentLocation 1
+}

@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "61CD5A1D5653BF2D"
+ components {
+  MeshObject "{61CD5A1D7054B1E9}" {
+   Object "{32347C5AF3123BEF}Assets/Props/Industrial/Pallets/dst/PalletFuel_01_dst_01_dbr_02.xob"
+   Materials {
+    MaterialAssignClass "{61CD5A1D4669D243}" {
+     SourceMaterial "Barrel_01"
+     AssignedMaterial "{AC74F2495F3C0BE5}Assets/Props/Industrial/BarrelFuel_01/Data/ExplosiveBarrel_01.emat"
+    }
+   }
+  }
+ }
+ coords 126.119 1 116.673
+}

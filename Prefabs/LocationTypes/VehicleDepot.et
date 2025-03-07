@@ -1,0 +1,11 @@
+ESCT_Location : "{BDC1C7D6833F4410}Prefabs/LocationTypes/Location_Base.et" {
+ ID "5F34A696233BA600"
+ components {
+  ESCT_LocationTurretManagerComponent "{62D2B032F43CB04A}" {
+  }
+  ESCT_LocationVehicleManagerComponent "{62D2B032F0AF15D5}" {
+  }
+ }
+ coords 26.262 1 136.82
+ m_eLocationType VehicleDepot
+}

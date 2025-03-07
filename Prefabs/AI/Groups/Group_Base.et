@@ -1,0 +1,12 @@
+SCR_AIGroup {
+ ID "0000000000000001"
+ components {
+  SCR_AIConfigComponent "{512CC1759AE69D6D}" {
+   m_aGoalReactions {
+    ESCT_AIGoalReaction_CallSupport "{61C8EB27131FA374}" {
+     m_eType ESCAPISTS_CALL_SUPPORT
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,8 @@
+SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
+ ID "0000000000000001"
+ components {
+  ESCT_SupportCallReactionGroupComponent "{61B6E4DDB57813AE}" {
+  }
+ }
+ coords 180.147 1 115.996
+}

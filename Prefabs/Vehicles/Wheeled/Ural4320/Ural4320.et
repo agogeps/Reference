@@ -1,0 +1,27 @@
+Vehicle : "{E03D5609EEA6E03D}Prefabs/Vehicles/Core/Wheeled_Truck_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_VehicleSoundComponent "{55C2E66AD4EF2CA6}" {
+   Filenames + {
+    "{4A178821D111E473}Sounds/Vehicles/Vehicles_CarAlarm.acp"
+   }
+  }
+  ESCT_CarAlarmComponent "{6124D1D25EE78D77}" {
+   m_bShouldLockSeats 1
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   additionalActions {
+    ESCT_BreakIntoVehicleAction "{61A2CDC744DF92FD}" {
+     ParentContextList {
+      "door_l01" "door_r01"
+     }
+     UIInfo UIInfo "{61A2CDC0B0ACF9E2}" {
+      Name "#Escapists-UserAction_BreakIntoVehicle"
+     }
+     Duration 6
+     m_vSoundOffset 0 0 0
+    }
+   }
+  }
+ }
+}

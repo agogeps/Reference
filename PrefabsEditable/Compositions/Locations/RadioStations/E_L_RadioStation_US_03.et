@@ -1,0 +1,133 @@
+GenericEntity : "{3B47502BD0C6E3C8}PrefabsEditable/Compositions/Locations/E_Location_Base.et" {
+ ID "527AC119B710AE74"
+ coords 12.042 2.217 -15.649
+ angleY 180
+ {
+  GameEntity : "{0E94F28FD722B1D8}Prefabs/Props/Military/Generators/GeneratorFloodlight_US_01.et" {
+   ID "62D5396CAE2411D0"
+   components {
+    Hierarchy "{61589A754906B860}" {
+    }
+   }
+   coords -4.788 0.028 -2.455
+   angleY -139.3
+  }
+  GenericEntity : "{3E9EDDFC51BB3410}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_10ft_olive.et" {
+   ID "62D5396CAE2411F8"
+   components {
+    RplComponent "{605B02848EB09239}" {
+    }
+    Hierarchy "{61589A755EF35ACC}" {
+    }
+   }
+   coords 4.67 0.027 -2.414
+   angleY -180
+  }
+  GenericEntity : "{4EA337F5D314D0A1}Prefabs/Props/Military/Camps/DispenserBeverage_E_01/dst/DispenserBeverage_E_01_DST_base.et" {
+   ID "62D5396CAE2411BF"
+   components {
+    RplComponent "{605B02848C1EC272}" {
+    }
+    Hierarchy "{61589A755C26F422}" {
+    }
+   }
+   coords -0.914 0.239 -4.307
+  }
+  GenericEntity : "{62B2ADC4243454F9}Prefabs/Props/Civilian/Jerrycan_01.et" {
+   ID "62D5396CAE241180"
+   components {
+    RplComponent "{605B0284882FAAFD}" {
+    }
+    Hierarchy "{61589A755964198E}" {
+    }
+   }
+   coords 1.202 0.335 -4.446
+   angleY 72.125
+  }
+  StaticModelEntity : "{63A93CD4A8186374}Prefabs/Structures/Military/Camps/TentUS_01/TentUS_RadioStation_01_Assembled_camonet_foundation.et" {
+   ID "62D5396CAA7C34AC"
+   coords 0 0.216 0
+  }
+  GenericEntity : "{7F671B405CDBF0A2}Prefabs/Props/Airport/GeneratorAirfield_US_01/GeneratorAirfield_US_01.et" {
+   ID "62D5396CAE24116A"
+   components {
+    Hierarchy "{61589A74BFCA1EBB}" {
+    }
+   }
+   coords 4.632 -0.062 1.087
+   angleY -86.726
+  }
+  GenericEntity : "{82DDDA574CB4F0D9}Prefabs/Props/Industrial/BarrelFuel_01_Base.et" {
+   ID "62D5396CAE241172"
+   components {
+    RplComponent "{5624A88DC2D9928D}" {
+     Enabled 1
+    }
+    Hierarchy "{61589A74BA4D57D7}" {
+    }
+   }
+   coords 1.85 0.028 -4.376
+   angleY 72.125
+  }
+  GenericEntity : "{90C62D3DBDEB0759}Prefabs/Props/Military/Camps/ConstructionMaterialPacked_MetalSheets_01_US.et" {
+   ID "62D5396CAE241156"
+   components {
+    RplComponent "{605B02849FAC84B9}" {
+    }
+    Hierarchy "{61589A74B6CE29AD}" {
+    }
+   }
+   coords -2.735 0.028 -4.594
+  }
+  GenericEntity : "{A1697FD5012C105D}Prefabs/Props/Military/Antennas/Antenna_US_02/Antenna_US_02.et" {
+   ID "62D5396CAE241140"
+   components {
+    Hierarchy "{61589A757A3C70F1}" {
+    }
+   }
+   coords -5.624 0.028 6.621
+   angleY -116.445
+  }
+  StaticModelEntity : "{D899BD50901F10A7}Prefabs/Props/Military/Antennas/Antenna_RC292_01_dst_low.et" {
+   ID "605B02836E94FB70"
+   components {
+    SCR_HorizontalAlignComponent "{62D5396B0A4BC388}" {
+    }
+    RplComponent "{5A04E467EDDCE41F}" {
+     Enabled 1
+    }
+    Hierarchy "{619F43F88434E770}" {
+    }
+   }
+   coords 5.74 0.128 6.884
+   angleY 145.618
+  }
+  GenericEntity : "{DFF391458A7AC773}Prefabs/Props/Military/WaterTanks/MobileWaterTank_US_01.et" {
+   ID "62D5396CAE24113E"
+   components {
+    RplComponent "{605B0284EEC2AD97}" {
+    }
+    Hierarchy "{61589A749FB5F8F9}" {
+    }
+   }
+   coords 4.614 -0.062 4.333
+  }
+  GenericEntity : "{E3CF71191A540480}Prefabs/Props/Core/ExplosiveBarrel_01.et" {
+   ID "626CE7E72C73D548"
+   components {
+    Hierarchy "{626CE7E7218F0937}" {
+    }
+   }
+   coords 2.65 0.142 -4.612
+   angleY -52.661
+  }
+  GenericEntity : "{E51E2E1D77B54223}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_01.et" {
+   ID "62D5396CAE24111A"
+   components {
+    RplComponent "{605B0284EC21DF19}" {
+    }
+   }
+   coords 2.658 0.028 -5.407
+  }
+ }
+}

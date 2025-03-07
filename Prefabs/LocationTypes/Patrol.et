@@ -1,0 +1,14 @@
+ESCT_Location {
+ ID "6228BC2FDF0A774E"
+ components {
+  ESCT_LocationPatrolManagerComponent "{6228BC2FFC760DFE}" {
+  }
+  FactionAffiliationComponent "{6228BC2FC6F94404}" {
+  }
+  RplComponent "{6228BC2FCF435830}" {
+  }
+ }
+ coords 1357.489 37.937 2975.811
+ Flags 1027
+ m_eLocationType Patrol
+}

@@ -1,0 +1,18 @@
+ESCT_LockpickTask {
+ ID "607B0877083856FA"
+ components {
+  SCR_MapDescriptorComponent "{607B0848CC7488FB}" {
+   VisibleOnMap 0
+   MainType Task
+   Scale 0
+   ForceRotationAngle 0
+   ForceGroupScale 1
+  }
+ }
+ m_sName "#Escapists-Task_Lockpick_Name"
+ m_sDescription "#Escapists-Task_Lockpick_Description"
+ m_sMapIconName "Task_Seize_Relay"
+ m_sTaskListIconName "Icon_Task_Seize_Relay"
+ m_bNotifyAssignment 1
+ m_eUnassignMessage NONE
+}

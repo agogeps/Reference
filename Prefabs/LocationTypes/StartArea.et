@@ -1,0 +1,22 @@
+ESCT_StartArea : "{BDC1C7D6833F4410}Prefabs/LocationTypes/Location_Base.et" {
+ ID "5F34A696233BA600"
+ components {
+  ESCT_LocationCompositionComponent "{6167088C6C0BAC60}" {
+   Enabled 1
+  }
+  ESCT_LocationPatrolManagerComponent "{6090E851BAB949BD}" {
+   Enabled 0
+  }
+  ESCT_LocationVehicleManagerComponent "{61E304D3B6BE4017}" {
+  }
+  ESCT_LocationWeaponRackManagerComponent "{61670899ED4E0F4C}" {
+  }
+  ESCT_MapDescriptorComponent "{60D65A3AE823D8DA}" {
+   Enabled 0
+  }
+  RplComponent "{5F3CF96A7F4A2DBB}" {
+   Streamable Enabled
+  }
+ }
+ m_eLocationType StartArea
+}

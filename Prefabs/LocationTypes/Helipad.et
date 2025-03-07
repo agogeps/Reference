@@ -1,0 +1,13 @@
+ESCT_Helipad : "{BDC1C7D6833F4410}Prefabs/LocationTypes/Location_Base.et" {
+ ID "6044D4A82D14D386"
+ components {
+  ESCT_LocationStorageManagerComponent "{619C6DB5F77280F7}" {
+   Enabled 0
+  }
+  ESCT_MapDescriptorComponent "{60D65A3AE823D8DA}" {
+   m_ItemDef "AR_icon_pick_up_01"
+   m_ItemScale 2
+  }
+ }
+ m_eLocationType Helipad
+}

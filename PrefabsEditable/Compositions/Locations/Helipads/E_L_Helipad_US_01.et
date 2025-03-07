@@ -1,0 +1,11 @@
+StaticModelEntity : "{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_CampaignBuildingObstructionExceptionComponent "{5F18D0C53C86C027}" {
+   Enabled 0
+  }
+  RplComponent "{606AECA009DFC4A1}" {
+  }
+ }
+ coords 0 0 0
+}

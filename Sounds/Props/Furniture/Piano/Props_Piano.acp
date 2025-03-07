@@ -1,0 +1,791 @@
+AudioClass {
+ signals {
+  SignalClass {
+   id 8205
+   name "Signal Occlusion"
+   tl -344.75 -302.075
+   res "{A45B14CDEA2D5DCD}Sounds/_SharedData/Signals/Props/Props_Occlusion.sig"
+   inputsport {
+    1 6 7 23 52 56
+   }
+   outputsport {
+    5 37
+   }
+   inputvalues {
+    0 0 0 0 1000 400
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    1 1 1 1 10000 10000
+   }
+  }
+  SignalClass {
+   id 12301
+   name "Signal Reverb"
+   tl 119.389 157.056
+   res "{76CBB40EF7F227B6}Sounds/_SharedData/Signals/Reverb/Reverb_Base.sig"
+   inputsport {
+    1 35 40
+   }
+   outputsport {
+    34 39 105
+   }
+   inputvalues {
+    40 0 0
+   }
+   inputvaluesmin {
+    0 0 0
+   }
+   inputvaluesmax {
+    100 1 1
+   }
+  }
+ }
+ sounds {
+  SoundClass {
+   id 2057
+   name "SOUND_STROKE_THE_KEYS"
+   version 0
+   tl -148 -76
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 3090
+       port 65
+      }
+     }
+    }
+   }
+   outState 4107
+   outStatePort 79879
+  }
+  SoundClass {
+   id 14345
+   name "SOUND_PRELUDE_A_BIT"
+   version 0
+   tl -149.607 83
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 13330
+       port 65
+      }
+     }
+    }
+   }
+   outState 4107
+   outStatePort 79879
+  }
+  SoundClass {
+   id 18441
+   name "SOUND_GET_CARRIED_AWAY"
+   version 0
+   tl -150.857 245.5
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 16402
+       port 65
+      }
+     }
+    }
+   }
+   outState 4107
+   outStatePort 79879
+  }
+  SoundClass {
+   id 24585
+   name "SOUND_PLAY_AN_OLD_TUNE"
+   version 0
+   tl -148.357 405.5
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 25618
+       port 65
+      }
+     }
+    }
+   }
+   outState 4107
+   outStatePort 79879
+  }
+  SoundClass {
+   id 27657
+   name "SOUND_PLAY_AN_JOLLY_TUNE"
+   version 0
+   tl -148.357 559.25
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 28690
+       port 65
+      }
+     }
+    }
+   }
+   outState 4107
+   outStatePort 79879
+  }
+  SoundClass {
+   id 29705
+   name "SOUND_PLAY_A_FEW_CHORDS"
+   version 0
+   tl -148.357 710.5
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 30738
+       port 65
+      }
+     }
+    }
+   }
+   outState 4107
+   outStatePort 79879
+  }
+  SoundClass {
+   id 35849
+   name "SOUND_PLAY_RUSSIAN_SONG"
+   version 0
+   tl -150.636 876.477
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 34834
+       port 65
+      }
+     }
+    }
+   }
+   outState 4107
+   outStatePort 79879
+  }
+ }
+ mixers {
+  MixerClass {
+   id 4107
+   name "OutputState 4"
+   version 4
+   tl 117.639 402.806
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   ins {
+    ConnectionsClass connections {
+     id 79879
+     links {
+      ConnectionClass connection {
+       id 29705
+       port 65
+      }
+      ConnectionClass connection {
+       id 14345
+       port 65
+      }
+      ConnectionClass connection {
+       id 18441
+       port 65
+      }
+      ConnectionClass connection {
+       id 24585
+       port 65
+      }
+      ConnectionClass connection {
+       id 27657
+       port 65
+      }
+      ConnectionClass connection {
+       id 2057
+       port 65
+      }
+      ConnectionClass connection {
+       id 35849
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 152583
+     links {
+      ConnectionClass connection {
+       id 10269
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    196608
+   }
+   path "{B764D803219C775E}Sounds/FinalMix.afm"
+   inputs {
+    "ANM_Footsteps" "ANM_Voice" "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialogue" "Music" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb" "VON_Reverb" "Dialogue_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "UI" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct"
+   }
+  }
+ }
+ shaders {
+  ShaderClass {
+   id 3090
+   name "Shader 1"
+   version 5
+   tl -348 -76.5
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 5148
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 6163
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 32789
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 1028
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7
+   }
+  }
+  ShaderClass {
+   id 13330
+   name "Shader 2"
+   version 5
+   tl -349.607 82.5
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 5148
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 6163
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 32789
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 15364
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7
+   }
+  }
+  ShaderClass {
+   id 16402
+   name "Shader 3"
+   version 5
+   tl -350.857 245
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 5148
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 6163
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 32789
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 17412
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7
+   }
+  }
+  ShaderClass {
+   id 25618
+   name "Shader 4"
+   version 5
+   tl -348.357 405
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 5148
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 6163
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 32789
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 23556
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7
+   }
+  }
+  ShaderClass {
+   id 28690
+   name "Shader 5"
+   version 5
+   tl -348.357 558.75
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 5148
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 6163
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 32789
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 26628
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7
+   }
+  }
+  ShaderClass {
+   id 30738
+   name "Shader 6"
+   version 5
+   tl -348.357 710
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 5148
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 6163
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 32789
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 31748
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7
+   }
+  }
+  ShaderClass {
+   id 34834
+   name "Shader 7"
+   version 5
+   tl -348.273 877.727
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 5148
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 6163
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 32789
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 33796
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7
+   }
+  }
+ }
+ amplitudes {
+  AmplitudeClass : "{F1CC7B4D741028C3}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_15-10.conf" {
+   id 6163
+   version 5
+   tl -345.563 -376.691
+   parent "{F1CC7B4D741028C3}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_15-10.conf"
+  }
+ }
+ frequency {
+  FrequencyClass : "{0005FE42A6D80399}Sounds/_SharedData/Configs/Frequency/_SharedData/Frequency_DynamicUpdate.conf" {
+   id 32789
+   version 5
+   tl -347.833 -154.5
+   parent "{0005FE42A6D80399}Sounds/_SharedData/Configs/Frequency/_SharedData/Frequency_DynamicUpdate.conf"
+   ins {
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 8205
+       port 37
+      }
+     }
+    }
+   }
+   pi {
+    16
+   }
+   pu {
+    16
+   }
+  }
+ }
+ banks_local {
+  BankLocalClass {
+   id 1028
+   name "1"
+   comment "-12LUFS"
+   version 0
+   tl -560.429 -77
+   ctl 0 -21
+   Volume -14
+   "Fade out time" 200
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{E89D9A1F4BA63CDC}Sounds/Props/Furniture/Piano/Samples/Props_Piano_Jingle_1.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 15364
+   name "4"
+   comment "-12LUFS"
+   version 0
+   tl -562.036 82
+   ctl 0 -21
+   Volume -14
+   "Fade out time" 200
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{014EB15FC46558F9}Sounds/Props/Furniture/Piano/Samples/Props_Piano_Jingle_4.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 17412
+   name "9"
+   comment "-12LUFS"
+   version 0
+   tl -563.286 244.5
+   ctl 0 -21
+   Volume -14
+   "Fade out time" 200
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{97DFFC64148F1CEF}Sounds/Props/Furniture/Piano/Samples/Props_Piano_Jingle_9.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 23556
+   name "10"
+   comment "-12LUFS"
+   version 0
+   tl -560.786 404.5
+   ctl 0 -21
+   Volume -14
+   "Fade out time" 200
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{B9DC0DB0F2DB1B76}Sounds/Props/Furniture/Piano/Samples/Props_Piano_Jingle_10.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 26628
+   name "11"
+   comment "-12LUFS"
+   version 0
+   tl -560.786 558.25
+   ctl 0 -21
+   Volume -14
+   "Fade out time" 200
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{CED665380679F406}Sounds/Props/Furniture/Piano/Samples/Props_Piano_Jingle_11.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 31748
+   name "12"
+   comment "-12LUFS"
+   version 0
+   tl -560.786 708.25
+   ctl 0 -21
+   Volume -14
+   "Fade out time" 200
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{57C8DCA11B9EC596}Sounds/Props/Furniture/Piano/Samples/Props_Piano_Jingle_12.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 33796
+   name "13"
+   comment "-12LUFS"
+   version 0
+   tl -557.091 878.364
+   ctl 0 -21
+   Volume -14
+   "Fade out time" 200
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{27F9D0669E6ECB3F}Sounds/Props/Furniture/Piano/cm.wav"
+    }
+   }
+  }
+ }
+ spatialities {
+  SpatialityClass {
+   id 5148
+   name "Spatiality 3D"
+   version 5
+   tl -345.359 -450.313
+   spatialFactor 1
+  }
+ }
+ auxOuts {
+  AuxOutClass {
+   id 10269
+   name "AuxOut Reverb INT"
+   version 5
+   tl 117.5 278.087
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 2057
+       port 5
+      }
+      ConnectionClass connection {
+       id 14345
+       port 5
+      }
+      ConnectionClass connection {
+       id 18441
+       port 5
+      }
+      ConnectionClass connection {
+       id 24585
+       port 5
+      }
+      ConnectionClass connection {
+       id 27657
+       port 5
+      }
+      ConnectionClass connection {
+       id 29705
+       port 5
+      }
+      ConnectionClass connection {
+       id 35849
+       port 5
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 12301
+       port 34
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 12301
+       port 39
+      }
+     }
+    }
+   }
+   pi {
+    7
+   }
+   pu {
+    6
+   }
+   OSPort 152583
+  }
+ }
+ version 1
+ sourcesLimit 1
+}

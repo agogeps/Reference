@@ -1,0 +1,9 @@
+ESCT_HeliFlybyEvent {
+ ID "61DEFCDED947AA19"
+ components {
+  RplComponent "{61DEFCDED3B1FDF5}" {
+  }
+ }
+ m_fDespawnDistance 1800
+ m_fDespawnTimeout 600
+}

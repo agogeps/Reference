@@ -1,0 +1,51 @@
+StaticModelEntity : "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et" {
+ ID "5272E314F01B2DBE"
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+  SCR_SlotCompositionComponent "{5F32F1EC0C2A5486}" {
+   m_bOrientChildrenToTerrain 0
+  }
+  Hierarchy "{5F32F1EC0C2A549E}" {
+  }
+ }
+ coords 1193.1 51.001 1352.012
+ {
+  GameEntity : "{2CB0AA2A87842C18}Prefabs/Props/Civilian/LampKerosene_01/LampKerosene_01_military_USSR.et" {
+   ID "5F32F1EC0C2A54B3"
+   components {
+    Hierarchy "{5F32F1EC0C2A5492}" {
+     Enabled 1
+    }
+   }
+   coords 0.525 0.899 -0.206
+   angleY -23.212
+  }
+  ESCT_Radio : "{35DF16B53A6C00D6}Prefabs/Props/Military/Radios/RadioStation_R123M_USSR.et" {
+   ID "5F32F1E0244C46B1"
+   coords -0.01 0.899 -0.17
+   angleY 4.524
+  }
+  GenericEntity : "{642101F827FFA52D}Prefabs/Props/Military/Manuals/Manual_Soviet_01.et" {
+   ID "5F32F1EC0C2A54B6"
+   components {
+    Hierarchy "{5F32F1EC0C2A5490}" {
+     Enabled 1
+    }
+   }
+   coords -0.415 0.899 0.26
+   angleY 44.054
+  }
+  GenericEntity : "{B898D2A1F45058F6}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUSSR_01.et" {
+   ID "5F32F1EC0C2A5488"
+   components {
+    Hierarchy "{5F32F1EC0C2A5495}" {
+     Enabled 1
+    }
+   }
+   coords -0.462 0.899 -0.204
+   angleY -45.638
+  }
+ }
+}

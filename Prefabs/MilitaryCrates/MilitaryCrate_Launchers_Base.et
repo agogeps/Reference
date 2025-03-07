@@ -1,0 +1,25 @@
+GenericEntity : "{A7615FC7FF2B5195}Prefabs/MilitaryCrates/MilitaryCrate_Base.et" {
+ ID "619ED3851EB9C905"
+ components {
+  ESCT_StorageArsenalComponent "{619ED382DB71447F}" {
+   m_iItemQuantity 3
+   m_eSupportedArsenalItemTypes ROCKET_LAUNCHER
+   m_eSupportedArsenalItemModes 28
+  }
+  SCR_UniversalInventoryStorageComponent "{619ED38229150736}" {
+   Attributes SCR_ItemAttributeCollection "{619ED38227750F9F}" {
+   }
+   m_fMaxWeight 150
+  }
+  ActionsManagerComponent "{619ED382500AAA81}" {
+   ActionContexts {
+    UserActionContext "{619ED385A992B96D}" {
+     Position PointInfo "{613C8764B0F982CA}" {
+      Offset 0 0.2 0
+     }
+    }
+   }
+  }
+ }
+ coords 137.845 1 101.958
+}

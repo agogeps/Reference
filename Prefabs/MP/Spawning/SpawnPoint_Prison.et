@@ -1,0 +1,19 @@
+ESCT_SpawnPoint {
+ ID "6054FC6251A9DC14"
+ components {
+  RplComponent "{6054FC6251A9C3E6}" {
+   Streamable Disabled
+  }
+  Hierarchy "{6054FC6251A9C3E4}" {
+  }
+ }
+ coords -2.76 1.902 -12.557
+ angleY 180
+ m_fSpawnRadius 10
+ m_sFaction ""
+ m_Info SCR_UIInfo "{6054FC6251A9C3F8}" {
+ }
+ m_bUseNearbySpawnPositions 1
+ m_fSpawnPositionUsageRange 16
+ m_bSpawnPointEnabled 0
+}

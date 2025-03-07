@@ -1,0 +1,9 @@
+ESCT_WeaponRack : "{803B930457FE8658}Prefabs/Props/WeaponRacks/WeaponRack_Cabinet.et" {
+ ID "61425ACD1F10AA4F"
+ components {
+  ESCT_WeaponRackArsenalPrisonComponent "{6148B3CF40AD075F}" {
+  }
+ }
+ coords 103.352 1 102.543
+ angleY -180
+}

@@ -1,0 +1,20 @@
+GenericEntity : "{C83F3F2F226DAC13}PrefabsEditable/Props/Core/E_AmbientEvent_HelicopterFlyby.et" {
+ ID "622CD4AE582183D0"
+ components {
+  ESCT_EditableAmbientEventComponent "{622CD4AE469DDDBC}" {
+   m_rEventPrefab "{A1D7DC3C6421146E}Prefabs/AmbientEvents/AmbientEvent_VehiclePatrol.et"
+  }
+  SCR_EditableEntityComponent "{622CD4AEE6C05208}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{622CD4AEF3EDD5A7}" {
+    Name "#Escapists-EditableEntity_AmbientEvent-VehiclePatrol_Title"
+    Description "#Escapists-EditableEntity_AmbientEvent-VehiclePatrol_Description"
+    IconSetName "EditableEntity_Vehicle_Truck"
+    m_Image "{9EBE212C91B36BBE}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Truck.edds"
+    m_aAutoLabels {
+     7 50 60
+    }
+   }
+  }
+ }
+ coords 97.47 1 174.854
+}

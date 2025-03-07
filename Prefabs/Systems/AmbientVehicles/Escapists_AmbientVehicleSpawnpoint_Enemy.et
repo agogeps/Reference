@@ -1,0 +1,18 @@
+GenericEntity : "{DD346352F0F30A7C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_Base.et" {
+ ID "5D5E85F95F31C6F0"
+ components {
+  ESCT_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    21 22 20 24 39 23 36 37
+   }
+   m_aExcludedEditableEntityLabels {
+    51
+   }
+   m_bBelongsToEnemy 1
+  }
+  SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
+   "faction affiliation" "US"
+  }
+ }
+ coords 118.895 1 133.915
+}

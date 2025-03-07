@@ -1,0 +1,11 @@
+ESCT_EquipmentSlotEntity : "{D5BD96A48EC924ED}Prefabs/SlotEntities/WeaponSlotEntity.et" {
+ ID "6148FD0BA61EE7FA"
+ components {
+  ESCT_EquipmentSlotArsenalPrisonComponent "{6148FD0853C5BB7C}" {
+   m_eSupportedArsenalItemTypes 294
+  }
+ }
+ coords 0.424 0.498 -1.817
+ angleY -38.434
+ m_IsSpawnGuaranteed 1
+}

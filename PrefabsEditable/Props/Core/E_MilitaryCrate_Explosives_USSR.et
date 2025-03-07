@@ -1,0 +1,41 @@
+GenericEntity : "{DF09525D5943ED36}Prefabs/MilitaryCrates/MilitaryCrate_Explosives_USSR.et" {
+ ID "619ED3851EB9C905"
+ components {
+  ESCT_EditableStorageComponent "{622AE5158A9FF0C1}" {
+  }
+  ESCT_LocationStorageComponent "{619ED382D4C0A21C}" {
+   Enabled 0
+  }
+  SCR_EditableEntityComponent "{622AE5159D0E1DFC}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{622AE515973ACB85}" {
+    Name "#Escapists-EditableEntity_MilitaryCrate_USSR_Title"
+    Description "#Escapists-EditableEntity_MilitaryCrate_Exp_Description"
+    Icon "{10C0A9A305E8B3A4}UI/Imagesets/Tasks/Task_Icons.imageset"
+    IconSetName "Icon_Task_Rearm_UI"
+    m_Image "{87D1D2DA9CB11A2E}UI/Textures/EditorPreviews/Auto/Props/Military/AmmoBoxes/USSR/E_EquipmentBoxWooden_Explosives_01_USSR.edds"
+    m_sFaction "USSR"
+    m_aAuthoredLabels {
+     1001 20001
+    }
+    m_aAutoLabels {
+     1 108 10
+    }
+   }
+   m_bAutoRegister ALWAYS
+   m_Flags 769
+  }
+  SCR_PreviewEntityComponent "{622AE51589E9C5FF}" {
+   m_aEntries {
+    SCR_BasePreviewEntry "{622AE51586C6EDC9}" {
+     m_iParentID 0
+     m_Mesh "{26602B855125635D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Explosives_01.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ coords 28.871 1 109.385
+}

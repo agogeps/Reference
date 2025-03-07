@@ -1,0 +1,142 @@
+GenericEntity : "{3B47502BD0C6E3C8}PrefabsEditable/Compositions/Locations/E_Location_Base.et" {
+ ID "626CE7E5B6BA7577"
+ {
+  StaticModelEntity : "{39C308BBB5945B85}Prefabs/Props/Military/Furniture/ChairMilitary_US_02.et" {
+   ID "626CE7E5B6BA754A"
+   components {
+    Hierarchy "{605F0DA502B019B7}" {
+    }
+   }
+   coords 0.185 0 -1.886
+   angleY 123.972
+  }
+  ESCT_EquipmentSlotEntity : "{423D2F7F798F4173}Prefabs/SlotEntities/EquipmentSlotEntity.et" {
+   ID "626CE7E5B6BA1C2D"
+   coords -3.378 0.877 0.469
+   angleY 65.372
+  }
+  GenericEntity : "{47E2C605FF71A05A}PrefabsEditable/Auto/Structures/Military/CamoNets/US/E_CamoNet_Medium_US.et" {
+   ID "626CE7E5B6BA1C2E"
+   coords 0.04 0 -0.7
+  }
+  GenericEntity : "{6B961D615D79D6B6}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/US/EquipmentBoxStack_US_01_V3.et" {
+   ID "626CE7E5B6BAC291"
+   components {
+    Hierarchy "{605F0DA51CA4B269}" {
+    }
+   }
+   coords 3.415 0 -0.624
+   angleY -88.305
+  }
+  GenericEntity : "{6CD65604C7945A66}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_03.et" {
+   ID "626CE7E5B6BAC296"
+   coords 0.46 0 1.156
+   angleY -129.96
+  }
+  GenericEntity : "{7F671B405CDBF0A2}Prefabs/Props/Airport/GeneratorAirfield_US_01/GeneratorAirfield_US_01.et" {
+   ID "626CE7E5C738AA4A"
+   components {
+    Hierarchy "{626D2CC0838E13D7}" {
+    }
+   }
+   coords 0.478 0 -3.975
+  }
+  ESCT_StorageSlotEntity : "{844DE1702B3FEE88}Prefabs/SlotEntities/StorageSlotEntity.et" {
+   ID "626CE7E5B6BAC294"
+   coords 2.273 0 -0.821
+   angleY -88.993
+  }
+  GenericEntity : "{8E0A5198519C41DD}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/US/EquipmentBoxStack_US_01_V2.et" {
+   ID "626CE7E5B6BAC29A"
+   components {
+    Hierarchy "{605F0DA51B7D1751}" {
+    }
+   }
+   coords 3.862 0 -1.968
+   angleY 80.519
+  }
+  $grp GenericEntity : "{A419F4547954DA05}Prefabs/Props/Construction/CableReel/CableReelWooden_01.et" {
+   {
+    ID "626CE7E5B6BAC29E"
+    components {
+     Hierarchy "{605F0DA514C5E8E7}" {
+     }
+    }
+    coords -3.491 0 1.754
+   }
+   {
+    ID "626CE7E5B6BACC9B"
+    components {
+     Hierarchy "{605F0DA512154069}" {
+     }
+    }
+    coords -3.426 0 0.46
+    angleY 66.952
+   }
+  }
+  GenericEntity : "{A4E14002C47285EE}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_LoiterPoint_LeanLeft.et" {
+   ID "626CE7E5B6BACC87"
+   coords -0.341 0 -2.954
+  }
+  GenericEntity : "{B350840088390760}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Stack_01.et" {
+   ID "626CE7E5B6BACC82"
+   coords 3.139 0 1.596
+   angleY 9.843
+  }
+  GenericEntity : "{B4F2701CBBE49C48}Prefabs/Props/Military/Antennas/Antenna_RC292_01.et" {
+   ID "626CE7E5B6BACC80"
+   components {
+    Hierarchy "{605F0DA50D322DC6}" {
+    }
+   }
+   coords 0.03 0 0.098
+   angleY 179.314
+  }
+  GenericEntity : "{C599195C442D7125}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_CigarButts_01.et" {
+   ID "626CE7E5B6BACC8E"
+   coords 0.147 0 -2.366
+  }
+  ESCT_EquipmentSlotEntity : "{D5BD96A48EC924ED}Prefabs/SlotEntities/WeaponSlotEntity.et" {
+   ID "626CE7E5B6BACC8D"
+   coords 3.58 0.311 -1.865
+   angleY 168.428
+  }
+  StaticModelEntity : "{D984AB5A0A59B68C}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_RadioStation_US.et" {
+   ID "626CE7E5B6BACC8B"
+   coords 0.546 0 -2.672
+   angleY 0
+  }
+  GenericEntity : "{E105D2F87098E1D8}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_LoiterPoint.et" {
+   ID "626CE7E5B6BACC89"
+   components {
+    Hierarchy "{606F0E846999DC24}" {
+    }
+   }
+   coords 2.067 0 1.875
+   angleY -179.275
+  }
+  GenericEntity : "{E58EB485925C24CA}Prefabs/Props/Core/ExplosiveBarrel_01_Dynamic.et" {
+   ID "626CE7E5B6BACCF4"
+   components {
+    Hierarchy "{626CE7E7C0574627}" {
+    }
+   }
+   coords -3.465 0.068 2.777
+   angleY 48.462
+  }
+  ESCT_CharacterSpawnPoint : "{F28B2B542F6C684A}Prefabs/CharacterSpawnPoint.et" {
+   ID "626CE7E5B6BACCF3"
+   coords 1.28 0.341 -1.712
+   angleY 44.316
+  }
+  GenericEntity : "{F76BD5785C7FE191}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_ObservationPoint.et" {
+   ID "626CE7E5B6BACCF1"
+   components {
+    Hierarchy "{605F0DA567010740}" {
+    }
+   }
+   coords -4.28 0 -1.747
+   angleY 174.497
+  }
+ }
+}

@@ -1,0 +1,469 @@
+SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  ESCT_StaticRadioStationComponent "{61CE8BAD2BB2AC8C}" {
+  }
+ }
+ coords -32.606 0 0
+ {
+  GenericEntity {
+   ID "5A3104050AF5321B"
+   Flags 2097155
+   {
+    GenericEntity {
+     ID "5668D20503330112"
+     Flags 2097155
+    }
+   }
+  }
+  GenericEntity {
+   ID "5A310405FE5D6FF6"
+   {
+    GenericEntity {
+     ID "5A3104058D2CD211"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "5A3104058D2CD229"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "5A3104058D2CD23E"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "5A3104058D2CD36B"
+     Flags 2098179
+     {
+      GenericEntity {
+       ID "566AA3159A29111A"
+       Flags 2098179
+      }
+      GenericEntity {
+       ID "567C7190958920AF"
+       Flags 2098179
+      }
+      GenericEntity {
+       ID "567C7190958920C9"
+       Flags 2098179
+      }
+     }
+    }
+    GenericEntity {
+     ID "5A3104058D2CD499"
+     components {
+      MeshObject "{5872F0EB7FA40561}" {
+       Materials {
+        MaterialAssignClass "{61CE8BAF9E471105}" {
+         SourceMaterial "Map_01_Map"
+         AssignedMaterial "{AF0E53C1F4ECA054}Assets/Props/Commercial/Posters/Data/Poster_weapon_UK59L.emat"
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5A3104058D2CD4AE"
+     components {
+      MeshObject "{5872F0EB7FA40561}" {
+       Materials {
+        MaterialAssignClass "{61CE8BAD1B297A3A}" {
+         SourceMaterial "Map_01_Map"
+         AssignedMaterial "{880AED144D321149}Assets/Props/Commercial/Posters/Data/Poster_weapon_SVD.emat"
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5A3104058D2CD8C1"
+     components {
+      ESCT_LocationStorageComponent "{619CCE37A5A7D783}" {
+       Enabled 1
+      }
+      ESCT_StorageArsenalComponent "{619CCE37A0CC1A13}" {
+       Enabled 1
+      }
+      SCR_SoundDataComponent "{619CCE37ACE332FE}" {
+       Enabled 1
+      }
+      SCR_UniversalInventoryStorageComponent "{619CCE365509DDF8}" {
+       Enabled 1
+      }
+      SCR_InventoryStorageManagerComponent "{619CCE364477ACDC}" {
+       Enabled 1
+      }
+      ActionsManagerComponent "{619CCE361717EB6F}" {
+       Enabled 1
+      }
+      RplComponent "{5624A88DC2D9928D}" {
+       Enabled 1
+      }
+      Hierarchy "{619CCE361C5ED185}" {
+       Enabled 1
+      }
+     }
+    }
+    GenericEntity {
+     ID "5A3104058D2CD8CA"
+     components {
+      ESCT_LocationStorageComponent "{619CCE37A5A7D783}" {
+       Enabled 1
+      }
+      ESCT_StorageArsenalComponent "{619CCE37A0CC1A13}" {
+       Enabled 1
+      }
+      SCR_UniversalInventoryStorageComponent "{619CCE365509DDF8}" {
+       Enabled 1
+      }
+      SCR_InventoryStorageManagerComponent "{619CCE364477ACDC}" {
+       Enabled 1
+      }
+      ActionsManagerComponent "{619CCE361717EB6F}" {
+       Enabled 1
+      }
+      RplComponent "{5624A88DC2D9928D}" {
+       Enabled 1
+      }
+      Hierarchy "{619CCE361C5ED185}" {
+       Enabled 1
+      }
+     }
+    }
+    GenericEntity {
+     ID "5A3104058D2CD8D2"
+     components {
+      ESCT_LocationStorageComponent "{619CCE37A5A7D783}" {
+       Enabled 1
+      }
+      ESCT_StorageArsenalComponent "{619CCE37A0CC1A13}" {
+       Enabled 1
+      }
+      SCR_SoundDataComponent "{619CCE37ACE332FE}" {
+       Enabled 1
+      }
+      SCR_UniversalInventoryStorageComponent "{619CCE365509DDF8}" {
+       Enabled 1
+      }
+      SCR_InventoryStorageManagerComponent "{619CCE364477ACDC}" {
+       Enabled 1
+      }
+      ActionsManagerComponent "{619CCE361717EB6F}" {
+       Enabled 1
+      }
+      RplComponent "{5624A88DC2D9928D}" {
+       Enabled 1
+      }
+      Hierarchy "{619CCE361C5ED185}" {
+       Enabled 1
+      }
+     }
+    }
+    GenericEntity {
+     ID "5A3104058D2CD8E9"
+     components {
+      ESCT_LocationStorageComponent "{619CCE37A5A7D783}" {
+       Enabled 1
+      }
+      ESCT_StorageArsenalComponent "{619CCE37A0CC1A13}" {
+       Enabled 1
+      }
+      SCR_SoundDataComponent "{619CCE37ACE332FE}" {
+       Enabled 1
+      }
+      SCR_UniversalInventoryStorageComponent "{619CCE365509DDF8}" {
+       Enabled 1
+      }
+      SCR_InventoryStorageManagerComponent "{619CCE364477ACDC}" {
+       Enabled 1
+      }
+      ActionsManagerComponent "{619CCE361717EB6F}" {
+       Enabled 1
+      }
+      RplComponent "{5624A88DC2D9928D}" {
+       Enabled 1
+      }
+      Hierarchy "{619CCE361C5ED185}" {
+       Enabled 1
+      }
+     }
+    }
+    GenericEntity {
+     ID "5A3104058D2CD8FA"
+     components {
+      ESCT_LocationStorageComponent "{619CCE37A5A7D783}" {
+       Enabled 1
+      }
+      ESCT_StorageArsenalComponent "{619CCE37A0CC1A13}" {
+       Enabled 1
+      }
+      SCR_SoundDataComponent "{619CCE37ACE332FE}" {
+       Enabled 1
+      }
+      SCR_UniversalInventoryStorageComponent "{619CCE365509DDF8}" {
+       Enabled 1
+      }
+      SCR_InventoryStorageManagerComponent "{619CCE364477ACDC}" {
+       Enabled 1
+      }
+      ActionsManagerComponent "{619CCE361717EB6F}" {
+       Enabled 1
+      }
+      RplComponent "{5624A88DC2D9928D}" {
+       Enabled 1
+      }
+      Hierarchy "{619CCE361C5ED185}" {
+       Enabled 1
+      }
+     }
+    }
+    GenericEntity {
+     ID "5A3104058D2CDA39"
+     components {
+      ESCT_LocationStorageComponent "{619CCE37A5A7D783}" {
+       Enabled 1
+      }
+      ESCT_StorageArsenalComponent "{619CCE37A0CC1A13}" {
+       Enabled 1
+      }
+      SCR_SoundDataComponent "{619CCE37ACE332FE}" {
+       Enabled 1
+      }
+      SCR_UniversalInventoryStorageComponent "{619CCE365509DDF8}" {
+       Enabled 1
+      }
+      SCR_InventoryStorageManagerComponent "{619CCE364477ACDC}" {
+       Enabled 1
+      }
+      ActionsManagerComponent "{619CCE361717EB6F}" {
+       Enabled 1
+      }
+      RplComponent "{5624A88DC2D9928D}" {
+       Enabled 1
+      }
+      Hierarchy "{619CCE361C5ED185}" {
+       Enabled 1
+      }
+     }
+    }
+   }
+  }
+  GenericEntity : "{04EEB10214E177B3}Prefabs/Props/Civilian/Notebook_01_Single_MarbleBlack.et" {
+   ID "61CE8BAB5A360127"
+   components {
+    Hierarchy "{5CCCBEF36E948514}" {
+     Enabled 1
+    }
+   }
+   coords 4.141 16.282 0.056
+   angleY 21.438
+  }
+  StaticModelEntity : "{0DB05393395683E8}Prefabs/Compositions/Misc/SubCompositions/Furniture/Bed_Notebook_USSR_01.et" {
+   ID "61CE8BAFCDA6E4BB"
+   coords 5.546 0.17 2.865
+   angleY 0
+  }
+  GenericEntity : "{1D4229C06EF6EC64}Prefabs/Structures/BuildingParts/Windows/Win_Bars_A/Win_Bars_A_195x182_B.et" {
+   ID "61CE8BAED60B8722"
+   coords 5.246 5.626 -4.188
+  }
+  GenericEntity : "{3084E0F995556890}Prefabs/Props/Military/Camps/DispenserBeverage_E_01/DispenserBeverage_E_01_beige.et" {
+   ID "61CE8BAFFF07A145"
+   coords 5.691 0.87 -3.45
+  }
+  GenericEntity : "{34C2F623958FCACE}Prefabs/Props/Civilian/Ashtray_01_Full_clear.et" {
+   ID "61CE8BB4AB9832A8"
+   coords 2.581 16.282 -0.007
+   angleY 0
+  }
+  $grp ESCT_EquipmentSlotEntity : "{423D2F7F798F4173}Prefabs/SlotEntities/EquipmentSlotEntity.et" {
+   {
+    ID "61CE8BA88BD331E3"
+    coords -7.628 2.69 3.188
+    angleY 84.867
+   }
+   {
+    ID "61CE8BAD6436B7BF"
+    coords 0.924 6.215 0.799
+    angleY -72.187
+   }
+   {
+    ID "61CE8BADC2F27BBF"
+    coords 6.632 8.676 -3.505
+   }
+  }
+  GenericEntity : "{6F9E338FCED334F8}Prefabs/Props/Military/Compositions/FIA/Antenna_02_FIA.et" {
+   ID "61CE8BAC53087670"
+   coords 0.135 9.29 9.017
+   angleY -44.212
+  }
+  $grp ESCT_WeaponRack : "{7CDB3D9E6415AB09}Prefabs/Props/WeaponRacks/WeaponRack_Stand.et" {
+   {
+    ID "61CE8BAE8453F834"
+    coords 1.982 3.97 -2.567
+    angleY 90
+   }
+   {
+    ID "61CE8BAE8453FFE1"
+    coords 1.982 3.97 -0.774
+    angleY 90
+   }
+  }
+  GenericEntity : "{8570092A3A409D5D}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_3_green.et" {
+   ID "61CE8BAF8FF9E3CE"
+   coords 5.148 3.97 -3.292
+   angleY -180
+  }
+  GenericEntity : "{9E2D46C5ED3EBC84}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/Dst/EquipmentBoxStack_01_V1_dst_01_USSR.et" {
+   ID "61CE8BAFFF07A12D"
+   coords 2.495 0.17 -1.723
+   angleY 90
+  }
+  GenericEntity : "{C0CCCB68B7147DEC}Prefabs/Props/Furniture/Chair_02/Chair_02_Base.et" {
+   ID "61CE8BB4AB9832C7"
+   coords 2.936 15.386 -0.587
+   angleY 114.692
+  }
+  GenericEntity : "{C23AE500055B9E49}Prefabs/Props/Core/PalletExplosiveBarrel_01.et" {
+   ID "628AC7E3D8259FFA"
+   coords 0.312 9.29 -0.509
+   angleY -88.526
+  }
+  GenericEntity : "{C3C7A8E9B6324130}Prefabs/Props/Furniture/Safe_01.et" {
+   ID "61CE8BAEED757007"
+   components {
+    ESCT_LocationStorageComponent "{619CCE35C9619655}" {
+     Enabled 1
+    }
+    ESCT_StorageArsenalComponent "{619CCE35DF3356E0}" {
+     Enabled 1
+    }
+    SCR_SoundDataComponent "{619C6D887CA50374}" {
+     Enabled 1
+    }
+    SCR_UniversalInventoryStorageComponent "{619C6D89E8563BB6}" {
+     Enabled 1
+    }
+    SCR_InventoryStorageManagerComponent "{619C6DB34F265332}" {
+     Enabled 1
+    }
+    ActionsManagerComponent "{619C6D89A2FD02BA}" {
+     Enabled 1
+    }
+    RplComponent "{5624A88DC2D9928D}" {
+     Enabled 1
+    }
+    Hierarchy "{619C6D8A7E7AFACF}" {
+     Enabled 1
+    }
+   }
+   coords 8.053 3.97 -1.979
+   angleY -90
+  }
+  $grp ESCT_EquipmentSlotEntity : "{D5BD96A48EC924ED}Prefabs/SlotEntities/WeaponSlotEntity.et" {
+   {
+    ID "61CE8BAD837FC653"
+    coords 7.173 12.295 -3.39
+    angleY 36.126
+   }
+   {
+    ID "61CE8BAF31F931A4"
+    coords -4.926 2.596 0.855
+    angleY 63.628
+   }
+  }
+  GenericEntity : "{D8ABE2DE630F577E}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_01.et" {
+   ID "61CE8BAF8FF9E3BC"
+   coords 7.893 3.97 -3.184
+  }
+  ESCT_EquipmentSlotEntity : "{D98E1D5942389639}Prefabs/SlotEntities/MedicineSlotEntity.et" {
+   ID "61CE8BAF3BB2C481"
+   coords -2.826 2.597 7.65
+   angleY -36.704
+  }
+  GenericEntity : "{DD49716491710760}Prefabs/Props/Military/Compositions/FIA/Antenna_01_FIA.et" {
+   ID "61CE8BAC5308765B"
+   coords -3.885 9.29 5.318
+   angleY 85.417
+  }
+  $grp GenericEntity : "{E3CF71191A540480}Prefabs/Props/Core/ExplosiveBarrel_01.et" {
+   {
+    ID "628AC7E32153B74C"
+    coords -1.152 1.69 -0.919
+    angleY -37.641
+   }
+   {
+    ID "628AC7E3287AD014"
+    coords 7.951 3.97 4.002
+    angleY 0
+   }
+  }
+  ESCT_RadioSlotEntity : "{E85F3F9A5710785A}Prefabs/SlotEntities/RadioSlotEntity.et" {
+   ID "61CE8BAD837FC63A"
+   coords 3.457 16.28 0.253
+   angleY -180
+  }
+  GenericEntity : "{EA47C7B9C65402F8}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_L_INT_COV_B.et" {
+   ID "61CE8BA8F25B0053"
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     PivotID "Socket_door_int_left_03"
+    }
+   }
+   scale 1.25
+  }
+  GenericEntity : "{EF070B8345288C8B}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_2_base.et" {
+   ID "61CE8BAF8FF9E3D5"
+   coords 4.232 3.97 -0.323
+   angleY -180
+  }
+  $grp ESCT_CharacterSpawnPoint : "{F28B2B542F6C684A}Prefabs/CharacterSpawnPoint.et" {
+   {
+    ID "61CE8BA8970001FB"
+    coords 3.226 3.97 -2.753
+    angleY 56.734
+   }
+   {
+    ID "61CE8BA89CF83AE6"
+    coords -2.998 5.49 9.517
+    angleY -172.641
+   }
+   {
+    ID "61CE8BA8E779B6CD"
+    coords 0.06 1.69 1.029
+   }
+   {
+    ID "61CE8BADE55EB94D"
+    coords 1.142 15.386 5.403
+    angleY -35.322
+   }
+   {
+    ID "61CE8BADE55EB97B"
+    coords -7.267 9.29 -0.833
+    angleY -180
+   }
+  }
+  $grp GenericEntity : "{F76BD5785C7FE191}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_ObservationPoint.et" {
+   {
+    ID "61CECD011C12C45D"
+    coords 7.869 3.97 3.348
+    angleY -88.657
+   }
+   {
+    ID "61CECD0123DB1387"
+    coords -2.407 0.155 11.924
+    angleY -74.302
+   }
+   {
+    ID "61CECD0123DB139D"
+    coords -6.562 5.49 5.131
+    angleY 147.37
+   }
+   {
+    ID "61CECD0123DB13BD"
+    coords 8.937 15.385 5.332
+    angleY -46.338
+   }
+  }
+ }
+}

@@ -1,0 +1,7 @@
+ESCT_WeaponRackSlotEntity {
+ ID "61425ACD751BAB60"
+ components {
+  Hierarchy "{61425ACD686A3118}" {
+  }
+ }
+}

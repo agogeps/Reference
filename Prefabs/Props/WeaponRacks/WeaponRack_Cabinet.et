@@ -1,0 +1,176 @@
+ESCT_WeaponRack : "{7EB0A3D2E8AED245}Prefabs/Props/WeaponRacks/WeaponRack_Base.et" {
+ ID "61425ACD1F10AA4F"
+ components {
+  ESCT_WeaponRackArsenalComponent "{6148B3CF40AD075F}" {
+   m_eSupportedArsenalItemTypes 459710
+   m_eSupportedArsenalItemModes 254
+   m_eEditableAttributeGroups 6
+  }
+  MeshObject "{61425ACA3621D433}" {
+   Object "{123C1DEB0CEEF8AA}Assets/Props/Military/Camps/WeaponRackCabinet_01/WeaponRackCabinet_01.xob"
+  }
+  RigidBody "{61425ACA341A303C}" {
+   Enabled 1
+  }
+ }
+ coords 9.445 0.2 1.099
+ angleY 180
+ {
+  $grp ESCT_WeaponRackSlotEntity : "{EF2154E6C5DC00AB}Prefabs/Props/WeaponRacks/WeaponRackSlot.et" {
+   {
+    ID "61425AC10F625B9C"
+    coords 0.175 0.665 0.266
+    angleX 80
+    angleY -180
+    angleZ -180
+    m_eSupportedItemTypes 306
+    m_eSupportedItemModes 12
+   }
+   {
+    ID "61425AC10F626482"
+    coords -0.137 0.665 0.266
+    angleX 80
+    angleY -180
+    angleZ -180
+    m_eSupportedItemTypes 306
+    m_eSupportedItemModes 12
+   }
+   {
+    ID "61425AC10F626483"
+    coords 0.024 0.665 0.266
+    angleX 80
+    angleY -180
+    angleZ -180
+    m_eSupportedItemTypes 306
+    m_eSupportedItemModes 12
+   }
+   {
+    ID "61425AC10F629BF1"
+    coords 0.483 0.665 0.266
+    angleX 80
+    angleY -180
+    angleZ -180
+    m_eSupportedItemTypes 306
+    m_eSupportedItemModes 12
+   }
+   {
+    ID "61425AC10F629BFE"
+    coords 0.633 0.665 0.266
+    angleX 80
+    angleY -180
+    angleZ -180
+    m_eSupportedItemTypes 306
+    m_eSupportedItemModes 12
+   }
+   {
+    ID "61425AC10F62CD3C"
+    coords 0.329 0.665 0.266
+    angleX 80
+    angleY -180
+    angleZ -180
+    m_eSupportedItemTypes 306
+    m_eSupportedItemModes 12
+   }
+   {
+    ID "61425AC10F6383D1"
+    coords -0.28 0.665 0.266
+    angleX 80
+    angleY -180
+    angleZ -180
+    m_eSupportedItemTypes 306
+    m_eSupportedItemModes 12
+   }
+   {
+    ID "61425AC10F63DBEC"
+    coords -0.443 0.665 0.266
+    angleX 80
+    angleY 180
+    angleZ 180
+    m_eSupportedItemTypes 306
+    m_eSupportedItemModes 12
+   }
+   {
+    ID "61425AC10F647D48"
+    coords -0.678 1.169 0.253
+    angleY 30
+    angleZ 90
+    m_eSupportedItemTypes PISTOL
+    m_eSupportedItemModes 12
+   }
+   {
+    ID "61425AC10F647D4F"
+    coords -1.023 1.169 0.216
+    angleY 30
+    angleZ 90
+    m_eSupportedItemTypes PISTOL
+    m_eSupportedItemModes 12
+   }
+   {
+    ID "61425AC10F65322C"
+    coords -0.678 0.139 0.253
+    angleY 30
+    angleZ 90
+    m_eSupportedItemTypes 290
+    m_eSupportedItemModes 242
+   }
+   {
+    ID "61425AC10F65322D"
+    coords -1.023 0.139 0.216
+    angleY 30
+    angleZ 90
+    m_eSupportedItemTypes 290
+    m_eSupportedItemModes 242
+   }
+   {
+    ID "61425AC10F653DE3"
+    coords 0.947 0.665 0.266
+    angleX 80
+    angleY 180
+    angleZ 180
+    m_eSupportedItemTypes 306
+    m_eSupportedItemModes 12
+   }
+   {
+    ID "61425AC10F65572F"
+    coords 0.79 0.665 0.266
+    angleX 80
+    angleY -180
+    angleZ -180
+    m_eSupportedItemTypes 306
+    m_eSupportedItemModes 12
+   }
+   {
+    ID "61425AC10F658948"
+    coords -0.678 0.829 0.253
+    angleY 30
+    angleZ 90
+    m_eSupportedItemTypes 393736
+    m_eSupportedItemModes 242
+   }
+   {
+    ID "61425AC10F658949"
+    coords -1.023 0.829 0.216
+    angleY 30
+    angleZ 90
+    m_eSupportedItemTypes 393736
+    m_eSupportedItemModes 242
+   }
+   {
+    ID "61425AC10F65894A"
+    coords -0.678 0.467 0.253
+    angleY 30
+    angleZ 90
+    m_eSupportedItemTypes 393736
+    m_eSupportedItemModes 242
+   }
+   {
+    ID "61425AC10F65AD5E"
+    coords -1.023 0.467 0.216
+    angleY 30
+    angleZ 90
+    m_eSupportedItemTypes 393736
+    m_eSupportedItemModes 242
+   }
+  }
+ }
+}

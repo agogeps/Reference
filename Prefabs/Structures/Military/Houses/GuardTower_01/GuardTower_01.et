@@ -1,0 +1,49 @@
+SCR_DestructibleBuildingEntity : "{33F50E1C918159AB}Prefabs/Structures/Military/Houses/GuardTower_01/GuardTower_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  ESCT_PopulatedBuildingComponent "{60C489174AD32431}" {
+  }
+ }
+ {
+  StaticModelEntity : "{172DD50ACF177B9E}Prefabs/Props/Military/Furniture/ChairMilitary_USSR_01.et" {
+   ID "6156EC9E162D75B4"
+   coords -0.327 6.986 0.65
+   angleY -51.056
+  }
+  ESCT_EquipmentSlotEntity : "{423D2F7F798F4173}Prefabs/SlotEntities/EquipmentSlotEntity.et" {
+   ID "6156EC9E667603E7"
+   components {
+    ESCT_EquipmentSlotArsenalComponent "{6148FD0853C5BB7C}" {
+     m_eSupportedArsenalItemTypes 197438
+    }
+   }
+   coords 0.49 7.885 0.412
+  }
+  StaticModelEntity : "{ACB6EFBD551A30FE}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Ashtray_USSR_01.et" {
+   ID "6156EC9ED211A1A8"
+   coords 0.564 6.986 0.479
+   angleY -89.792
+   {
+    GameEntity {
+     ID "5CB0F586FE29BCAB"
+     components {
+      SCR_LampComponent "{5D2AB5C8865F22C4}" {
+       m_eInitialLightState LIT
+      }
+     }
+    }
+   }
+  }
+  $grp ESCT_CharacterSpawnPoint : "{F28B2B542F6C684A}Prefabs/CharacterSpawnPoint.et" {
+   {
+    ID "60C48909EE92B9EE"
+    coords -1.677 6.949 1.834
+   }
+   {
+    ID "60C48909EE92BA05"
+    coords 0.36 6.986 -0.669
+    angleY 90
+   }
+  }
+ }
+}

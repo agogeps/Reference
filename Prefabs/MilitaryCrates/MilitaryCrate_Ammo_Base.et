@@ -1,0 +1,20 @@
+GenericEntity : "{A7615FC7FF2B5195}Prefabs/MilitaryCrates/MilitaryCrate_Base.et" {
+ ID "619ED3851EB9C905"
+ components {
+  ESCT_StorageArsenalComponent "{619ED382DB71447F}" {
+   m_iItemQuantity 14
+   m_eSupportedArsenalItemTypes 830
+   m_eSupportedArsenalItemModes 18
+  }
+  ActionsManagerComponent "{619ED382500AAA81}" {
+   ActionContexts {
+    UserActionContext "{619ED385A992B96D}" {
+     Position PointInfo "{613C8764B0F982CA}" {
+      Offset 0 0.2893 0
+     }
+    }
+   }
+  }
+ }
+ coords 141.721 1 100.116
+}

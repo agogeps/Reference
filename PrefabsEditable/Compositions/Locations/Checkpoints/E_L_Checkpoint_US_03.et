@@ -1,0 +1,181 @@
+GenericEntity : "{3B47502BD0C6E3C8}PrefabsEditable/Compositions/Locations/E_Location_Base.et" {
+ ID "617EF4B50D28275F"
+ components {
+  RoadNetworkBridgeComponent "{61AC95395FF4BE2C}" {
+   Points {
+    -2 0 10 -2 0 4 -2 0 0 1.5 0 -3 1.5 0 -10
+   }
+   BridgeWidth 1
+  }
+ }
+ coords 0 0 0
+ {
+  GenericEntity : "{0F131BF4B8C373E2}Prefabs/Compositions/Misc/SubCompositions/Sandbag_MG_US_02_M2HB.et" {
+   ID "61829C2C73F626D3"
+   coords 2.553 0 4.258
+   {
+    GenericEntity {
+     ID "59D87A7C7F670042"
+     {
+      GenericEntity : "{C1977A326F2AA011}Prefabs/Structures/Signs/Military/SignCheckpoint_01_stop.et" {
+       ID "61829C2C73F626D7"
+       components {
+        Hierarchy "{5CCCBEF31B20446E}" {
+         Enabled 1
+        }
+       }
+       coords -0.28 0.7 0.099
+       angleY -0.271
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "59D87A7C7F670043"
+     coords 0.924 0 0.098
+    }
+    StaticModelEntity : "{B03F9691E961C4CA}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v3.et" {
+     ID "61829C2C73F626D4"
+     components {
+      Hierarchy "{569E7A0A1036FA4D}" {
+       Enabled 1
+      }
+     }
+     coords -0.644 -0.112 0.362
+     angleY 1.929
+    }
+   }
+  }
+  GenericEntity : "{19DA1F395962511D}Prefabs/Vegetation/Cuttings/Pinus_sylvestris_medium_01.et" {
+   ID "61829C2C73F69596"
+   coords 4.223 0 -3.314
+  }
+  $grp GenericEntity : "{51E2733CB2F8D351}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_04.et" {
+   {
+    ID "61829C2C73F626A0"
+    coords 1.917 0.5 2.426
+    angleY -10.993
+   }
+   {
+    ID "61829C2C73F626A1"
+    coords -2.628 0 -1.617
+    angleY -86.151
+   }
+  }
+  GenericEntity : "{5789E2676151FD33}Prefabs/Structures/Military/CamoNets/US/CamoNet_Small_Top_US.et" {
+   ID "61829C32B7DA4DBE"
+   coords 3.065 0 2.263
+   angleY -11.601
+  }
+  GenericEntity : "{74843BB0BF08A845}Prefabs/Vegetation/Cuttings/Corylus_avellana_small_01.et" {
+   ID "61829C2C73F626BB"
+   coords 4.937 0.001 4.297
+   angleX 30.58
+   angleY -78.425
+   angleZ 15.697
+  }
+  GenericEntity : "{76167BEC292DCF79}Prefabs/Structures/Signs/Military/SignRectangle_01_140x100/Sign_Warzone_US_01.et" {
+   ID "61829C2C73F626AE"
+   components {
+    Hierarchy "{5CB0D9910F7995D5}" {
+     Enabled 1
+    }
+   }
+   coords -2.016 0.194 -4.546
+   angleY 179.082
+  }
+  GenericEntity : "{8FEA06CA746A084F}Prefabs/Compositions/Misc/SubCompositions/Sandbags_Mixed_Cluttered_US_01.et" {
+   ID "61829C2C73F626AC"
+   coords 4.343 0.057 2.293
+   angleY 90
+  }
+  GenericEntity : "{96D71CB478F8DF27}Prefabs/Compositions/Misc/FreeRoamBuilding/FloodlightGenerator_S_US_01.et" {
+   ID "61829C2C73F626AA"
+   coords -2.161 0 -3.298
+   {
+    GameEntity {
+     ID "5E64B54879740AB5"
+     components {
+      SCR_BaseInteractiveLightComponent "{587E9C1D47ACAF0D}" {
+       m_eInitialLightState LIT
+      }
+     }
+    }
+   }
+  }
+  GenericEntity : "{C258AD45887AA8CA}Prefabs/Vegetation/Cuttings/Picea_abies_medium_01.et" {
+   ID "61829C2C73F626BF"
+   coords -4.183 0 3.675
+   angleY 17.143
+  }
+  $grp StaticModelEntity : "{DA1B42FB9AEC02BE}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V3.et" {
+   {
+    ID "61829C2C73F626BD"
+    components {
+     Hierarchy "{5CCCBEF31B2AD10E}" {
+      Enabled 1
+     }
+    }
+    coords 4.297 0 -4.076
+    angleY -105.036
+   }
+   {
+    ID "61829C2C73F626BE"
+    components {
+     Hierarchy "{5CCCBEF31B3368BB}" {
+      Enabled 1
+     }
+    }
+    coords -4.156 -0.001 4.484
+    angleY 41.449
+   }
+  }
+  GenericEntity : "{E105D2F87098E1D8}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_LoiterPoint.et" {
+   ID "61829C30C31FFA67"
+   coords -1.292 0.059 -2.074
+  }
+  GenericEntity : "{E51E2E1D77B54223}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_01.et" {
+   ID "61829C2C73F626A7"
+   coords 0.029 0.5 3.924
+  }
+  GenericEntity : "{E58EB485925C24CA}Prefabs/Props/Core/ExplosiveBarrel_01_Dynamic.et" {
+   ID "61CF36D7FBA6033D"
+   components {
+    Hierarchy "{622A7A272D372531}" {
+    }
+   }
+   coords -4.722 -0.02 3.747
+   angleY -1.958
+  }
+  $grp StaticModelEntity : "{EF39F5715EF2323E}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Short.et" {
+   {
+    ID "61829C2C73F626B9"
+    components {
+     Hierarchy "{5CCCBEF31B078206}" {
+      Enabled 1
+     }
+    }
+    coords -4.136 -0.001 3.158
+    angleY -1.631
+   }
+   {
+    ID "61829C2C73F69597"
+    components {
+     Hierarchy "{5CCCBEF31B0B529C}" {
+      Enabled 1
+     }
+    }
+    coords 4.505 -0.001 -2.874
+    angleY -21.255
+   }
+  }
+  GenericEntity : "{F76BD5785C7FE191}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_ObservationPoint.et" {
+   ID "61829C30F87E6713"
+   components {
+    Hierarchy "{5E989B7FD5A4A8A2}" {
+    }
+   }
+   coords 0.938 0 2.471
+   angleY -62.644
+  }
+ }
+}

@@ -1,0 +1,188 @@
+GenericEntity : "{3B47502BD0C6E3C8}PrefabsEditable/Compositions/Locations/E_Location_Base.et" {
+ ID "617EF4B50D28275F"
+ coords 0 0 0
+ {
+  GenericEntity : "{013297BA01640EB9}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_USSR_02.et" {
+   ID "628CD9B452730C13"
+   components {
+    Hierarchy "{628CD9B4750ABBBB}" {
+    }
+   }
+   coords -2.741 0 -2.538
+   angleY -66.916
+  }
+  GenericEntity : "{0CA7840CD4247D8A}Prefabs/Compositions/Misc/SubCompositions/SandbagCamo_wall_High_US.et" {
+   ID "628CD9B452736AAC"
+   coords 4.367 0 2.507
+   angleY -90
+  }
+  StaticModelEntity : "{172DD50ACF177B9E}Prefabs/Props/Military/Furniture/ChairMilitary_USSR_01.et" {
+   ID "628CD9B452730C1C"
+   components {
+    Hierarchy "{628CD9B478688FFC}" {
+    }
+   }
+   coords -0.737 0 -2.354
+   angleY -34.758
+  }
+  GenericEntity : "{25861AD07CEE719B}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_MG_USSR_01_PKM.et" {
+   ID "628CD9B452736A91"
+   coords -2.236 0 -4.895
+   angleY 180
+  }
+  GenericEntity : "{4E288C9E06A3A2B8}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_MG_USSR_01_NSV_SPP.et" {
+   ID "628CD9B452736AA2"
+   coords 2.34 0 5.173
+   angleY 0
+  }
+  GenericEntity : "{6D66A35ABDA08197}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_USSR_01.et" {
+   ID "628CD9B452730C12"
+   components {
+    Hierarchy "{628CD9B477D31F66}" {
+    }
+   }
+   coords -1.966 0 -2.549
+  }
+  GenericEntity : "{74843BB0BF08A845}Prefabs/Vegetation/Cuttings/Corylus_avellana_small_01.et" {
+   ID "628CD9B452736A92"
+   coords -4.683 -0.05 4.536
+   angleX 18.128
+   angleY 1.361
+  }
+  GenericEntity : "{8088790C2D455045}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_Small_Top_Soviet.et" {
+   ID "628CD9B4527349D2"
+   coords 2.61 0 3.224
+   angleY -12.906
+  }
+  GenericEntity : "{894A1AFDCB71CD0D}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_02.et" {
+   ID "628CD9B452730C14"
+   coords -2.001 0.499 -2.109
+   angleY 14.079
+  }
+  GenericEntity : "{A379A364A095CA77}Prefabs/Compositions/Misc/SubCompositions/Decorations/BarbedCoil_Light_USSR_02.et" {
+   ID "628CD9B452730C0A"
+   coords 3.479 0 0.544
+   angleY 42.444
+  }
+  $grp StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification/CzechHedgehog_01_painted.et" {
+   {
+    ID "628CD9B452730C0E"
+    components {
+     Hierarchy "{5CCCBEF31AA25AF8}" {
+      Enabled 1
+     }
+    }
+    coords -4.548 -0.05 4.047
+    angleY 0.204
+   }
+   {
+    ID "628CD9B452736A99"
+    components {
+     Hierarchy "{5CCCBEF31AA635DC}" {
+      Enabled 1
+     }
+    }
+    coords 4.476 0 -4.254
+    angleY 40.995
+   }
+  }
+  GenericEntity : "{B47E3FC5BE1D443A}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_05.et" {
+   ID "628CD9B452736AB6"
+   coords 1.338 0 2.667
+  }
+  GenericEntity : "{C1977A326F2AA011}Prefabs/Structures/Signs/Military/SignCheckpoint_01_stop.et" {
+   ID "628CD9B4527349D3"
+   components {
+    Hierarchy "{5CCCBEF31AB2BCD2}" {
+     Enabled 1
+    }
+   }
+   coords 0.375 0.5 4.936
+   angleY 2.978
+  }
+  StaticModelEntity : "{CAE1588B6265A2AB}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Short_noStake.et" {
+   ID "628CD9B452736A9A"
+   components {
+    Hierarchy "{5CCCBEF31AB69010}" {
+     Enabled 1
+    }
+   }
+   coords 4.48 -0.056 -3.61
+   angleY 5.799
+  }
+  GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+   ID "628CD9B452736AA1"
+   components {
+    Hierarchy "{5CB0D991FC83656F}" {
+     Enabled 1
+    }
+   }
+   coords 1.697 0 2.731
+   angleY -88.727
+  }
+  GenericEntity : "{CFFEB23FBEA00322}Prefabs/Props/Military/Sandbags/Sandbag_01_short_burlap.et" {
+   ID "628CD9B452730C11"
+   components {
+    Hierarchy "{628CD9B4444D02D4}" {
+    }
+   }
+   coords -4.161 0 -2.425
+   angleY 90
+  }
+  GenericEntity : "{DA34DC311BF6D0CB}Prefabs/Structures/Signs/Military/SignRectangle_01_140x100/Sign_Warzone_USSR_01.et" {
+   ID "628CD9B452730C1E"
+   components {
+    Hierarchy "{5CB0D996E74F3633}" {
+     Enabled 1
+    }
+   }
+   coords -0.627 0.843 -4.428
+   angleY -180
+  }
+  GenericEntity : "{E58EB485925C24CA}Prefabs/Props/Core/ExplosiveBarrel_01_Dynamic.et" {
+   ID "628CD9B452730C08"
+   components {
+    Hierarchy "{622A7A2727C24A39}" {
+    }
+   }
+   coords -4.721 -0.003 4.744
+   angleY -57.139
+  }
+  $grp StaticModelEntity : "{EF39F5715EF2323E}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Short.et" {
+   {
+    ID "628CD9B45272D937"
+    components {
+     Hierarchy "{5CCCBEF31A812EDF}" {
+      Enabled 1
+     }
+    }
+    coords -4.457 0 2.902
+    angleY -9.302
+   }
+   {
+    ID "628CD9B452736A9E"
+    components {
+     Hierarchy "{5CCCBEF31A812EDF}" {
+      Enabled 1
+     }
+    }
+    coords 4.619 0.103 -2.371
+    angleY -9.302
+   }
+  }
+  GenericEntity : "{F76BD5785C7FE191}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_ObservationPoint.et" {
+   ID "628CD9B452736AAA"
+   components {
+    Hierarchy "{5E989B7FD5A4A8A2}" {
+    }
+   }
+   coords 0.415 0 2.763
+   angleY -89.3
+  }
+  GenericEntity : "{FE0B2F136F4E44F5}Prefabs/Vegetation/Cuttings/Betula_pendula_medium_01.et" {
+   ID "628CD9B452736A9C"
+   coords 4.648 0 -3.142
+   angleY -26.668
+  }
+ }
+}

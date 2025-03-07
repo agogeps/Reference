@@ -1,0 +1,139 @@
+StaticModelEntity : "{2D303C505CC6576A}Prefabs/Structures/Military/Camps/TentUSSR_01/TentUSSR_01_camonet_foundation.et" {
+ ID "5A5344E1CC9BAF56"
+ components {
+  SCR_HorizontalAlignComponent "{62D5396CEB229822}" {
+  }
+ }
+ {
+  StaticModelEntity : "{172DD50ACF177B9E}Prefabs/Props/Military/Furniture/ChairMilitary_USSR_01.et" {
+   ID "62D5396C07C4082F"
+   components {
+    Hierarchy "{61589A7291F1411B}" {
+    }
+   }
+   coords 2.564 0.159 -1.359
+   angleY 43.361
+  }
+  GenericEntity : "{1BE2B6FF4806EB3E}Prefabs/Props/Civilian/Guitar_01/Guitar_01.et" {
+   ID "62D5396C07C40802"
+   components {
+    Hierarchy "{61589A4DE59F269B}" {
+    }
+   }
+   coords -2.182 0.66 1.48
+   angleX 63.303
+  }
+  StaticModelEntity : "{2436F9D69F3AC11F}PrefabsEditable/Auto/Props/Military/Furniture/E_TableMilitary_USSR_02.et" {
+   ID "62D5396C07C40FEF"
+   components {
+    Hierarchy "{61589A4DFC719019}" {
+    }
+   }
+   coords 0.007 0.163 -2.197
+   angleY 0
+  }
+  StaticModelEntity : "{314F06D60B8E4BBF}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_RadioStation_USSR.et" {
+   ID "62D5396C07C40FC0"
+   coords 2.309 0.178 -2.265
+   angleY 0
+  }
+  $grp ESCT_EquipmentSlotEntity : "{423D2F7F798F4173}Prefabs/SlotEntities/EquipmentSlotEntity.et" {
+   {
+    ID "62D5396C07C40FAD"
+    coords -1.938 0.976 0.224
+   }
+   {
+    ID "62D5396C07C40FD0"
+    coords -0.216 1.062 -2.031
+   }
+  }
+  GenericEntity : "{627F29E940C7A12A}Prefabs/Props/Civilian/CarrierFood_01/CarrierFood_01.et" {
+   ID "62D5396C07C40FB7"
+   components {
+    Hierarchy "{61589A4D309AC007}" {
+    }
+   }
+   coords -0.711 1.062 -2.433
+   angleY -90
+  }
+  GenericEntity : "{7F95D831CA586F06}Prefabs/Compositions/Misc/SubCompositions/CableReelWooden_Cluttered_USSR_01.et" {
+   ID "62D5396C07C40F98"
+   coords 2.402 0.169 2.349
+   angleY 179.995
+  }
+  ESCT_StorageSlotEntity : "{844DE1702B3FEE88}Prefabs/SlotEntities/StorageSlotEntity.et" {
+   ID "62D5396C07C40F61"
+   coords -1.038 0.182 1.706
+   angleY 90
+  }
+  GenericEntity : "{A419F4547954DA05}Prefabs/Props/Construction/CableReel/CableReelWooden_01.et" {
+   ID "62D5396C07C40F4E"
+   components {
+    RplComponent "{5624A88DC2D9928D}" {
+     Enabled 1
+    }
+    Hierarchy "{61589A74B3D6D020}" {
+    }
+   }
+   coords 2.316 0.168 1.104
+  }
+  GenericEntity : "{AC49D9D23A2BD1D8}Prefabs/Props/Furniture/BunkBed_01_Double.et" {
+   ID "62D5396C07C40F5C"
+   components {
+    RplComponent "{5624A88DC2D9928D}" {
+     Enabled 1
+    }
+    Hierarchy "{61589A748A2A4194}" {
+    }
+   }
+   coords -2.143 0.171 -1.446
+  }
+  GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et" {
+   ID "62D5396C07C40F29"
+   coords -1.866 0.17 0.16
+   angleY -90
+  }
+  GenericEntity : "{B898D2A1F45058F6}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUSSR_01.et" {
+   ID "62D5396C07C40F39"
+   components {
+    Hierarchy "{61589A4D358CF4D1}" {
+    }
+   }
+   coords -0.653 1.062 -2.025
+   angleY 27.388
+  }
+  StaticModelEntity : "{C99D1B2E817E12D9}Prefabs/Props/Military/Furniture/TableMilitary_USSR_02_cabinet.et" {
+   ID "62D5396C07C40EB4"
+   components {
+    Hierarchy "{61589A4DFB9AE484}" {
+    }
+   }
+   coords 1.235 0.161 -2.283
+   angleY 0
+  }
+  ESCT_EquipmentSlotEntity : "{D5BD96A48EC924ED}Prefabs/SlotEntities/WeaponSlotEntity.et" {
+   ID "62D5396C07C40E8C"
+   coords 0.844 1.066 -2.31
+   angleY -90
+  }
+  GenericEntity : "{DD276F73BF101155}Prefabs/Props/Civilian/Heater_01/Heater_01_orange.et" {
+   ID "62D5396C07C40E9D"
+   components {
+    Hierarchy "{61589A7260AC7F7F}" {
+    }
+   }
+   coords 2.055 1.045 0.918
+   angleY -132.06
+  }
+  ESCT_CharacterSpawnPoint : "{F28B2B542F6C684A}Prefabs/CharacterSpawnPoint.et" {
+   ID "62D5396C07C40E69"
+   coords 1.688 0.166 -1.013
+   angleY -32.338
+  }
+  StaticModelEntity : "{FD320CD9BFCE2257}Prefabs/Compositions/Misc/SubCompositions/TableMilitary_Cluttered_USSR_02.et" {
+   ID "62D5396C07C40E73"
+   coords -2.23 0.166 2.268
+   angleY -90
+  }
+ }
+}

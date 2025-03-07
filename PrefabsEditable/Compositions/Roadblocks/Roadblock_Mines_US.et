@@ -1,0 +1,35 @@
+GenericEntity : "{D0E4F05E07E40B24}Prefabs/Structures/Signs/Military/SignMinefield_01/SignMinefield_01.et" {
+ ID "50D67C36F4200F97"
+ coords 3140.374 13.364 2733.582
+ angleY 33.374
+ Flags 1049603
+ {
+  $grp GenericEntity : "{B63D38376558C9DD}PrefabsEditable/Mines/E_Mine_M15AT.et" {
+   {
+    ID "60D6DB65B3782C42"
+    coords 2.444 0 -0.182
+    angleY -66.748
+   }
+   {
+    ID "60D6DB65B3789BAE"
+    coords 3.717 0 -0.173
+    angleY -66.748
+   }
+   {
+    ID "60D6DB65B3789BAF"
+    coords 1.803 0.037 -0.843
+    angleY -66.748
+   }
+   {
+    ID "60D6DB65B3789BB1"
+    coords 3.093 0.023 -0.769
+    angleY -33.374
+   }
+   {
+    ID "60D6DB65B378C555"
+    coords 1.138 0.015 -0.231
+    angleY -66.748
+   }
+  }
+ }
+}

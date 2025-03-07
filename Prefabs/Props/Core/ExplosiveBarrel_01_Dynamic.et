@@ -1,0 +1,10 @@
+GenericEntity : "{E3CF71191A540480}Prefabs/Props/Core/ExplosiveBarrel_01.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Static 0
+  }
+ }
+ coords 119.222 1 110.551
+ Flags 3
+}

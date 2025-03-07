@@ -1,0 +1,27 @@
+GenericEntity : "{F9C1C9C0CC77C6DC}Prefabs/MilitaryCrates/MilitaryCrate_Launchers_Base.et" {
+ ID "619ED3851EB9C905"
+ components {
+  MeshObject "{619ED3859C584A0B}" {
+   Object "{670F36600529D92D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Launcher_01.xob"
+   Materials {
+    MaterialAssignClass "{619ED38961F0C426}" {
+     SourceMaterial "EquipmentBoxWooden_Launcher_01"
+     AssignedMaterial "{261351A506C17475}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Launcher_01_FIA.emat"
+    }
+    MaterialAssignClass "{619ED38961F0C40B}" {
+     SourceMaterial "EquipmentBoxWooden_decal"
+     AssignedMaterial "{1BB946314607B6A7}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_decal_FIA.emat"
+    }
+   }
+  }
+  SCR_FactionAffiliationComponent "{619EED62871A4761}" {
+   "faction affiliation" "FIA"
+  }
+  SCR_UniversalInventoryStorageComponent "{619ED38229150736}" {
+   UseCapacityCoefficient 0
+   CapacityCoefficient 0.99
+   MaxCumulativeVolume 12000
+  }
+ }
+ coords 135.483 1 101.148
+}

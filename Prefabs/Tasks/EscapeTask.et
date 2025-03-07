@@ -1,0 +1,18 @@
+ESCT_EscapeTask {
+ ID "6089097D9FB18AC1"
+ components {
+  SCR_MapDescriptorComponent "{6089097D9FB18AD9}" {
+   VisibleOnMap 0
+   MainType Task
+   Scale 0
+   ForceRotationAngle 0
+   ForceGroupScale 1
+  }
+ }
+ m_sName "#Escapists-Task_Escape_Name"
+ m_sDescription "#Escapists-Task_Escape_Description"
+ m_sMapIconName "Task_Evac"
+ m_sTaskListIconName "Icon_Task_Evac"
+ m_bNotifyAssignment 1
+ m_eUnassignMessage NONE
+}

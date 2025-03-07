@@ -1,0 +1,58 @@
+SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  ESCT_PopulatedBuildingComponent "{60EED1A0241C1D76}" {
+  }
+ }
+ {
+  GenericEntity : "{06FE4FE70907D486}Prefabs/Props/Military/Compositions/Dst/PersonnelService_Table_01/PersonnelService_Table_01_dst_01.et" {
+   ID "60EED1A38A580FCE"
+   coords -2.189 27.547 -3.342
+  }
+  GenericEntity : "{20759E1CA7F808BE}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUS_01.et" {
+   ID "60EED1A3E09ACA86"
+   coords -3.603 28.43 -3.403
+   angleY 33.282
+  }
+  StaticModelEntity : "{39C308BBB5945B85}Prefabs/Props/Military/Furniture/ChairMilitary_US_02.et" {
+   ID "60EED1A38A580FD1"
+   coords -2.882 27.551 -2.355
+   angleY 43.462
+  }
+  ESCT_EquipmentSlotEntity : "{423D2F7F798F4173}Prefabs/SlotEntities/EquipmentSlotEntity.et" {
+   ID "6158DE7B41FD18B9"
+   coords -2.531 28.449 -3.378
+   angleY 0
+  }
+  GenericEntity : "{6AAA7B07B5C35BA8}Prefabs/Props/Military/Compositions/Dst/PersonnelService_Table_01/PersonnelService_Table_01_dst_02.et" {
+   ID "60EED1A38A580817"
+   coords -3.882 27.521 -3.323
+  }
+  GameEntity : "{862432FB57C1C1B3}Prefabs/Props/Civilian/LampKerosene_01/LampKerosene_01_green.et" {
+   ID "60EED1A38A580FAC"
+   coords -1.655 28.449 -3.44
+   angleY 37.803
+  }
+  $grp ESCT_CharacterSpawnPoint : "{F28B2B542F6C684A}Prefabs/CharacterSpawnPoint.et" {
+   {
+    ID "60EED1A0783ABF2B"
+    coords -3.397 33.04 -3.324
+    angleY 180
+   }
+   {
+    ID "60EED1A0783ABF30"
+    coords 2.338 17.804 3.434
+   }
+   {
+    ID "60EED1A0783ABF3F"
+    coords -0.498 27.833 -4.109
+    angleY 180
+   }
+   {
+    ID "60EED1A367F97FD4"
+    coords 1.184 12.779 -11.718
+    angleY 180
+   }
+  }
+ }
+}

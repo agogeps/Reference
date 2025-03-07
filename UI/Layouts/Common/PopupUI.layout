@@ -1,0 +1,14 @@
+FrameWidgetClass {
+ {
+  RichTextWidgetClass "{0000000044961AA6}" {
+   Prefab "{0000000044961AA6}"
+   Slot FrameWidgetSlot "{50F4C51DF92631E2}" {
+    OffsetLeft -960
+    OffsetTop 116
+    OffsetRight -960
+    SizeY 50
+    OffsetBottom -166
+   }
+  }
+ }
+}

@@ -1,0 +1,7 @@
+MatPBRBasic : "{88EBAE369A401868}Assets/Props/Industrial/BarrelFuel_01/Data/Color_palette_02_RUSTY_02_S1_R0.emat" {
+ Color 0.301 0 0 1
+ BCRMap "{A4480BAE8F27889A}Common/Textures/ColorPalette_01_BCR.edds" clampu clampv nofilter
+ GlobalMapsUVTransform MatUVTransform "{442267586066925D}" {
+  OffsetU -1
+ }
+}

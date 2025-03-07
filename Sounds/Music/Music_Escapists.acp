@@ -1,0 +1,233 @@
+AudioClass {
+ signals {
+  SignalClass {
+   id 3085
+   name "Signal Mood"
+   tl -385.242 -1305.091
+   res "{63388AE3BE165697}Sounds/Music/Ingame/Music_Ingame_Mood.sig"
+   inputsport {
+    1 7 9
+   }
+   outputsport {
+    2
+   }
+   inputvalues {
+    0.3 0 3.8
+   }
+   inputvaluesmin {
+    0 0 0
+   }
+   inputvaluesmax {
+    1 1 12
+   }
+   path "{63388AE3BE165697}Sounds/Music/Ingame/Music_Ingame_Mood.sig"
+  }
+ }
+ sounds {
+  SoundClass {
+   id 7177
+   name "SOUND_FLY_AWAY"
+   version 5
+   tl -205 -1182
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 4102
+       port 65
+      }
+     }
+    }
+   }
+   volume_dB -19
+   outState 2059
+   outStatePort 22535
+  }
+  SoundClass {
+   id 8201
+   name "SOUND_DEFEND_RADIO"
+   version 5
+   tl -201 -879.091
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 1028
+       port 65
+      }
+     }
+    }
+   }
+   volume_dB -19
+   outState 2059
+   outStatePort 22535
+  }
+ }
+ selectors {
+  SelectorClass : "{F459B546742E9555}Sounds/_SharedData/Configs/Selector/Music/Selector_Music_Mood.conf" {
+   id 4102
+   version 5
+   tl -388.182 -1181.818
+   parent "{F459B546742E9555}Sounds/_SharedData/Configs/Selector/Music/Selector_Music_Mood.conf"
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 3085
+       port 2
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 343438175
+     links {
+      ConnectionClass connection {
+       id 6148
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1963212503
+     links {
+      ConnectionClass connection {
+       id 5124
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+  }
+ }
+ mixers {
+  MixerClass {
+   id 2059
+   name "OutputState"
+   version 4
+   tl 10.886 -1182.523
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   ins {
+    ConnectionsClass connections {
+     id 22535
+     links {
+      ConnectionClass connection {
+       id 7177
+       port 65
+      }
+      ConnectionClass connection {
+       id 8201
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    512 0
+   }
+   path "{B764D803219C775E}Sounds/FinalMix.afm"
+   inputs {
+    "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialogue" "Music" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb" "VON_Reverb" "Dialogue_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "UI" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct" "SFX_Reverb_Small" "SFX_Reverb_Medium" "SFX_Reverb_Large"
+   }
+  }
+ }
+ banks_local {
+  BankLocalClass {
+   id 1028
+   name "Defend Radio"
+   version 7
+   tl -654.833 -876.667
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{817486CEBC43D630}Sounds/Music/Ingame/Samples/Layers/MU_TheHumanSea_Full.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{C4045C125BE2F53D}Sounds/Music/Ingame/Samples/Layers/MU_LostAsShit_Full.wav"
+     Index 1
+    }
+    AudioBankSampleClass Sample {
+     Filename "{29A9785CEA485CD5}Sounds/Music/Ingame/Samples/Layers/MU_LostAsShit_Strings_Ambient.wav"
+     Index 5
+    }
+   }
+  }
+  BankLocalClass {
+   id 5124
+   name "Fly Away Positive"
+   version 7
+   tl -667.172 -1212.828
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{D629CD408BDF4E17}Sounds/Music/Ingame/Samples/Layers/MU_RelativeSafety_Ambiences.wav"
+     Index 1
+    }
+    AudioBankSampleClass Sample {
+     Filename "{4F845D39B37FBFF2}Sounds/Music/Ingame/Samples/Layers/MU_RelativeSafety_Ambiences_Soft.wav"
+     Index 2
+    }
+    AudioBankSampleClass Sample {
+     Filename "{A63D8015DF7D7B06}Sounds/Music/Ingame/Samples/Layers/MU_RelativeSafety_Full.wav"
+     Index 3
+    }
+    AudioBankSampleClass Sample {
+     Filename "{B40680772CBFA46F}Sounds/Music/Ingame/Samples/Layers/MU_RelativeSafety_Horns_Melodic.wav"
+     Index 4
+    }
+    AudioBankSampleClass Sample {
+     Filename "{27FAA69A3BD0473C}Sounds/Music/Ingame/Samples/Layers/MU_BeyondTheVeil.wav"
+     Index 4
+    }
+   }
+  }
+  BankLocalClass {
+   id 6148
+   name "Fly Away Negative"
+   version 7
+   tl -665.253 -1101.566
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{46687FAD902A75F1}Sounds/Music/Ingame/Samples/Layers/MU_LostAsShit_Bits.wav"
+     Index 1
+    }
+    AudioBankSampleClass Sample {
+     Filename "{1A8D8814CB7E4B6C}Sounds/Music/Ingame/Samples/Layers/MU_LostAsShit_Ostinatos.wav"
+     Index 3
+    }
+    AudioBankSampleClass Sample {
+     Filename "{29A9785CEA485CD5}Sounds/Music/Ingame/Samples/Layers/MU_LostAsShit_Strings_Ambient.wav"
+     Index 4
+    }
+    AudioBankSampleClass Sample {
+     Filename "{1AD9D5A08B653F45}Sounds/Music/Ingame/Samples/Layers/MU_IronOnTheShoals_Brassy.wav"
+     Index 4
+    }
+    AudioBankSampleClass Sample {
+     Filename "{281843788EFC92B1}Sounds/Music/Ingame/Samples/Layers/MU_Respawnmenu_MainMenuThemeV2_Drums.wav"
+     Index 5
+    }
+    AudioBankSampleClass Sample {
+     Filename "{34F69A593F326935}Sounds/Music/Ingame/Samples/Layers/MU_IronOnTheShoals_Strings.wav"
+     Index 7
+    }
+    AudioBankSampleClass Sample {
+     Filename "{D81015E06890FBF9}Sounds/Music/Ingame/Samples/Layers/MU_IronOnTheShoals_Synth_Ambients.wav"
+     Index 8
+    }
+    AudioBankSampleClass Sample {
+     Filename "{07AFE68A88548650}Sounds/Music/Ingame/Samples/Layers/MU_TheHumanSea_Melodic.wav"
+     Index 10
+    }
+    AudioBankSampleClass Sample {
+     Filename "{EA2D6F0019546F46}Sounds/Music/Ingame/Samples/Layers/MU_TheHumanSea_Rhythmic.wav"
+     Index 11
+    }
+   }
+  }
+ }
+ version 1
+}

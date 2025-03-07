@@ -1,0 +1,12 @@
+GenericEntity : "{8CFEF15D7D04B546}Prefabs/MilitaryCrates/MilitaryCrate_Equipment_Base.et" {
+ ID "619ED3851EB9C905"
+ components {
+  MeshObject "{619ED3859C584A0B}" {
+   Object "{62A30D148D0D93B0}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Equipment_01.xob"
+  }
+  SCR_FactionAffiliationComponent "{619EED62871A4761}" {
+   "faction affiliation" "US"
+  }
+ }
+ coords 141.068 1 100.809
+}

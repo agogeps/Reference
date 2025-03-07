@@ -1,0 +1,20 @@
+SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  ESCT_PopulatedBuildingComponent "{60FCDE99023040CA}" {
+  }
+ }
+ {
+  $grp ESCT_CharacterSpawnPoint : "{F28B2B542F6C684A}Prefabs/CharacterSpawnPoint.et" {
+   {
+    ID "60FCDE9912A96B57"
+    coords 3.824 0.36 2.26
+   }
+   {
+    ID "60FCDE9915BABD3A"
+    coords -4.416 0.36 -0.551
+    angleY -177.453
+   }
+  }
+ }
+}

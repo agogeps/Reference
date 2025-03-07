@@ -1,0 +1,8 @@
+SCR_SuppressWaypoint : "{ED8277F35B46B4AA}Prefabs/AI/Waypoints/AIWaypoint_Suppress.et" {
+ ID "6108B962186DB224"
+ m_fPriorityLevel 20
+ m_TimedWaypointParameters SCR_AITimedWaypointParameters "{6108B96202B3E10B}" {
+  m_holdingTime 90
+ }
+ m_fSuppressionHeight 1.6
+}

@@ -1,0 +1,915 @@
+SCR_DestructibleBuildingEntity : "{184042D4EAE59FF5}Prefabs/Structures/Houses/Village/House_Village_E_1I02/House_Village_E_1I02_ruin.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  ESCT_HideoutStartComponent "{61E4E68F15D09FAF}" {
+   m_bDeleteAfterStart 1
+  }
+ }
+ coords 0 0 0
+ {
+  $grp GenericEntity : "{026714237FB820CB}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_07.et" {
+   {
+    ID "61E4E68E7E2644ED"
+    components {
+     Hierarchy "{5CCCBEF3339A6D20}" {
+      Enabled 1
+     }
+    }
+    coords -1.789 0.486 -8.443
+    angleY 66.304
+   }
+   {
+    ID "61E4E68E7E2E7105"
+    components {
+     Hierarchy "{5CCCBEF3339A6D20}" {
+      Enabled 1
+     }
+    }
+    coords -3.153 0.486 -5.944
+    angleY 101.091
+   }
+  }
+  GenericEntity : "{02D4A61D327D2BD9}Prefabs/Props/Furniture/Carpet_03_green.et" {
+   ID "61E4E68E7E2E711A"
+   components {
+    Hierarchy "{61E6DE207DE65812}" {
+    }
+   }
+   coords -1.371 2.245 -4.296
+   angleX 90
+   angleY 90
+   angleZ -180
+  }
+  GenericEntity : "{183080E8479F2893}Prefabs/Props/Furniture/Piano_01_black.et" {
+   ID "61E4E68E7E2E7118"
+   components {
+    Hierarchy "{61E6DE207BD838D2}" {
+    }
+   }
+   coords -3.955 0.51 -8.289
+   angleY 90
+   angleZ -1.512
+  }
+  GenericEntity : "{25B265F3E7CBDFC8}Prefabs/Props/Wrecks/BMP1_wreck.et" {
+   ID "61E4E68E7E2E7113"
+   components {
+    BaseSlotComponent "{51126E669CF64A1D}" {
+     Enabled 0
+    }
+    Hierarchy "{61E6DE207502454A}" {
+    }
+   }
+   coords 10.233 -0.056 4.481
+   angleX -2.487
+   angleY -117.164
+   angleZ 1.275
+  }
+  GenericEntity : "{284EEB32BE47DCB2}Prefabs/Props/Wrecks/BMP1_turret.et" {
+   ID "61E4E68E7E2E0993"
+   coords 4.33 1.464 3.064
+   angleX -12.487
+   angleY -173.227
+   angleZ 16.636
+  }
+  $grp ESCT_EquipmentSlotEntity : "{2D8C79E5A4716504}Prefabs/SlotEntities/WeaponSlotEntity_Prison.et" {
+   {
+    ID "61E4E68E5F7AE65D"
+    components {
+     ESCT_EquipmentSlotArsenalPrisonComponent "{6148FD0853C5BB7C}" {
+      m_eSupportedArsenalItemTypes 290
+      m_bUsePlayerFaction 1
+     }
+    }
+    coords -3.762 0.687 -5.958
+    angleX 72.661
+    angleY -86.03
+    m_IsSpawnGuaranteed 1
+   }
+   {
+    ID "61E4E68F6765CEB3"
+    components {
+     ESCT_EquipmentSlotArsenalPrisonComponent "{6148FD0853C5BB7C}" {
+      m_eSupportedArsenalItemTypes 290
+      m_bUsePlayerFaction 1
+     }
+    }
+    coords 1.095 0.703 -6.665
+    angleX 72.661
+    angleY 4.158
+    m_IsSpawnGuaranteed 1
+   }
+   {
+    ID "61E4E68FA67C4CFE"
+    components {
+     ESCT_EquipmentSlotArsenalPrisonComponent "{6148FD0853C5BB7C}" {
+      m_bUsePlayerFaction 1
+     }
+    }
+    coords 3.108 1.112 -6.24
+    angleX -0.292
+    angleY 104.33
+    angleZ 2.22
+   }
+   {
+    ID "61E4E68FB155D567"
+    components {
+     ESCT_EquipmentSlotArsenalPrisonComponent "{6148FD0853C5BB7C}" {
+      m_bUsePlayerFaction 1
+     }
+    }
+    coords -1.672 0.971 -10.145
+    angleY 0
+   }
+  }
+  GenericEntity : "{2ED930A7BA4156F5}Prefabs/Props/Furniture/MirrorBathroom_01.et" {
+   ID "61E4E68E7E2E0991"
+   components {
+    Hierarchy "{61E6DE204C85E734}" {
+    }
+   }
+   coords -1.12 2.188 -4.363
+   angleX -0.347
+   angleY 87.452
+   angleZ 10.826
+  }
+  GenericEntity : "{313CC1F195E06A6E}Prefabs/Props/Furniture/TVSet_01.et" {
+   ID "61E4E68E7E2E0997"
+   components {
+    Hierarchy "{61E6DE20482162D5}" {
+    }
+   }
+   coords 4.695 2.312 -8.596
+   angleY -78.902
+  }
+  GenericEntity : "{31E97EEAE2DA9C8F}Prefabs/Structures/Military/Camps/Canvas_Covers/US/CanvasCover_Folded_US.et" {
+   ID "61E4E68E7E2E0994"
+   components {
+    Hierarchy "{5CCCBEF36F6E79C9}" {
+     Enabled 1
+    }
+   }
+   coords -1.826 0.486 -4.551
+   angleY -89.719
+  }
+  GenericEntity : "{362783B6B604C0B3}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/CardboardBoxStack_01_CompositionDestruction.et" {
+   ID "61E4E68E7E2E0868"
+   components {
+    Hierarchy "{61E6DE2045B92256}" {
+    }
+   }
+   coords 2.272 0.486 -6.369
+   angleX -2.547
+  }
+  $grp ESCT_EquipmentSlotEntity : "{423D2F7F798F4173}Prefabs/SlotEntities/EquipmentSlotEntity.et" {
+   {
+    ID "61E4E683BF651BAB"
+    components {
+     ESCT_EquipmentSlotArsenalComponent "{6148FD0853C5BB7C}" {
+      m_bUsePlayerFaction 1
+     }
+    }
+    coords -0.282 1.045 -6.507
+    angleY 179.239
+   }
+   {
+    ID "61E4E68F8A74A8CA"
+    components {
+     ESCT_EquipmentSlotArsenalComponent "{6148FD0853C5BB7C}" {
+      m_bUsePlayerFaction 1
+     }
+    }
+    coords -3.698 2.016 -7.42
+    angleY 56.335
+    m_IsSpawnGuaranteed 0
+   }
+   {
+    ID "61E4E68FA67C4CD6"
+    components {
+     ESCT_EquipmentSlotArsenalComponent "{6148FD0853C5BB7C}" {
+      m_bUsePlayerFaction 1
+     }
+    }
+    coords 2.214 1.28 -6.338
+    angleY 154.798
+   }
+  }
+  GenericEntity : "{49012FE1DEF653EE}Prefabs/Props/Furniture/Sink_01.et" {
+   ID "61E4E68E7E2E086F"
+   components {
+    Hierarchy "{61E6DE20407AE411}" {
+    }
+   }
+   coords -1.145 0.817 -4.394
+   angleX 0.102
+   angleY 90
+   angleZ 1.914
+  }
+  GenericEntity : "{4A4B245D7CAC341B}Prefabs/Props/Furniture/ChairOld_02.et" {
+   ID "61E4E68E7E2E086D"
+   components {
+    Hierarchy "{61E6DE205E38AB7A}" {
+    }
+   }
+   coords 4.777 0.486 -0.273
+   angleY -143.444
+  }
+  GenericEntity : "{4BE33BD4C315C615}Prefabs/Props/Civilian/Ashtray_01_Full_base.et" {
+   ID "61E4E68E7E2E0863"
+   components {
+    Hierarchy "{61E6DE205DD12D56}" {
+    }
+   }
+   coords 4.605 0.986 -0.28
+   angleX -0.01
+   angleY 0.029
+   angleZ -0.019
+  }
+  GenericEntity : "{4FEC0DBE47365B57}Prefabs/Props/VehicleParts/Doors/Door_UAZ469_R1.et" {
+   ID "61E4E68E7E2E0861"
+   components {
+    Hierarchy "{61E6DE205B01729F}" {
+    }
+   }
+   coords -3.629 0.486 -3.175
+   angleX 14.313
+   angleY 89.494
+   angleZ -0.125
+  }
+  $grp GenericEntity : "{547BB04867B503E5}Prefabs/Props/Military/Camps/PalletMRE_01_US.et" {
+   {
+    ID "61E4E68E7E2D031F"
+    components {
+     Hierarchy "{5706F8D0934A4B50}" {
+     }
+    }
+    coords -1.728 0.57 -5.276
+    angleY 0.623
+   }
+   {
+    ID "61E4E68E7E2D1F4F"
+    components {
+     Hierarchy "{5706F8D0934A4B50}" {
+     }
+    }
+    coords -1.724 0.738 -5.245
+    angleY -0.998
+   }
+   {
+    ID "61E4E68E7E2E8442"
+    components {
+     Hierarchy "{5706F8D0934A4B50}" {
+     }
+    }
+    coords 4.014 1.628 -10.259
+    angleY 33.078
+   }
+  }
+  GenericEntity : "{57E6D361495FA10C}Prefabs/Props/Furniture/BenchKitchen_01/Dst/BenchKitchen_01_corner_dst_base.et" {
+   ID "61E4E68E7E2D1F50"
+   components {
+    Hierarchy "{61E6DE2055F63550}" {
+    }
+   }
+   coords 3.706 0.486 -6.813
+   angleY -90
+  }
+  $grp GenericEntity : "{5D54B7840F14178E}Prefabs/Props/VehicleParts/Tires/Tire_M998.et" {
+   {
+    ID "61E4E68E7E2C70FB"
+    components {
+     Hierarchy "{5CB0D990CB813A42}" {
+      Enabled 1
+     }
+    }
+    coords -3.507 1.116 -6.754
+    angleX -0.058
+    angleY 64.44
+    angleZ 0.055
+   }
+   {
+    ID "61E4E68E7E2D1F52"
+    components {
+     Hierarchy "{5CB0D990CB813A42}" {
+      Enabled 1
+     }
+    }
+    coords -3.507 0.486 -6.754
+    angleX -0.058
+    angleY 17.186
+    angleZ 0.055
+   }
+   {
+    ID "61E4E68E7E2DF448"
+    components {
+     Hierarchy "{5CB0D990CB813A42}" {
+      Enabled 1
+     }
+    }
+    coords -3.507 0.805 -6.754
+    angleX -0.058
+    angleY 64.44
+    angleZ 0.055
+   }
+  }
+  GenericEntity : "{5DA11A95EEB02443}Prefabs/Compositions/Misc/SubCompositions/BoxWooden_Cluttered_01.et" {
+   ID "61E4E68E7E2C70FC"
+   coords 0.352 0.486 -7.037
+   angleY -43.861
+  }
+  GenericEntity : "{627F29E940C7A12A}Prefabs/Props/Civilian/CarrierFood_01/CarrierFood_01.et" {
+   ID "61E4E68E7E2C70F1"
+   components {
+    Hierarchy "{61589A4D309AC007}" {
+    }
+   }
+   coords -1.263 0.486 -6.115
+   angleY -132.372
+  }
+  GenericEntity : "{62B2ADC4243454F9}Prefabs/Props/Civilian/Jerrycan_01.et" {
+   ID "61E4E68E7E2C70F3"
+   components {
+    Hierarchy "{61E304EE4AB499A4}" {
+    }
+   }
+   coords -1.466 0.486 -6.37
+   angleY -26.315
+  }
+  $grp GenericEntity : "{6CD65604C7945A66}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_03.et" {
+   {
+    ID "61E4E68E7E267CD1"
+    coords -2.111 0 -9.561
+    angleY 40.17
+   }
+   {
+    ID "61E4E68E7E267CD2"
+    coords 3.215 0 -9.199
+    angleY -33.01
+   }
+   {
+    ID "61E4E68E7E2C2764"
+    coords -2.658 0 9.117
+    angleY 177.797
+    {
+     DecalEntity {
+      ID "56E0B29E01E2AC90"
+      coords -1.302 0 0.271
+     }
+    }
+   }
+   {
+    ID "61E4E68E7E2C2767"
+    coords 4.706 0 6.662
+    angleY 7.75
+    {
+     DecalEntity {
+      ID "56E0B29E01E2AC90"
+      coords -1.25 0 -1.185
+      angleX -90
+      angleY -108.133
+      angleZ -180
+     }
+    }
+   }
+   {
+    ID "61E4E68E7E2C70F4"
+    coords 5.867 0 -8.076
+    angleY 7.75
+   }
+   {
+    ID "61E4E68E7E2C70F5"
+    coords 6.776 0.049 -2.008
+    angleY -33.01
+   }
+   {
+    ID "61E4E68E7E2C9413"
+    coords -3.755 0 6.441
+    angleY -33.01
+   }
+  }
+  GenericEntity : "{7251C9DFEC27E1AB}Prefabs/Props/Furniture/Shelf_01_long.et" {
+   ID "61E4E68E7E2C942D"
+   components {
+    Hierarchy "{61E6DE21A8F1ABEE}" {
+    }
+   }
+   coords 3.663 2.155 -5.976
+   angleY -180
+   angleZ 6.707
+  }
+  ESCT_SpawnPoint : "{7E385CE1ADBF0659}Prefabs/MP/Spawning/SpawnPoint_Prison.et" {
+   ID "61E4E68E7E2C9429"
+   coords 1.019 0.486 -7.302
+   angleY 90
+  }
+  $grp GenericEntity : "{81629CC060EFF293}Prefabs/Structures/BuildingParts/Heating/RadiatorCastIron_01/RadiatorCastIron_01_130.et" {
+   {
+    ID "61E4E68E7E2C942A"
+    coords 5.128 1.076 -7.548
+    angleY -90
+   }
+   {
+    ID "61E4E68E7E2C942B"
+    coords -1.717 1.004 0.13
+    angleX 15.808
+    angleY 178.023
+    angleZ -8.769
+   }
+  }
+  GenericEntity : "{886D890019A60C86}Prefabs/Props/Furniture/Kitchen_01_yellow.et" {
+   ID "61E4E68E7E2C9425"
+   components {
+    Hierarchy "{61E6DE21A2D003FD}" {
+    }
+   }
+   coords 5.177 0.517 -10.609
+  }
+  $grp GenericEntity : "{894A1AFDCB71CD0D}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_02.et" {
+   {
+    ID "61E4E68E7E2B70F5"
+    coords -5.991 0 -3.332
+    angleY -71.236
+   }
+   {
+    ID "61E4E68E7E2C9427"
+    coords -6.076 0 -8.374
+    angleY -99.734
+   }
+  }
+  GenericEntity : "{8963CD1DC1CDB614}Prefabs/Props/Civilian/BeerBottle_01_brown.et" {
+   ID "61E4E68E7E2B70F3"
+   components {
+    Hierarchy "{5CB0D990B6C742E1}" {
+     Enabled 1
+    }
+   }
+   coords 4.871 0.486 -0.511
+   angleY 43.728
+  }
+  StaticModelEntity : "{8E00002363B8FE2C}Prefabs/Compositions/Misc/SubCompositions/Furniture/Chair_NightStand_USSR_01.et" {
+   ID "61E4E68E7E2B70F1"
+   coords -1.203 0.486 -10.093
+   angleY -16.523
+  }
+  GenericEntity : "{8F05D427252644F8}Prefabs/Props/Civilian/Suitcase_01.et" {
+   ID "61E4E68E7E2B70EF"
+   components {
+    Hierarchy "{61E6DE21BE07C8CA}" {
+    }
+   }
+   coords -0.473 1.538 -3.965
+   angleX -77.722
+   angleY -27.069
+   angleZ 69.731
+  }
+  GenericEntity : "{93962A19B53541DE}Prefabs/Structures/BuildingParts/Doors/Door_Village_E_A_RIGHT_EXT_COV_B.et" {
+   ID "61E4E68E7E2B70ED"
+   components {
+    DoorComponent "{221C667A9F7D4B69}" {
+     Enabled 0
+    }
+    NavmeshCustomLinkComponent "{559E7AC91AFA25BA}" {
+     Enabled 0
+    }
+    SCR_AISmartActionComponent "{5890ED6117CBB20D}" {
+     Enabled 0
+    }
+    ActionsManagerComponent "{F32B667C3C823800}" {
+     Enabled 0
+    }
+    RplComponent "{9532A705752C8DA8}" {
+     Enabled 0
+    }
+   }
+   coords 5.393 0.535 -3.981
+   angleX 85.679
+   angleY 6.768
+   angleZ -95.721
+  }
+  ESCT_WeaponRack : "{939FEB663E9713DC}Prefabs/Props/WeaponRacks/WeaponRack_Shelf_Wide.et" {
+   ID "61E4E68E7E2B70EB"
+   components {
+    ESCT_WeaponRackArsenalPrisonComponent "{61E350DE20A145CB}" {
+     m_bUsePlayerFaction 1
+    }
+   }
+   coords -4.01 0.563 -5.181
+   angleY 90
+  }
+  GenericEntity : "{9E6BB1D7AA5D0FEB}Prefabs/Props/Furniture/Stove_01.et" {
+   ID "61E4E68E7E2B70E8"
+   components {
+    Hierarchy "{61E6DE21B76B85A5}" {
+    }
+   }
+   coords 2.878 0.516 -10.427
+   angleY -8.437
+  }
+  GenericEntity : "{A240B5FCD17D5686}Prefabs/Props/Construction/GarbageStack_01/GarbageStack_01_Medium.et" {
+   ID "61E4E68E7E2B70E6"
+   components {
+    Hierarchy "{61E6DE21B2C41DB2}" {
+    }
+   }
+   coords -5.476 -0.001 -8.264
+   angleY -90
+  }
+  GenericEntity : "{A446CB3C732A360D}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_pile_long.et" {
+   ID "61E4E68E7E2644EE"
+   components {
+    Hierarchy "{61E6DE21B0394CCC}" {
+    }
+   }
+   coords -6.415 0 3.136
+   angleY -90
+  }
+  ESCT_VehicleSpawnPoint : "{B2E25648324D259A}Prefabs/Misc/VehicleSpawnPoint.et" {
+   ID "61E4E68E7E2B70E4"
+   coords 10.114 0 -8.082
+   angleY -64.814
+   m_bIsSpawnGuaranteed 1
+   m_bUsePlayerFaction 1
+   m_aIncludedEditableEntityLabels {
+    3 36 37
+   }
+   m_aExcludedEditableEntityLabels {
+    51 20 23 27 21 24 39
+   }
+  }
+  $grp GenericEntity : "{B898D2A1F45058F6}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUSSR_01.et" {
+   {
+    ID "61E4E68E7E2B70E2"
+    components {
+     Hierarchy "{5F32F1EC0C2A5495}" {
+      Enabled 1
+     }
+    }
+    coords 2.801 1.049 -6.553
+    angleX -1.244
+    angleY 8.152
+    angleZ 4.045
+   }
+   {
+    ID "61E4E68E7E2B70E3"
+    components {
+     Hierarchy "{5F32F1EC0C2A5495}" {
+      Enabled 1
+     }
+    }
+    coords -3.68 2.057 -9.076
+    angleX -0.1
+    angleY -86.18
+    angleZ 1.508
+   }
+  }
+  Building : "{B9D40E44A7558D2D}Prefabs/Structures/BuildingParts/Windows/win_village_E_A_130x142_2_B_green.et" {
+   ID "61E4E68E7E2B70E0"
+   components {
+    Hierarchy "{5584E49695FC6E20}" {
+     Enabled 1
+    }
+   }
+   coords 5.372 2.253 -1.132
+   angleY -90
+   {
+    GenericEntity {
+     ID "5564931AFC45B3C7"
+     coords 0 0 0
+    }
+   }
+  }
+  GenericEntity : "{BA3FC18BC11AE7F8}Prefabs/Props/Furniture/KitchenHood_01.et" {
+   ID "61E4E68E7E2B709E"
+   components {
+    Hierarchy "{61E6DE219F6574EA}" {
+    }
+   }
+   coords 2.603 2.314 -10.27
+  }
+  GenericEntity : "{BCE07A58672955B9}Prefabs/Props/Civilian/Bucket_01.et" {
+   ID "61E4E68E7E2B709C"
+   components {
+    Hierarchy "{61E6DE219D5A3BE7}" {
+    }
+   }
+   coords -1.586 0.486 -5.977
+   angleY 90.318
+  }
+  GenericEntity : "{C3C7A8E9B6324130}Prefabs/Props/Furniture/Safe_01.et" {
+   ID "61E4E68FCE107AB1"
+   components {
+    ESCT_LocationStorageComponent "{619CCE35C9619655}" {
+     Enabled 1
+     m_IsSpawnGuaranteed 1
+    }
+    ESCT_StorageArsenalComponent "{619CCE35DF3356E0}" {
+     Enabled 1
+     m_bUsePlayerFaction 1
+    }
+    SCR_SoundDataComponent "{619C6D887CA50374}" {
+     Enabled 1
+    }
+    SCR_UniversalInventoryStorageComponent "{619C6D89E8563BB6}" {
+     Enabled 1
+    }
+    SCR_InventoryStorageManagerComponent "{619C6DB34F265332}" {
+     Enabled 1
+    }
+    ActionsManagerComponent "{619C6D89A2FD02BA}" {
+     Enabled 1
+    }
+    RplComponent "{5624A88DC2D9928D}" {
+     Enabled 1
+    }
+    Hierarchy "{619C6D8A7E7AFACF}" {
+     Enabled 1
+    }
+   }
+   coords -0.07 0.503 8.304
+   angleY 180
+  }
+  $grp StaticModelEntity : "{C6BFE324CCCFE6C4}Prefabs/Props/Military/Furniture/CotMilitary_USSR_01.et" {
+   {
+    ID "61E4E68E7E2B709A"
+    components {
+     Hierarchy "{5CCCBEF333EFE053}" {
+      Enabled 1
+     }
+    }
+    coords -1.772 0.486 -3.835
+    angleY -88.115
+   }
+   {
+    ID "61E4E68E7E2BE2A7"
+    components {
+     Hierarchy "{5CCCBEF333EFE053}" {
+      Enabled 1
+     }
+    }
+    coords 1.035 0.486 -10.207
+    angleY 0
+   }
+  }
+  GenericEntity : "{C9C7D79C9380F85B}Prefabs/Props/Military/Camps/DispenserBeverage_E_01/DispenserBeverage_E_01_green.et" {
+   ID "61E4E68E7E2644E9"
+   components {
+    Hierarchy "{61E6DE219752270E}" {
+    }
+   }
+   coords 3.19 1.536 -10.143
+  }
+  GenericEntity : "{CB6D914A907F4378}Prefabs/Props/Furniture/WashingMachine_01.et" {
+   ID "61E4E68E7E2BE2A4"
+   components {
+    Hierarchy "{61E6DE2192EA9897}" {
+    }
+   }
+   coords 2.252 0.74 -2.883
+   angleY -90
+   angleZ 9.014
+  }
+  $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+   {
+    ID "61E4E68E7E2A4931"
+    components {
+     Hierarchy "{5D647736AC15734C}" {
+      Enabled 1
+     }
+    }
+    coords -4.067 2.33 -8.1
+    angleX 5.156
+    angleZ 91.093
+   }
+   {
+    ID "61E4E68E7E2BE2A5"
+    components {
+     Hierarchy "{5D647736AC15734C}" {
+      Enabled 1
+     }
+    }
+    coords 5.157 2.242 -7.905
+    angleX 4.426
+    angleY 179.919
+    angleZ 88.941
+   }
+  }
+  GenericEntity : "{D0BD7A55306FC46B}Prefabs/Props/Furniture/Faucet_01.et" {
+   ID "61E4E68E7E2A493F"
+   components {
+    Hierarchy "{61E6DE2191A5EE9A}" {
+    }
+   }
+   coords 4.708 1.818 -10.619
+   angleZ 15.155
+  }
+  GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+   ID "61E4E68E7E2A493D"
+   components {
+    SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     m_eInitialLightState LIT
+    }
+    Hierarchy "{61C2F4F60C571D64}" {
+    }
+   }
+   coords 0.432 0.486 -8.476
+   angleY 82.456
+  }
+  ESCT_EquipmentSlotEntity : "{D98E1D5942389639}Prefabs/SlotEntities/MedicineSlotEntity.et" {
+   ID "61E4E68E7E2A493B"
+   components {
+    ESCT_EquipmentSlotArsenalComponent "{6148FD0853C5BB7C}" {
+     m_bUsePlayerFaction 1
+    }
+   }
+   coords -1.902 1.012 -3.009
+   angleY 90
+  }
+  GenericEntity : "{D9A6EF8454F7020F}Prefabs/Props/Furniture/BenchKitchen_01/BenchKitchen_01_Red.et" {
+   ID "61E4E68E7E2A4938"
+   components {
+    Hierarchy "{61E6DE21ED996C5E}" {
+    }
+   }
+   coords -0.397 0.486 -6.08
+   angleY 179.855
+  }
+  StaticModelEntity : "{DA242761FD59A978}Prefabs/Compositions/Misc/SubCompositions/Furniture/Bed_Blankets_USSR_01.et" {
+   ID "61E4E68E7E2A4927"
+   coords -2.677 0.486 -10.11
+   angleY -176.773
+  }
+  GenericEntity : "{DD07AE4E1B3E5EE2}Prefabs/Props/Furniture/FirstAidBox_01.et" {
+   ID "61E4E68E7E2A4925"
+   coords 0.693 0.604 -2.348
+   angleX 9.703
+   angleY -1.126
+   angleZ 0.988
+  }
+  $grp GenericEntity : "{E7FB58DA735DB7A0}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_06.et" {
+   {
+    ID "61E4E68E7E2A1C4E"
+    components {
+     Hierarchy "{61E6DE21E81C1E31}" {
+     }
+    }
+    coords 4.41 0.486 -3.8
+    angleY -35.056
+   }
+   {
+    ID "61E4E68E7E2A2AE5"
+    components {
+     Hierarchy "{61E6DE21E7743DAE}" {
+     }
+    }
+    coords -3.168 0.486 -2.993
+    angleX -0.001
+    angleY -72.468
+    angleZ 0.002
+   }
+   {
+    ID "61E4E68E7E2A4922"
+    components {
+     Hierarchy "{61E6DE21E2CFB8A8}" {
+     }
+    }
+    coords -2.138 0.486 -10.02
+    angleY -101.749
+   }
+  }
+  GenericEntity : "{EE22BB8259C1A594}Prefabs/Props/Furniture/Armchair_03.et" {
+   ID "61E4E68E7E2A2AE7"
+   components {
+    Hierarchy "{61E6DE21E0697C10}" {
+    }
+   }
+   coords 4.715 0.486 -1.004
+   angleY -72.24
+  }
+  GenericEntity : "{EF49B1F62D20ABD1}Prefabs/Props/Garbage/Cardboard/Cardboard_05.et" {
+   ID "61E4E68E7E2A2AE6"
+   components {
+    Hierarchy "{61E6DE21FFAC9E68}" {
+    }
+   }
+   coords -3.539 0.486 -1.517
+   angleY 27.448
+  }
+  $grp GenericEntity : "{EFA7233213E77C2F}Prefabs/Systems/SpawnPoints/SpawnPosition_Prison.et" {
+   {
+    ID "61E4E68E7E270BDB"
+    coords -2.367 0.391 -9.24
+   }
+   {
+    ID "61E4E68E7E2748F3"
+    coords -2.384 0.391 -8.426
+   }
+   {
+    ID "61E4E68E7E284D22"
+    coords -2.584 0.391 -6.366
+   }
+   {
+    ID "61E4E68E7E284D23"
+    coords -2.395 0.391 -7.53
+   }
+   {
+    ID "61E4E68E7E2884D9"
+    coords -1.368 0.391 -7.847
+   }
+   {
+    ID "61E4E68E7E28CBA8"
+    coords -1.368 0.391 -8.737
+   }
+   {
+    ID "61E4E68E7E292186"
+    coords -1.1 0.391 -9.546
+   }
+   {
+    ID "61E4E68E7E29545D"
+    coords 2.033 0.391 -7.427
+   }
+   {
+    ID "61E4E68E7E29545E"
+    coords 2.033 0.391 -9.546
+   }
+   {
+    ID "61E4E68E7E29FEE3"
+    coords -0.451 0.391 -9.546
+   }
+   {
+    ID "61E4E68E7E2A2AE8"
+    coords 3.794 0.391 -9.548
+   }
+   {
+    ID "61E4E68E7E2A2AE9"
+    coords 2.868 0.391 -9.548
+   }
+   {
+    ID "61E4E68E7E2A38E3"
+    coords 3.794 0.391 -7.427
+   }
+   {
+    ID "61E4E68E7E2AB7D9"
+    coords 2.941 0.391 -7.359
+   }
+  }
+  $grp GenericEntity : "{F4CA533A99B20DAE}Prefabs/Props/Civilian/SackUniversal_01.et" {
+   {
+    ID "61E4E68E7E270BDD"
+    components {
+     Hierarchy "{61E6DE21FB279FBD}" {
+     }
+    }
+    coords -3.655 0.517 -5.406
+    angleX 22.076
+    angleY 161.166
+    angleZ 8.79
+    scale 0.72
+   }
+   {
+    ID "61E4E68E7E278150"
+    components {
+     Hierarchy "{61E6DE21F6890A2C}" {
+     }
+    }
+    coords 1.65 0.486 -6.758
+    angleX 22.076
+    angleY -120.2
+    angleZ 8.79
+    scale 0.72
+   }
+  }
+  $grp GenericEntity : "{FA188839C5E6DAD3}Prefabs/Structures/BuildingParts/Entry/Entry_Direct_01_narrow.et" {
+   {
+    ID "61E4E68E7E278152"
+    components {
+     Hierarchy "{5488F0388A297CDE}" {
+      Enabled 1
+     }
+    }
+    coords -4.229 0.337 -0.994
+    angleY -90
+   }
+   {
+    ID "61E4E68E7E27816D"
+    components {
+     Hierarchy "{5488F0388A297CDE}" {
+      Enabled 1
+     }
+    }
+    coords 5.584 0.337 -4.416
+    angleY 90
+   }
+  }
+  GenericEntity : "{FF8BD8E8A95DB3D2}Prefabs/Props/Furniture/Fridge_01.et" {
+   ID "61E4E68E7E2644EC"
+   components {
+    MeshObject "{5872F0EB7FA40561}" {
+     ObjectHeightmapBias 0
+    }
+    Hierarchy "{61E6DE21C4409CB3}" {
+    }
+   }
+   coords 5.023 0.453 -8.234
+   angleY 176.255
+  }
+ }
+}

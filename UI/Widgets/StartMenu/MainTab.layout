@@ -1,0 +1,91 @@
+VerticalLayoutWidgetClass {
+ Name "rootFrame"
+ {
+  ButtonWidgetClass "{60E07858EA296CA1}" : "{F2B77F33F9D68D67}UI/Widgets/FactionSelectorToolbox.layout" {
+   Name "EnemyFactionToolbox"
+   Slot LayoutSlot "{60C8D832E74570DE}" {
+    HorizontalAlign 3
+    Padding -1 0 0 0
+   }
+   Color 1 1 1 0
+   components {
+    ESCT_ToolboxComponent "{60CD0DCED2846882}" {
+     m_sLabel "#Escapists-StartMenu_MainTab_EnemyFaction_Label"
+    }
+    SCR_ModularButtonComponent "{5E5695C348A40769}" {
+     m_aEffects {
+      SCR_ButtonEffectColor "{5D9EFC157A1E1706}" {
+      }
+     }
+    }
+   }
+  }
+  ButtonWidgetClass "{61D70078FE634CAE}" : "{F2B77F33F9D68D67}UI/Widgets/FactionSelectorToolbox.layout" {
+   Name "PlayerFactionToolbox"
+   Slot LayoutSlot "{60C8D832E74570DE}" {
+    HorizontalAlign 3
+    Padding -1 0 0 0
+   }
+   Color 1 1 1 0
+   components {
+    ESCT_ToolboxComponent "{60CD0DCED2846882}" {
+     m_sLabel "#Escapists-StartMenu_MainTab_PlayerFaction_Label"
+    }
+    SCR_ModularButtonComponent "{5E5695C348A40769}" {
+     m_aEffects {
+      SCR_ButtonEffectColor "{5D9EFC157A1E1706}" {
+      }
+     }
+    }
+   }
+  }
+  ButtonWidgetClass "{622A7A253A6F9420}" : "{84009CCE428D0B69}UI/Widgets/Toolbox.layout" {
+   Name "StartTypeToolbox"
+   Slot LayoutSlot "{60C90A14F3371010}" {
+    Padding 0 0 0 0
+   }
+   components {
+    ESCT_ToolboxComponent "{60CD0DE7AF606A4E}" {
+     m_sLabel "#Escapists-StartMenu_MainTab_StartType_Label"
+     m_fSizeWithLabel 64
+     m_aElementNames {
+      "Hideout" "Military prison" "Helicrash" "Random"
+     }
+     m_ElementLayout "{D27D044A8145DC7C}UI/layouts/WidgetLibrary/Buttons/WLib_ButtonTextUnderlined.layout"
+    }
+   }
+  }
+  ButtonWidgetClass "{622A7A241773AE13}" : "{74FC0FBCC4987502}UI/Widgets/SpinBox.layout" {
+   Name "InsurgencySpinbox"
+   Slot LayoutSlot "{60E54E5214A115EA}" {
+    HorizontalAlign 3
+   }
+   components {
+    ESCT_SpinBoxComponent "{60E54E5238A7FE89}" {
+     m_sLabel "#Escapists-StartMenu_MainTab_Insurgency_Label"
+     m_aElementNames {
+      "No" "Yes"
+     }
+     m_iSelectedItem 0
+     m_fHintElementWidth 36
+    }
+   }
+  }
+  ButtonWidgetClass "{622A7A2599734E39}" : "{74FC0FBCC4987502}UI/Widgets/SpinBox.layout" {
+   Name "CivilianPresenceSpinbox"
+   Slot LayoutSlot "{60E54E5214A115EA}" {
+    HorizontalAlign 3
+   }
+   components {
+    ESCT_SpinBoxComponent "{60E54E5238A7FE89}" {
+     m_sLabel "#Escapists-StartMenu_MainTab_CivilianPresence_Label"
+     m_aElementNames {
+      "No" "Yes"
+     }
+     m_iSelectedItem 0
+     m_fHintElementWidth 36
+    }
+   }
+  }
+ }
+}

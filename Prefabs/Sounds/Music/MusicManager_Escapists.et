@@ -1,0 +1,25 @@
+MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et" {
+ ID "59D0D1B72A5A2189"
+ Music {
+  ESCT_DefendRadioMusic "{6192F9BC3539DB33}" {
+   Acp "{8F7678733893D118}Sounds/Music/Music_Escapists.acp"
+   "Music Name" "SOUND_DEFEND_RADIO"
+   Priority 1000
+   Interruptible 1
+   Categories 4
+  }
+  ESCT_ApproachHelipadMusic "{6194DA807E022D34}" {
+   Acp "{71AA761577272A1B}Sounds/Music/Ingame/Music_Ingame.acp"
+   "Music Name" "SOUND_ONENTERINGENEMYBASE"
+   Priority 999
+   Categories 1
+  }
+  ESCT_FlyAwayMusic "{6194F17705C37129}" {
+   Acp "{8F7678733893D118}Sounds/Music/Music_Escapists.acp"
+   "Music Name" "SOUND_FLY_AWAY"
+   Priority 1000
+   Interruptible 0
+   Categories 4
+  }
+ }
+}

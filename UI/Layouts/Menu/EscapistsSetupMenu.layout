@@ -1,0 +1,484 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ components {
+  SCR_SuperMenuComponent "{60E08B552ABBCFEB}" {
+   m_sTabViewName "ContentTabView"
+  }
+ }
+ {
+  PanelWidgetClass "{5F16F7D0D9368387}" {
+   Name "MainPanel"
+   Slot FrameWidgetSlot "{5F16F7D0D9368362}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX 0
+    OffsetLeft 0
+    PositionY 1.631
+    OffsetTop 1.6
+    SizeX 1024
+    OffsetRight -1024
+    SizeY 920
+    OffsetBottom -921.6
+    Alignment 0.5 0.5
+   }
+   {
+    BlurWidgetClass "{5F2F1014897691C2}" {
+     Name "Blur0"
+     Slot FrameWidgetSlot "{5488B961554C8ACC}" {
+      Anchor 0 0 1 1
+      PositionX 43.304
+      OffsetLeft 0
+      PositionY 613.344
+      OffsetTop 0
+      SizeX -1920
+      OffsetRight 0
+      SizeY -1080
+      OffsetBottom 0
+     }
+     Color 0 0 0 0.981
+    }
+    VerticalLayoutWidgetClass "{5F2F1014FE7E5B66}" {
+     Name "LeftBorder"
+     Slot FrameWidgetSlot "{5488B97DD3B5AB4A}" {
+      Anchor 0 0.05 0.05 0.95
+      PositionX 96
+      OffsetLeft 0
+      PositionY -54
+      OffsetTop 0
+      SizeX 4
+      OffsetRight 0
+      SizeY -942
+      OffsetBottom 0
+     }
+     {
+      FrameWidgetClass "{5F2F1014CFE2508A}" {
+       Name "Frame0"
+       Slot LayoutSlot "{5F2F128294C28E2E}" {
+       }
+      }
+     }
+    }
+    VerticalLayoutWidgetClass "{5F2F1014DDC41EC1}" {
+     Name "RightBorder"
+     Slot FrameWidgetSlot "{5488B97DD3B5AB4A}" {
+      Anchor 0.95 0.05 1 0.95
+      PositionX -1824
+      OffsetLeft 0
+      PositionY 0
+      OffsetTop 0
+      SizeX 0
+      OffsetRight 0
+      SizeY 0
+      OffsetBottom 0
+     }
+     {
+      FrameWidgetClass "{5F2F1014D700DB29}" {
+       Name "Frame0"
+       Slot LayoutSlot "{5F2F128294C28E03}" {
+       }
+      }
+     }
+    }
+    VerticalLayoutWidgetClass "{5F2F10140E5E85A1}" {
+     Name "Layout"
+     Slot FrameWidgetSlot "{5488B97C9D82063F}" {
+      Anchor 0.05 0.05 0.95 0.95
+      PositionX -96
+      OffsetLeft 0
+      PositionY -54
+      OffsetTop 0
+      SizeX -1628
+      OffsetRight 0
+      SizeY -942
+      OffsetBottom 0
+     }
+     Clipping False
+     {
+      FrameWidgetClass "{5F171BB8002ECA7C}" {
+       Name "Header"
+       Slot LayoutSlot "{5F171BB8002ECA5C}" {
+        Padding 0 -42 0 0
+       }
+       {
+        ImageWidgetClass "{5F171BBE4364B25A}" {
+         Name "GameModeLogo"
+         Slot FrameWidgetSlot "{5F171BBE4364B221}" {
+          Anchor 0.5 0.5 0.5 0.5
+          OffsetLeft 0
+          OffsetTop 0
+          SizeX 384
+          OffsetRight -384
+          SizeY 96
+          OffsetBottom -96
+          Alignment 0.5 0.5
+         }
+         Texture "{5E72F3A58231678B}UI/Images/oneliner.edds"
+         Size 2048 512
+        }
+       }
+      }
+      VerticalLayoutWidgetClass "{60E08E71CE489B47}" : "{A971263DAE3AD8BC}UI/layouts/WidgetLibrary/TabView/WLib_TabViewHorizontal.layout" {
+       Name "ContentTabView"
+       Slot LayoutSlot "{60E08E71CE489B5E}" {
+        SizeMode Fill
+       }
+       components {
+        SCR_TabViewComponent "{546B27D01CA8A38D}" {
+         m_aElements {
+          SCR_TabViewContent "{60E08E70A7F06EE8}" {
+           m_ElementLayout "{DFC419A440D10972}UI/Widgets/StartMenu/MainTab.layout"
+           m_sTabButtonContent "#Escapists-StartMenu_Main_Tab"
+           m_sTabIdentifier "MainTab"
+           m_TabImage "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+           m_sTabImageName "favourite"
+           m_bShowImage 1
+          }
+          SCR_TabViewContent "{60E0A8171586231E}" {
+           m_ElementLayout "{67D38FFBB19C451F}UI/Widgets/StartMenu/EnvironmentTab.layout"
+           m_sTabButtonContent "#Escapists-StartMenu_Environment_Tab"
+           m_sTabIdentifier "EnvironmentTab"
+           m_TabImage "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+           m_sTabImageName "vegetation"
+           m_bShowImage 1
+          }
+          SCR_TabViewContent "{60E52164A3233824}" {
+           m_ElementLayout "{6D23C6C3E02A66BC}UI/Widgets/StartMenu/DifficultyTab.layout"
+           m_sTabButtonContent "#Escapists-StartMenu_Difficulty_Tab"
+           m_sTabIdentifier "DifficultyTab"
+           m_TabImage "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+           m_sTabImageName "characters"
+           m_bShowImage 1
+          }
+         }
+         m_bKeepHiddenTabs 1
+         m_bCreateAllTabsAtStart 1
+         m_bCycleMode 1
+        }
+       }
+       {
+        SizeLayoutWidgetClass "{0000000041B59A6F}" {
+         Prefab "{0000000041B59A6F}"
+         {
+          HorizontalLayoutWidgetClass "{54ACA2928A1FCB02}" {
+           Prefab "{54ACA2928A1FCB02}"
+           {
+            ButtonWidgetClass "{5644CE82C669B056}" {
+             Prefab "{5644CE82C669B056}"
+             Slot LayoutSlot "{5644CE82C07614AE}" {
+             }
+            }
+           }
+          }
+         }
+        }
+        ImageWidgetClass "{00000000DB4F9EA9}" {
+         Prefab "{00000000DB4F9EA9}"
+         Slot LayoutSlot "{54871745AA809762}" {
+          SizeMode Auto
+         }
+        }
+       }
+      }
+      VerticalLayoutWidgetClass "{5F2F1017CE2D8D67}" {
+       Name "Footer"
+       Slot LayoutSlot "{5488B97C9D81FC1B}" {
+        VerticalAlign 1
+        Padding 0 0 0 0
+        FillWeight 0.075
+       }
+       {
+        ImageWidgetClass "{5F2F101735418A17}" {
+         Name "FooterSeparator"
+         Slot LayoutSlot "{5F2F128294C2F37F}" {
+         }
+         Clipping True
+         Color 0.122 0.122 0.122 1
+         Size 32 1
+        }
+        SizeLayoutWidgetClass "{60CD0DF03AB9C1D4}" {
+         Name "SizeLayout0"
+         Slot LayoutSlot "{60CD0DF03AB9C1B4}" {
+          Padding 0 4 0 4
+          SizeMode Fill
+         }
+         AllowHeightOverride 1
+         HeightOverride 76
+         {
+          TextWidgetClass "{60CD0DEBA3EF02CC}" {
+           Name "TooltipText"
+           Slot AlignableSlot "{60CD0DF03BCC6951}" {
+            HorizontalAlign 0
+           }
+           Text "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+           "Font Size" 18
+           "Min Font Size" 18
+           Wrap 1
+           FontProperties FontProperties "{60CD0DECF08593EF}" {
+            Font "{3E7733BAC8C831F6}UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.fnt"
+            Italic 1
+           }
+          }
+         }
+        }
+        OverlayWidgetClass "{5F171BB871880255}" {
+         Name "Buttons"
+         Slot LayoutSlot "{5F171BA1CF03FB64}" {
+          Padding 0 4 0 0
+         }
+         {
+          HorizontalLayoutWidgetClass "{5F171BBBA09E65F1}" {
+           Name "ButtonLayout"
+           Slot OverlayWidgetSlot "{5F171BBBA09E65A3}" {
+            HorizontalAlign 3
+           }
+           {
+            ButtonWidgetClass "{60DD5AB024035F67}" : "{87037226B1A2064B}UI/layouts/WidgetLibrary/Buttons/WLib_NavigationButtonSuperSmall.layout" {
+             Name "BackButton"
+             Slot LayoutSlot "{60DD61833535272E}" {
+              Padding 0 0 8 0
+             }
+             components {
+              SCR_InputButtonComponent "{5D346C3DD81D95CD}" {
+               m_sActionName "MenuBack"
+               m_sLabel "#Escapists-StartMenu_Exit"
+               m_iHeightInPixel 48
+              }
+             }
+            }
+            ButtonWidgetClass "{60DD5AB0DE9C83A0}" : "{08CF3B69CB1ACBC4}UI/layouts/WidgetLibrary/Buttons/WLib_NavigationButton.layout" {
+             Name "ChatButton"
+             Slot LayoutSlot "{5CFECB9DDEB2FA99}" {
+              HorizontalAlign 2
+              VerticalAlign 0
+              Padding 8 0 8 0
+             }
+             components {
+              SCR_InputButtonComponent "{5D346C3DD81D95CD}" {
+               m_sActionName "ChatToggle"
+               m_sLabel "#AR-Keybind_ChatOpen"
+              }
+             }
+            }
+            ButtonWidgetClass "{5F271E6D86C5DFB7}" : "{08CF3B69CB1ACBC4}UI/layouts/WidgetLibrary/Buttons/WLib_NavigationButton.layout" {
+             Name "AboutButton"
+             Slot LayoutSlot "{5F271E6DE9DA738D}" {
+              Padding 8 0 8 0
+             }
+             components {
+              SCR_InputButtonComponent "{5D346C3DD81D95CD}" {
+               m_sActionName "EscapistsAbout"
+               m_sLabel "#Escapists-StartMenu_About"
+              }
+             }
+            }
+            FrameWidgetClass "{5F171BBBE9408A12}" {
+             Name "ButtonSpaceFill"
+             Slot LayoutSlot "{5F171BA1CF03FAA3}" {
+              SizeMode Fill
+             }
+            }
+            ButtonWidgetClass "{5F171BA16A2F09AF}" : "{08CF3B69CB1ACBC4}UI/layouts/WidgetLibrary/Buttons/WLib_NavigationButton.layout" {
+             Name "StartButton"
+             Slot LayoutSlot "{5F171BA16A2F09A4}" {
+              HorizontalAlign 3
+              VerticalAlign 3
+             }
+             components {
+              SCR_InputButtonComponent "{5D346C3DD81D95CD}" {
+               m_sActionName "EscapistsStartGame"
+               m_sLabel "#Escapists-StartMenu_Start"
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  FrameWidgetClass "{60DD6739C58A3EF5}" : "{7A376F90E18453C4}UI/layouts/HUD/Notifications/Notifications_Log.layout" {
+   Name "NotificationsLog0"
+   Slot FrameWidgetSlot "{5D44B7C56EBEFDB6}" {
+    Anchor 0 0 1 0.45
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX 0
+    OffsetRight 0
+    SizeY 270
+    OffsetBottom 0
+    Alignment 0 0
+   }
+  }
+  FrameWidgetClass "{60DD5AB08DC76057}" {
+   Name "HudManagerLayout"
+   Slot FrameWidgetSlot "{5D8AB8F2DCC3C881}" {
+    Anchor 0 0 1 1
+    PositionX 0.956
+    OffsetLeft 0.956
+    PositionY 0
+    OffsetTop 0
+    SizeX 0
+    OffsetRight -0.956
+    SizeY 0
+    OffsetBottom 0
+   }
+   components {
+    SCR_HUDMenuComponent "{5F0ADEF0C660AF98}" {
+     m_sIdentifier "EscapistsStartGameMenu"
+    }
+   }
+   {
+    FrameWidgetClass "{60DD5AB08DC76056}" {
+     Name "Layer_Slots"
+     Slot FrameWidgetSlot "{5D62A913A6057240}" {
+      Anchor 0 0 1 1
+      PositionX 0
+      OffsetLeft 0
+      PositionY 0
+      OffsetTop 0
+      SizeX 0
+      OffsetRight 0
+      SizeY 0
+      OffsetBottom 0
+     }
+     {
+      VerticalLayoutWidgetClass "{60DD5AB08DC76055}" {
+       Name "Group_Left"
+       Slot FrameWidgetSlot "{5D44B19A2BE9A6C4}" {
+        Anchor 0 0 1 1
+        PositionX 0
+        OffsetLeft 0
+        PositionY 0
+        OffsetTop 0
+        SizeX -1320
+        OffsetRight 1320
+        SizeY 0
+        OffsetBottom 0
+       }
+       Clipping False
+       components {
+        SCR_HUDGroupUIComponent "{5D44B19A39A468D7}" {
+         m_bEnableDebugFont 0
+        }
+       }
+       {
+        FrameWidgetClass "{60DD618242A4EC80}" {
+         Name "Slot_Chat"
+         Slot LayoutSlot "{60E08B559EE891BF}" {
+         }
+         components {
+          SCR_HUDSlotUIComponent "{5D44B19A037B2FF4}" {
+           m_iPriority 1
+           m_aHeightSteps {
+            100 200 300
+           }
+           m_aWidthSteps {
+            600
+           }
+          }
+         }
+        }
+        FrameWidgetClass "{60DD618242A4ECC2}" {
+         Name "Filler0"
+         Slot LayoutSlot "{5D44B19A48E6BC77}" {
+          SizeMode Fill
+          FillWeight 0.3
+         }
+        }
+        FrameWidgetClass "{60DD618242A4ED67}" {
+         Name "Slot_VON"
+         Slot LayoutSlot "{5D44B19A05C7B70A}" {
+          Padding 0 0 0 0
+         }
+         components {
+          SCR_HUDSlotUIComponent "{5D44B19A037B2FF4}" {
+           m_iPriority 1
+           m_aHeightSteps {
+            100 200
+           }
+           m_aWidthSteps {
+            600
+           }
+          }
+         }
+        }
+        FrameWidgetClass "{60DD618242A4ED73}" {
+         Name "Filler"
+         Slot LayoutSlot "{5D44B19A48E6BC77}" {
+          SizeMode Fill
+         }
+        }
+       }
+      }
+      VerticalLayoutWidgetClass "{60DD5AB08DC7602B}" {
+       Name "Group_Right"
+       Slot FrameWidgetSlot "{5D44B19A2BE9A6C4}" {
+        Anchor 0 0 1 1
+        PositionX 1312.64
+        OffsetLeft 1320
+        PositionY -2.735
+        OffsetTop 0
+        SizeX -1320
+        OffsetRight 0
+        SizeY 0
+        OffsetBottom 0
+       }
+       components {
+        SCR_HUDGroupUIComponent "{5D44B19A39A468D7}" {
+         m_bEnableDebugFont 0
+        }
+       }
+       {
+        FrameWidgetClass "{60DD618259DE2027}" {
+         Name "Slot_GameVersion"
+         Slot LayoutSlot "{5D44B19A05C7B70A}" {
+          HorizontalAlign 2
+         }
+         components {
+          SCR_HUDSlotUIComponent "{5D44B19A037B2FF4}" {
+           m_iPriority 2
+           m_aHeightSteps {
+            50
+           }
+           m_aWidthSteps {
+            600
+           }
+          }
+         }
+        }
+        FrameWidgetClass "{60DD618259DE201F}" {
+         Name "Slot_Notifications"
+         Slot LayoutSlot "{5D44B19A05C7B70A}" {
+          HorizontalAlign 2
+         }
+         components {
+          SCR_HUDSlotUIComponent "{5D44B19A037B2FF4}" {
+           m_iPriority 2
+           m_aHeightSteps {
+            100 150 200 300
+           }
+           m_aWidthSteps {
+            600
+           }
+          }
+         }
+        }
+        FrameWidgetClass "{60DD618259DE20E6}" {
+         Name "Filler"
+         Slot LayoutSlot "{5D44B19A48E6BC77}" {
+          SizeMode Fill
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

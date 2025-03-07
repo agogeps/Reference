@@ -1,0 +1,37 @@
+GenericEntity {
+ ID "622CE4F01EA90FF6"
+ components {
+  ESCT_EditableSupportComponent "{622CE4F1F921310A}" {
+   m_rSupportPrefab "{AC5893A1A02061CA}Prefabs/Support/QRFSupport.et"
+  }
+  SCR_EditableEntityComponent "{622CE4F1CD802722}" {
+   m_EntityType SYSTEM
+   m_UIInfo SCR_EditableEntityUIInfo "{622CE4F1C49C3145}" {
+    Name "#Escapists-EditableEntity_Support-QRF_Title"
+    Description "#Escapists-EditableEntity_Support-QRF_Description"
+    Icon "{2B4F198AB5937F32}UI/Imagesets/Editor/Icons/EditableEntities.imageset"
+    IconSetName "EditableEntity_Objective_Attack"
+    m_Image "{3E3FB434FBFA4872}UI/Textures/Editor/EditableEntities/Objectives/EditableEntity_Objective_Attack.edds"
+    m_aAuthoredLabels {
+     1001 20001
+    }
+    m_aAutoLabels {
+     7 60 4
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{59AEC91930BBCF59}" {
+      m_BudgetType AI
+     }
+    }
+   }
+   m_Flags 65
+  }
+  SCR_PreviewEntityComponent "{622CE4F1FAE75B62}" {
+  }
+  RplComponent "{622CE4F1FFAD63C1}" {
+  }
+  Hierarchy "{622CE4F1E15B980D}" {
+  }
+ }
+ coords 96.806 1 175.769
+}

@@ -1,0 +1,53 @@
+GenericEntity : "{E58EB485925C24CA}Prefabs/Props/Core/ExplosiveBarrel_01_Dynamic.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  ESCT_BarrelDamageManagerComponent "{5624A88D86EFE8BA}" {
+   "Additional hit zones" {
+    ESCT_FlammableHitZone Default {
+    }
+   }
+   m_SecondaryExplosions SCR_SecondaryExplosions "{61CD4EAD2100A1FD}" {
+    m_aSecondaryExplosionTypes {
+     SCR_SecondaryExplosionType "{61CD292D86F58FAD}" {
+      m_aSecondaryExplosions {
+       SCR_SecondaryExplosion "{5E3EB0E8176386C6}" {
+        m_sSecondaryExplosionPrefab "{B7C039735B4254A5}Prefabs/Weapons/Warheads/Explosions/Explosion_Fuel_Medium.et"
+       }
+      }
+     }
+    }
+   }
+   m_fSecondaryFireDamageDelay 1.001
+  }
+  SCR_EditableEntityComponent "{61CEAB8253467D67}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{61CEAB83ABDC879A}" {
+    Name "#Escapists-EditableEntity_ExplosiveBarrel_Title"
+    Description "#Escapists-EditableEntity_ExplosiveBarrel_Description"
+    Icon "{10C0A9A305E8B3A4}UI/Imagesets/Tasks/Task_Icons.imageset"
+    IconSetName "Icon_Task_Blow_Up_UI"
+    m_Image "{FDEC209A1388A47A}UI/Textures/EditorPreviews/Props/E_ExplosiveBarrel_01.edds"
+    m_aAuthoredLabels {
+     1001 20001
+    }
+    m_aAutoLabels {
+     1 38 106
+    }
+   }
+   m_bAutoRegister ALWAYS
+   m_Flags 769
+  }
+  SCR_PreviewEntityComponent "{61CEAB8242C955F5}" {
+   m_aEntries {
+    SCR_BasePreviewEntry "{61CEAB825C7E703C}" {
+     m_iParentID 0
+     m_Mesh "{CE7255186E4F6BDC}Assets/Props/Industrial/BarrelFuel_01/BarrelFuel_01_closed.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}

@@ -1,0 +1,288 @@
+SCR_DestructibleBuildingEntity : "{84DEA01FFFE606FE}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  ESCT_HideoutStartComponent "{61DD34FB82CB398E}" {
+  }
+ }
+ {
+  GenericEntity {
+   ID "5A86D9954D244B06"
+   {
+    GenericEntity {
+     ID "5A86D9951F3E6E53"
+     coords 0.056 0.683 0.513
+     angleY 0
+    }
+    GenericEntity {
+     ID "5A86D995CE2414C3"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "5A86D995CE2414D3"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "5A86D995CE241658"
+     components {
+      ESCT_LocationStorageComponent "{619CCE37A5A7D783}" {
+       Enabled 1
+       m_IsSpawnGuaranteed 1
+      }
+      ESCT_StorageArsenalComponent "{619CCE37A0CC1A13}" {
+       Enabled 1
+       m_bUsePlayerFaction 1
+      }
+      SCR_SoundDataComponent "{619CCE37ACE332FE}" {
+       Enabled 1
+      }
+      SCR_UniversalInventoryStorageComponent "{619CCE365509DDF8}" {
+       Enabled 1
+      }
+      SCR_InventoryStorageManagerComponent "{619CCE364477ACDC}" {
+       Enabled 1
+      }
+      ActionsManagerComponent "{619CCE361717EB6F}" {
+       Enabled 1
+      }
+      RplComponent "{5624A88DC2D9928D}" {
+       Enabled 1
+      }
+      Hierarchy "{619CCE361C5ED185}" {
+       Enabled 1
+      }
+     }
+    }
+    GenericEntity {
+     ID "5A86D995CE241B65"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "5A86D995CE25BC13"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "5A86D995CE25BD95"
+     components {
+      ESCT_LocationStorageComponent "{619CCE37A5A7D783}" {
+       Enabled 1
+       m_IsSpawnGuaranteed 1
+      }
+      ESCT_StorageArsenalComponent "{619CCE37A0CC1A13}" {
+       Enabled 1
+       m_bUsePlayerFaction 1
+      }
+      SCR_SoundDataComponent "{619CCE37ACE332FE}" {
+       Enabled 1
+      }
+      SCR_UniversalInventoryStorageComponent "{619CCE365509DDF8}" {
+       Enabled 1
+      }
+      SCR_InventoryStorageManagerComponent "{619CCE364477ACDC}" {
+       Enabled 1
+      }
+      ActionsManagerComponent "{619CCE361717EB6F}" {
+       Enabled 1
+      }
+      RplComponent "{5624A88DC2D9928D}" {
+       Enabled 1
+      }
+      Hierarchy "{619CCE361C5ED185}" {
+       Enabled 1
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5A86D995CE2416A1"
+     {
+      GenericEntity {
+       ID "5A86D995CE2414B8"
+       Flags 2098179
+      }
+     }
+    }
+   }
+  }
+  ESCT_EquipmentSlotEntity : "{2D8C79E5A4716504}Prefabs/SlotEntities/WeaponSlotEntity_Prison.et" {
+   ID "61DEEDAD6B1675A6"
+   components {
+    ESCT_EquipmentSlotArsenalPrisonComponent "{6148FD0853C5BB7C}" {
+     m_bUsePlayerFaction 1
+    }
+   }
+   coords 2.428 -0.101 1.32
+   angleY -1.413
+  }
+  $grp ESCT_EquipmentSlotEntity : "{423D2F7F798F4173}Prefabs/SlotEntities/EquipmentSlotEntity.et" {
+   {
+    ID "61DEEDAD721F291C"
+    components {
+     ESCT_EquipmentSlotArsenalComponent "{6148FD0853C5BB7C}" {
+      m_bUsePlayerFaction 1
+     }
+    }
+    coords 0.838 -0.429 -1.122
+    angleY 27.028
+   }
+   {
+    ID "61DEEDAD7898531A"
+    components {
+     ESCT_EquipmentSlotArsenalComponent "{6148FD0853C5BB7C}" {
+      m_bUsePlayerFaction 1
+     }
+    }
+    coords -2.545 -0.097 5.822
+    angleY 89.403
+   }
+  }
+  GameEntity : "{50E6A3845C9F20FD}Prefabs/Props/Military/Camps/LanternMilitary_US_01.et" {
+   ID "61DEEDAFA578894B"
+   components {
+    SCR_LampComponent "{5D2ABC12E93AB331}" {
+     m_aLightData {
+      SCR_BaseLightData "{5D2ABC12E78B42B5}" {
+       m_fRadius 8
+      }
+     }
+     m_fLV 3
+     m_fDistanceAttenuation 0.5
+    }
+    Hierarchy "{5706F8D0966F66EF}" {
+    }
+   }
+   coords -1.882 -0.501 5.806
+   angleY 50.313
+  }
+  ESCT_SpawnPoint : "{7E385CE1ADBF0659}Prefabs/MP/Spawning/SpawnPoint_Prison.et" {
+   ID "61DD34FB7C39535F"
+   coords 0.06 -1.019 3.19
+   angleY -0.954
+  }
+  GenericEntity : "{C3C7A8E9B6324130}Prefabs/Props/Furniture/Safe_01.et" {
+   ID "61DEEDAD263A098D"
+   components {
+    ESCT_LocationStorageComponent "{619CCE35C9619655}" {
+     Enabled 1
+     m_IsSpawnGuaranteed 1
+    }
+    ESCT_StorageArsenalComponent "{619CCE35DF3356E0}" {
+     Enabled 1
+     m_eSupportedArsenalItemTypes 846
+     m_eSupportedArsenalItemModes 18
+     m_bUsePlayerFaction 1
+    }
+    SCR_SoundDataComponent "{619C6D887CA50374}" {
+     Enabled 1
+    }
+    SCR_UniversalInventoryStorageComponent "{619C6D89E8563BB6}" {
+     Enabled 1
+    }
+    SCR_InventoryStorageManagerComponent "{619C6DB34F265332}" {
+     Enabled 1
+    }
+    ActionsManagerComponent "{619C6D89A2FD02BA}" {
+     Enabled 1
+    }
+    RplComponent "{5624A88DC2D9928D}" {
+     Enabled 1
+    }
+    Hierarchy "{619C6D8A7E7AFACF}" {
+     Enabled 1
+    }
+   }
+   coords 1.417 -1.019 7.304
+   angleY -180
+  }
+  GenericEntity : "{DD07AE4E1B3E5EE2}Prefabs/Props/Furniture/FirstAidBox_01.et" {
+   ID "61DEEDAD263A09A1"
+   coords -1.861 0.275 -0.3
+   angleY 90
+  }
+  $grp GenericEntity : "{EFA7233213E77C2F}Prefabs/Systems/SpawnPoints/SpawnPosition_Prison.et" {
+   {
+    ID "61DD34FB44A55313"
+    coords -0.135 -0.902 1.375
+    angleY 90
+   }
+   {
+    ID "61DD34FB5F16E92E"
+    coords 0.818 -0.902 1.39
+    angleY 90
+   }
+   {
+    ID "61DD34FB5F16E95F"
+    coords -0.038 -0.902 2.316
+    angleY 90
+   }
+   {
+    ID "61DD34FB7C3952C0"
+    coords -0.869 -1.019 4.76
+    angleY 90
+   }
+   {
+    ID "61DD34FB7C3952C8"
+    coords 0.081 -1.001 4.947
+    angleY 90
+   }
+   {
+    ID "61DD34FB7C3952E6"
+    coords 1.655 -0.902 1.443
+    angleY 90
+   }
+   {
+    ID "61DD34FB7C3952EE"
+    coords 1.094 -0.902 3.881
+    angleY 90
+   }
+   {
+    ID "61DD34FB7C3952F0"
+    coords 1.031 -0.902 4.897
+    angleY 90
+   }
+   {
+    ID "61DD34FB7C3952FF"
+    coords -1.126 -0.902 2.515
+    angleY 90
+   }
+   {
+    ID "61DD34FB7C395307"
+    coords 0.159 -0.902 6.066
+    angleY 90
+   }
+   {
+    ID "61DD34FB7C395308"
+    coords -1.092 -0.902 6.238
+    angleY 90
+   }
+   {
+    ID "61DD34FB7C395315"
+    coords -0.973 -0.902 3.608
+    angleY 90
+   }
+   {
+    ID "61DD34FB7C39531E"
+    coords 1.155 -0.902 2.613
+    angleY 90
+   }
+   {
+    ID "61DD34FB7C395337"
+    coords 1.282 -0.902 6.015
+    angleY 90
+   }
+   {
+    ID "61DD34FB7C395339"
+    coords -1.047 -0.902 1.348
+    angleY 90
+   }
+  }
+  ESCT_WeaponRack : "{FF44C26F5EA5CC52}Prefabs/Props/WeaponRacks/WeaponRack_Cabinet_Prison.et" {
+   ID "61DEEDAD11BABDBE"
+   components {
+    ESCT_WeaponRackArsenalPrisonComponent "{6148B3CF40AD075F}" {
+     m_bUsePlayerFaction 1
+    }
+   }
+   coords 3.047 -1.019 3.578
+   angleY -90
+  }
+ }
+}

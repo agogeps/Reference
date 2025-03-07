@@ -1,0 +1,4 @@
+MatPBRBasic : "{7C3C75B2A6B5658A}Assets/Items/Medicine/MorphineInjection_01/Data/MorphineInjection_01.emat" {
+ Diffuse 0.502 0.502 0.502 1
+ BCRMap "{A665BA3372ECA62C}Assets/Items/Medicine/EpinephrineInjection_01/EpinephrineInjection_01.edds"
+}

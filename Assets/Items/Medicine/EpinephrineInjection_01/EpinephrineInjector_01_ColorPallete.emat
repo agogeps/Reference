@@ -1,0 +1,6 @@
+MatPBRBasic {
+ MetalnessScale 0
+ BCRMap "{7DC97D5D03A6B2A7}Assets/Items/Medicine/EpinephrineInjection_01/EpinephrineInjector_01_ColorPallet.edds" clampu clampv nofilter
+ GlobalMapsUVTransform MatUVTransform "{442267586066925D}" {
+ }
+}

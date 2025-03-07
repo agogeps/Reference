@@ -1,0 +1,15 @@
+ESCT_DefendRadioTaskPresentation {
+ ID "621AF3A0F6D707FF"
+ components {
+  RplComponent "{621AD30D7B71C68F}" {
+   Streamable Disabled
+  }
+  Hierarchy "{621AD30D7CA28DE3}" {
+  }
+ }
+ coords 110.733 1 191.677
+ Flags 1027
+ m_sCountdownHUD "{74CBE84668AEA581}UI/Layouts/HUD/DefendRadioHUD.layout"
+ m_sCountdownTitleText "#Escapists-Task_DefendRadio_FlavourText"
+ m_sFinishText "#Escapists-Task_DefendRadio_FlavourText_Finish"
+}

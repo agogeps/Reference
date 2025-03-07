@@ -1,0 +1,31 @@
+GenericEntity : "{F9C1C9C0CC77C6DC}Prefabs/MilitaryCrates/MilitaryCrate_Launchers_Base.et" {
+ ID "619ED3851EB9C905"
+ components {
+  MeshObject "{619ED3859C584A0B}" {
+   Object "{670F36600529D92D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Launcher_01.xob"
+   Materials {
+    MaterialAssignClass "{619ED3895EB9B3C1}" {
+     SourceMaterial "Color_palette"
+     AssignedMaterial "{900FD941337C7B0B}Common/Materials/ColorPalette/Color_palette_02_YELLOW_10_S2_R2.emat"
+    }
+    MaterialAssignClass "{619ED3895EB9B3D6}" {
+     SourceMaterial "EquipmentBoxWooden_Launcher_01"
+     AssignedMaterial "{C90881A9C2B47209}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Launcher_01_USSR.emat"
+    }
+    MaterialAssignClass "{619ED3895EB9B3A9}" {
+     SourceMaterial "EquipmentBoxWooden_decal"
+     AssignedMaterial "{17332645A86C9BA6}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_decal_USSR.emat"
+    }
+   }
+  }
+  SCR_FactionAffiliationComponent "{619EED62871A4761}" {
+   "faction affiliation" "USSR"
+  }
+  SCR_UniversalInventoryStorageComponent "{619ED38229150736}" {
+   UseCapacityCoefficient 0
+   CapacityCoefficient 0.99
+   MaxCumulativeVolume 12000
+  }
+ }
+ coords 139.415 1 103.958
+}

@@ -1,0 +1,13 @@
+GenericEntity : "{C2BB705A4BBAB345}Prefabs/MilitaryCrates/MilitaryCrate_Medicine_Base.et" {
+ ID "619ED3851EB9C905"
+ components {
+  MeshObject "{619ED3859C584A0B}" {
+   Enabled 1
+   Object "{FE31750973EA92C7}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Medical_01.xob"
+  }
+  SCR_FactionAffiliationComponent "{619EED62871A4761}" {
+   "faction affiliation" "US"
+  }
+ }
+ coords 138.394 1 98.524
+}

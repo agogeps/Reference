@@ -1,0 +1,17 @@
+Vehicle : "{99F1610551D54D17}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_base.et" {
+ ID "44EC665ABD2FF04B"
+ components {
+  ESCT_CarAlarmComponent "{612AB463D2F22D59}" {
+   m_bShouldLockSeats 1
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   additionalActions {
+    ESCT_BreakIntoVehicleAction "{612AB46338C7DC82}" {
+     ParentContextList + {
+      "door_r01" "door_l02" "door_r02" "door_rear"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,577 @@
+AudioClass {
+ signals {
+  SignalClass {
+   id 21517
+   name "Signal 21"
+   tl 728 382
+   res "{4E5CACFE83939948}Sounds/_SharedData/Signals/Reverb/Reverb_Exterior.sig"
+   inputsport {
+    1
+   }
+   outputsport {
+    2
+   }
+   inputvalues {
+    30
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    100
+   }
+   path "{4E5CACFE83939948}Sounds/_SharedData/Signals/Reverb/Reverb_Exterior.sig"
+  }
+  SignalClass {
+   id 29709
+   name "Trigger"
+   tl 545.556 580.139
+   res "{9DEC40DAE4E5212C}Sounds/_SharedData/Signals/OneSignal/Trigger.sig"
+   inputsport {
+    1
+   }
+   outputsport {
+    2
+   }
+   inputvalues {
+    1
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    1
+   }
+   path "{9DEC40DAE4E5212C}Sounds/_SharedData/Signals/OneSignal/Trigger.sig"
+  }
+ }
+ sounds {
+  SoundClass {
+   id 19465
+   name "SOUND_LOCKPICKING_CAR"
+   version 5
+   tl 514 -14
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 3090
+       port 65
+      }
+     }
+    }
+   }
+   outState 9227
+   outStatePort 79879
+  }
+  SoundClass {
+   id 20489
+   name "SOUND_CAR_UNLOCK"
+   version 5
+   tl 515 177
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 16402
+       port 65
+      }
+     }
+    }
+   }
+   volume_dB 4
+   outState 9227
+   outStatePort 79879
+  }
+  SoundClass {
+   id 32777
+   name "SOUND_CAR_ALARM"
+   version 5
+   tl 544.445 651.25
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 29709
+       port 2
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 23570
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   varName "Props"
+   varResource "{A60F08955792B575}Sounds/_SharedData/Variables/GlobalVariables.conf"
+   outState 9227
+   outStatePort 79879
+  }
+  SoundClass {
+   id 39945
+   name "SOUND_CAR_HANDLE"
+   version 5
+   tl 514 351
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 38930
+       port 65
+      }
+     }
+    }
+   }
+   outState 9227
+   outStatePort 79879
+  }
+ }
+ mixers {
+  MixerClass {
+   id 9227
+   name "OutputState 9"
+   version 4
+   tl 893.819 108.545
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   ins {
+    ConnectionsClass connections {
+     id 24583
+    }
+    ConnectionsClass connections {
+     id 79879
+     links {
+      ConnectionClass connection {
+       id 19465
+       port 65
+      }
+      ConnectionClass connection {
+       id 20489
+       port 65
+      }
+      ConnectionClass connection {
+       id 32777
+       port 65
+      }
+      ConnectionClass connection {
+       id 39945
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 152583
+     links {
+      ConnectionClass connection {
+       id 17437
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    50176 0
+   }
+   path "{B764D803219C775E}Sounds/FinalMix.afm"
+   inputs {
+    "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialogue" "Music" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb" "VON_Reverb" "Dialogue_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "UI" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct" "SFX_Reverb_Small" "SFX_Reverb_Medium" "SFX_Reverb_Large"
+   }
+  }
+ }
+ shaders {
+  ShaderClass {
+   id 3090
+   name "Shader 3"
+   version 5
+   tl 290 -9.231
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 4124
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 6163
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 7189
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 2052
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+  ShaderClass {
+   id 16402
+   name "Shader 3"
+   version 5
+   tl 289.091 179.909
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 15388
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 14355
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 13333
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 10244
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+  ShaderClass {
+   id 23570
+   name "Shader 3"
+   version 5
+   tl 361 649.805
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 33820
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 36883
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 35861
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 22532
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+  ShaderClass {
+   id 38930
+   name "Shader 3"
+   version 5
+   tl 287 373
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 15388
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 14355
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 13333
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 37892
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+ }
+ amplitudes {
+  AmplitudeClass {
+   id 6163
+   name "Amplitude 6"
+   version 5
+   tl 63.167 -139.833
+   curve Linear
+  }
+  AmplitudeClass {
+   id 14355
+   name "Amplitude 6"
+   version 5
+   tl 59.64 322.834
+   curve Linear
+  }
+  AmplitudeClass {
+   id 36883
+   name "Amplitude 6"
+   version 5
+   tl 83.667 799.583
+   curve Logarithm
+   innerRange 5
+   outerRange 300
+  }
+ }
+ frequency {
+  FrequencyClass {
+   id 7189
+   name "Frequency 7"
+   version 5
+   tl 63.167 -66.167
+   enableDistanceAtt 1
+  }
+  FrequencyClass {
+   id 13333
+   name "Frequency 7"
+   version 5
+   tl 58.731 392.5
+   enableDistanceAtt 1
+  }
+  FrequencyClass {
+   id 35861
+   name "Frequency 7"
+   version 5
+   tl 82.667 885.583
+   enableDistanceAtt 1
+  }
+ }
+ banks_local {
+  BankLocalClass {
+   id 2052
+   name "Car Lockpicking Sound"
+   version 7
+   tl -107.75 -6.665
+   Volume 6
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{7A61216E47FB8AF2}Sounds/Vehicles/car_lockpicking.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 10244
+   name "Car Unlock Sound"
+   version 7
+   tl -117.636 176.273
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{2078F62DF676F33F}Sounds/Vehicles/car_unlock.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 22532
+   name "Car Alarm Sound"
+   version 7
+   tl -136.805 640.972
+   Volume -6
+   "Loop count" 255
+   "Infinite loop" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{0B88B62C9A179D13}Sounds/Vehicles/car_alarm.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 37892
+   name "Car Handle Sound"
+   version 7
+   tl -123.429 475
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{19D19E570BE37872}Sounds/Vehicles/car_handle.wav"
+    }
+   }
+  }
+ }
+ spatialities {
+  SpatialityClass {
+   id 4124
+   name "Spatiality 4"
+   version 5
+   tl 63.974 -214.91
+   SpatialFactorSource Curve
+   SFCurve {
+    CurvePoint "1" {
+    }
+    CurvePoint "2" {
+     X 0.20249
+     Y 0.4
+    }
+    CurvePoint "3" {
+     X 1
+     Y 1
+    }
+   }
+  }
+  SpatialityClass {
+   id 15388
+   name "Spatiality 4"
+   version 5
+   tl 59.538 251.757
+   spatialFactor 0.7
+  }
+  SpatialityClass {
+   id 33820
+   name "Spatiality 4"
+   version 5
+   tl 83.861 719.992
+   SpatialFactorSource Curve
+   SFCurve {
+    CurvePoint "1" {
+     X 2.57788
+    }
+    CurvePoint "2" {
+     X 5
+     Y 1
+    }
+   }
+  }
+ }
+ auxOuts {
+  AuxOutClass {
+   id 17437
+   name "AuxOut Reverb INT"
+   version 5
+   tl 723.611 256.277
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 20489
+       port 5
+      }
+      ConnectionClass connection {
+       id 19465
+       port 5
+      }
+      ConnectionClass connection {
+       id 39945
+       port 5
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 21517
+       port 2
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 21517
+       port 2
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   pu {
+    6 0
+   }
+   OSPort 152583
+  }
+ }
+ version 1
+}

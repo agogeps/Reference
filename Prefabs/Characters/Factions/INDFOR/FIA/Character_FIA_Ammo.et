@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter : "{75FC25863194612A}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AMG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5570901680F8BFE7}" {
+     PrefabsToSpawn + {
+      "{C7163FA2987F00E4}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_API.et" "{C7163FA2987F00E4}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_API.et"
+     }
+    }
+   }
+  }
+ }
+}

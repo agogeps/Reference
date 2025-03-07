@@ -1,0 +1,17 @@
+ESCT_RadioTask {
+ ID "60869D7439C4DBFC"
+ components {
+  SCR_MapDescriptorComponent "{60869D7439C4DBF5}" {
+   VisibleOnMap 0
+   MainType Task
+   Scale 0
+   ForceRotationAngle 0
+   ForceGroupScale 1
+  }
+ }
+ m_sName "#Escapists-Task_RadioSOS_Name"
+ m_sDescription "#Escapists-Task_RadioSOS_Label"
+ m_sMapIconName "Task_Custom"
+ m_sTaskListIconName "Icon_Task_Custom"
+ m_bNotifyAssignment 1
+}

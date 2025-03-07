@@ -1,0 +1,229 @@
+BehaviorTree "{0F7423AA31925A17}AI/BehaviorTrees/Chimera/Group/ActivityCallSupport.bt" {
+ Name "AI/BehaviorTrees/Chimera/Group/ActivityCallSupport.bt"
+ Nodes {
+  RootNode Root {
+   Name "Root"
+   EditorPos 72 -285
+   Nodes {
+    Selector Selector {
+     Name "Selector"
+     EditorPos 79.111 -58.667
+     Nodes {
+      Sequence Sequence {
+       Name "Sequence"
+       EditorPos -252.5 295
+       Nodes {
+        ESCT_AIGetCallSupportActivityParameters "ESCT_AI Get Call Support Activity Parameters" {
+         Name "Get Call Support Activity Parameters"
+         EditorPos -726.803 673.041
+         OutPorts {
+          SingleOutputPortContainer SingleOutputPortContainer {
+           Port 0
+           PortName "WaypointRelated"
+          }
+          SingleOutputPortContainer SingleOutputPortContainer {
+           Port 1
+           PortName "TargetPosition"
+          }
+          SingleOutputPortContainer SingleOutputPortContainer {
+           Port 3
+           PortName "PriorityLevel"
+          }
+          SingleOutputPortContainer SingleOutputPortContainer {
+           Port 10
+           PortName "TargetEntity"
+          }
+          SingleOutputPortContainer SingleOutputPortContainer {
+           Port 2
+           PortName "SupportCallerEntity"
+          }
+         }
+        }
+        AITaskGetControlledEntity "Get Controlled Entity" {
+         Name "Get Controlled Entity"
+         EditorPos -20.591 667.545
+         InEntity 2
+         OutAgent 6
+        }
+        Decorator Decorator {
+         Name "Decorator"
+         EditorPos 316.389 659.306
+         Nodes {
+          Sequence Sequence {
+           Name "Sequence"
+           EditorPos 350.278 806.667
+           Nodes {
+            ESCT_AICallSupport "ESCT_AI Call Support" {
+             Name "Call Support"
+             EditorPos 202.222 955.556
+            }
+            AITaskIdle Idle {
+             Name "Idle"
+             EditorPos 478.889 945.556
+             Period 12
+            }
+           }
+          }
+         }
+         ForceNodeResult Success
+        }
+        ESCT_AISendGoalMessage_CallSupport "ESCT_AI Send Goal Message_ Call Support" {
+         Name "ESCT_AI Send Goal Message_ Call Support"
+         EditorPos 603.055 636.032
+         InPorts {
+          SingleInputPortContainer SingleInputPortContainer {
+           Port 6
+           PortName "Receiver"
+          }
+          SingleInputPortContainer SingleInputPortContainer {
+           Port 4
+           PortName "SupportCallerEntity"
+          }
+          SingleInputPortContainer SingleInputPortContainer {
+           Port 11
+           PortName "SupportTargetEntity"
+          }
+          SingleInputPortContainer SingleInputPortContainer {
+           Port 5
+           PortName "SupportTargetPosition"
+          }
+         }
+        }
+        SCR_AISuspendAction "SCR_AI Suspend Action" {
+         Name "SCR_AI Suspend Action"
+         EditorPos 1112 642.571
+        }
+        AITaskReturnState "Return State" {
+         Name "Return State"
+         EditorPos 1417.429 624.571
+         Result RUNNING
+        }
+       }
+      }
+      Sequence Sequence {
+       Name "Sequence"
+       EditorPos 1558.25 145
+       Nodes {
+        SCR_AISendGoalMessage_Cancel "SCR_AI Send Goal Message_ Cancel" {
+         Name "SCR_AI Send Goal Message_ Cancel"
+         EditorPos 1322.917 274.167
+         InPorts {
+          SingleInputPortContainer SingleInputPortContainer {
+           Port 7
+           PortName "Receiver"
+          }
+          SingleInputPortContainer SingleInputPortContainer {
+           Port 8
+           PortName "PriorityLevel"
+          }
+          SingleInputPortContainer SingleInputPortContainer {
+           Port 9
+           PortName "IsWaypointRelated"
+          }
+         }
+        }
+        SCR_AIFailAction "SCR_AI Fail Action" {
+         Name "SCR_AI Fail Action"
+         EditorPos 1654.286 313.81
+        }
+        AITaskReturnState "Return State" {
+         Name "Return State"
+         EditorPos 1831.643 323.524
+         Result RUNNING
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ Variables {
+  Variable waypointRelated {
+   VariableName "waypointRelated"
+   VariableTypeName "bool"
+   VariableExposedInput 1
+   VariableExposedOutput 1
+  }
+  Variable targetPosition {
+   VariableName "targetPosition"
+   VariableTypeName "vector"
+   VariableExposedInput 1
+   VariableExposedOutput 1
+  }
+  Variable supportCallerEntity {
+   VariableName "supportCallerEntity"
+   VariableTypeName "IEntity"
+   VariableExposedInput 0
+   VariableExposedOutput 0
+  }
+  Variable priorityLevel {
+   VariableName "priorityLevel"
+   VariableTypeName "float"
+   VariableExposedInput 0
+   VariableExposedOutput 0
+  }
+  Variable supportCallerAgent {
+   VariableName "supportCallerAgent"
+   VariableTypeName "AIAgent"
+   VariableExposedInput 0
+   VariableExposedOutput 0
+  }
+  Variable targetEntity {
+   VariableName "targetEntity"
+   VariableTypeName "IEntity"
+   VariableExposedInput 0
+   VariableExposedOutput 0
+  }
+ }
+ VariablesRefs {
+  VariableReference waypointRelated {
+   VariableType 0
+   EditorPos -305.773 640.455
+  }
+  VariableReference targetPosition {
+   VariableType 1
+   EditorPos -305.5 718
+  }
+  VariableReference supportCallerEntity {
+   VariableType 2
+   EditorPos -311.389 797.778
+  }
+  VariableReference priorityLevel {
+   VariableType 3
+   EditorPos -310.278 874.556
+  }
+  VariableReference supportCallerEntity {
+   VariableType 2
+   EditorPos 595.917 854.667
+  }
+  VariableReference targetPosition {
+   VariableType 1
+   EditorPos 598.667 774.333
+  }
+  VariableReference supportCallerAgent {
+   VariableType 4
+   EditorPos -32.5 778.75
+  }
+  VariableReference supportCallerAgent {
+   VariableType 4
+   EditorPos 1020 254.848
+  }
+  VariableReference priorityLevel {
+   VariableType 3
+   EditorPos 1097.143 332.381
+  }
+  VariableReference waypointRelated {
+   VariableType 0
+   EditorPos 1071.428 409.524
+  }
+  VariableReference targetEntity {
+   VariableType 5
+   EditorPos -312.727 954.545
+  }
+  VariableReference targetEntity {
+   VariableType 5
+   EditorPos 605 932.5
+  }
+ }
+}

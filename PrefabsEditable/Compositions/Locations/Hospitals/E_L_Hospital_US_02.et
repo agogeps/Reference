@@ -1,0 +1,953 @@
+GenericEntity : "{3B47502BD0C6E3C8}PrefabsEditable/Compositions/Locations/E_Location_Base.et" {
+ ID "617EF4B50D28275F"
+ coords 0 0 0
+ {
+  GenericEntity : "{05137D09E06465C6}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_US_04.et" {
+   ID "61AA7E1DF1FF61F0"
+   coords 6.865 0 9.468
+   angleY 104.83
+  }
+  GameEntity : "{0E94F28FD722B1D8}Prefabs/Props/Military/Generators/GeneratorFloodlight_US_01.et" {
+   ID "61AA7E1DF1F14063"
+   components {
+    Hierarchy "{5D647736D92B5F40}" {
+     Enabled 1
+    }
+   }
+   coords -6.852 0.001 -6.013
+   angleY 53.995
+  }
+  GenericEntity : "{0EB503348F0C4C51}Prefabs/Props/Military/Camps/DispenserBeverage_E_01/dst/DispenserBeverage_E_01_Beige_DST.et" {
+   ID "61AA7E35974E65B4"
+   components {
+    Hierarchy "{61AA7E36F221388B}" {
+    }
+   }
+   coords 4.356 0.001 7.292
+  }
+  $grp StaticModelEntity : "{1E9C77D99D7F8A15}Prefabs/Structures/Military/Camps/AirfieldMatting_01/AirfieldMatting_US_01_short.et" {
+   {
+    ID "61AA7E1DF1F47670"
+    components {
+     Hierarchy "{5E6911EB284F8769}" {
+     }
+    }
+    coords -0.118 0 5.616
+    angleY 2.876
+   }
+   {
+    ID "61AA7E1DF1F4FE3C"
+    components {
+     Hierarchy "{5E6911EB284F8769}" {
+     }
+    }
+    coords 3.376 0 5.496
+    angleY 2.876
+   }
+   {
+    ID "61AA7E1DF1F50D46"
+    components {
+     Hierarchy "{5E6911EB284F8769}" {
+     }
+    }
+    coords -4.949 0 3.857
+    angleY 84.68
+   }
+   {
+    ID "61AA7E1DF1F55213"
+    components {
+     Hierarchy "{5E6911EB284F8769}" {
+     }
+    }
+    coords -5.328 0 7.332
+    angleY 84.68
+   }
+   {
+    ID "61AA7E1DF1F5E0F7"
+    components {
+     Hierarchy "{5E6911EB284F6C40}" {
+     }
+    }
+    coords -5.168 0 5.619
+    angleY 82.802
+   }
+   {
+    ID "61AA7E1DF1FA28B3"
+    components {
+     Hierarchy "{5E6911EB284F6C40}" {
+     }
+    }
+    coords 5.09 0 5.381
+   }
+   {
+    ID "61AA7E1DF1FA726C"
+    components {
+     Hierarchy "{5E6911EB284F8769}" {
+     }
+    }
+    coords 6.865 0 5.347
+    angleY 2.876
+   }
+   {
+    ID "61AA7E1DF1FB61CB"
+    components {
+     Hierarchy "{5E6911EB284F6C40}" {
+     }
+    }
+    coords 8.584 0 5.261
+    angleY 0.998
+   }
+   {
+    ID "61AA7E1DF1FB6DA4"
+    components {
+     Hierarchy "{5E6911EB284F6C40}" {
+     }
+    }
+    coords 1.601 0 5.53
+    angleY 0.998
+   }
+  }
+  $grp GenericEntity : "{3084E0F995556890}Prefabs/Props/Military/Camps/DispenserBeverage_E_01/DispenserBeverage_E_01_beige.et" {
+   {
+    ID "61AA7E35974E65A4"
+    components {
+     Hierarchy "{61AA7E36FF6C9BE1}" {
+     }
+    }
+    coords 4.515 0.001 6.44
+    angleY -82.095
+   }
+   {
+    ID "61AA7E35974E65D6"
+    components {
+     Hierarchy "{61AA7E36F49B2D96}" {
+     }
+    }
+    coords 4.225 0.001 6.773
+    angleY -82.095
+   }
+  }
+  $grp GenericEntity : "{35F2A674E602198F}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_plastic.et" {
+   {
+    ID "61AA7E1DF1F088C1"
+    components {
+     Hierarchy "{5D06E95AFB171C3C}" {
+      Enabled 1
+     }
+    }
+    coords -3.205 0 -9.824
+    angleY 4.028
+   }
+   {
+    ID "61AA7E1DF1F60ECF"
+    components {
+     Hierarchy "{5D06E95AFB171C3B}" {
+      Enabled 1
+     }
+    }
+    coords -5.135 0 -9.642
+    angleY -173.962
+   }
+  }
+  GenericEntity : "{36B55E2B9C47373C}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Medical_US_01.et" {
+   ID "61AA7E1DF1FF61BD"
+   coords 1.198 0 -1.155
+  }
+  GenericEntity : "{382758319508ECF1}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_US_03.et" {
+   ID "61AA7E1DF1F8CBAD"
+   coords 7.277 0.5 1.53
+   angleY 92.587
+   {
+    GameEntity {
+     ID "59B6901B705674EC"
+     coords -1.056 1.2 -0.009
+    }
+    GenericEntity {
+     ID "59B6901B705674E0"
+     coords 0.535 0 0.16
+    }
+    GenericEntity {
+     ID "59B6901B705674E1"
+     coords -1.377 0 0.029
+    }
+    GenericEntity {
+     ID "59B6901B705674E3"
+     coords 1.946 0 0.175
+    }
+    GenericEntity {
+     ID "59B6901B705674E7"
+     Flags 2098179
+    }
+    StaticModelEntity {
+     ID "59B6901B705674E2"
+     coords -0.416 0 0.034
+    }
+    StaticModelEntity {
+     ID "59B6901B705674ED"
+     coords 1.139 0 0.215
+    }
+   }
+  }
+  GenericEntity : "{389159F05C4F0C47}Prefabs/Compositions/Misc/SubCompositions/Utility/Sign_Hospital_US_01.et" {
+   ID "61AA7E1DF1FA28B9"
+   coords 2.856 0 10.736
+  }
+  StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+   ID "61AA7E1DF1F1407D"
+   components {
+    Hierarchy "{5D06E95AFB171BC7}" {
+     Enabled 1
+    }
+   }
+   coords -9.177 0 3.089
+   angleY 98.452
+  }
+  GenericEntity : "{3F2D1FB239682B87}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_plastic.et" {
+   ID "61AA7E1DF1FA28BE"
+   components {
+    Hierarchy "{61AB3B161D32383F}" {
+    }
+   }
+   coords -0.254 0 8.695
+  }
+  $grp GenericEntity : "{5040D5BB29F06E43}Prefabs/Props/Military/Sandbags/Sandbag_01_single_plastic.et" {
+   {
+    ID "61AA7E1DF1EC95C3"
+    components {
+     Hierarchy "{5D06E95AFB171BD6}" {
+      Enabled 1
+     }
+    }
+    coords 6.69 0.401 -1.72
+    angleY -49.224
+    angleZ -45.033
+   }
+   {
+    ID "61AA7E1DF1F040BE"
+    components {
+     Hierarchy "{5D06E95AFB171BE4}" {
+      Enabled 1
+     }
+    }
+    coords -8.746 0.312 1.004
+    angleX 1.181
+    angleY -178.456
+    angleZ -37.417
+   }
+   {
+    ID "61AA7E1DF1F040BF"
+    components {
+     Hierarchy "{5D06E95AFB171BD8}" {
+      Enabled 1
+     }
+    }
+    coords -8.333 -0.033 1.024
+    angleY -79.174
+   }
+   {
+    ID "61AA7E1DF1F05B3F"
+    components {
+     Hierarchy "{5D06E95AFB171BDD}" {
+      Enabled 1
+     }
+    }
+    coords -9.05 0.517 -1.358
+    angleX 16.662
+    angleY -130.785
+    angleZ -13.894
+   }
+   {
+    ID "61AA7E1DF1F0CC8E"
+    components {
+     Hierarchy "{5D06E95AFB171BCA}" {
+      Enabled 1
+     }
+    }
+    coords -8.545 0.141 -4.626
+    angleZ 33.266
+   }
+   {
+    ID "61AA7E1DF1F1D7CF"
+    components {
+     Hierarchy "{5D06E95AFB171BD6}" {
+      Enabled 1
+     }
+    }
+    coords -8.444 0.114 -4.369
+    angleY 130.543
+    angleZ -45.033
+   }
+   {
+    ID "61AA7E1DF1F215BB"
+    components {
+     Hierarchy "{5D06E95AFB171BDD}" {
+      Enabled 1
+     }
+    }
+    coords 7.284 0.804 -4.734
+    angleX 16.662
+    angleY 49.448
+    angleZ -13.894
+   }
+   {
+    ID "61AA7E1DF1F248B2"
+    components {
+     Hierarchy "{5D06E95AFB171BD8}" {
+      Enabled 1
+     }
+    }
+    coords 6.718 -0.046 -5.551
+    angleY 101.059
+   }
+   {
+    ID "61AA7E1DF1F29FA8"
+    components {
+     Hierarchy "{5D06E95AFB171BE4}" {
+      Enabled 1
+     }
+    }
+    coords 7.132 0.299 -5.532
+    angleX 1.181
+    angleY 1.777
+    angleZ -37.417
+   }
+   {
+    ID "61AA7E1DF1F29FAF"
+    components {
+     Hierarchy "{5D06E95AFB171BCA}" {
+      Enabled 1
+     }
+    }
+    coords 6.792 0.428 -1.464
+    angleY -179.767
+    angleZ 33.266
+   }
+   {
+    ID "61AA7E1DF1F802B5"
+    components {
+     Hierarchy "{5D06E95AFB171BCA}" {
+      Enabled 1
+     }
+    }
+    coords -7.214 0.723 -8.246
+    angleY -107.157
+    angleZ 33.266
+   }
+   {
+    ID "61AA7E1DF1F8CB56"
+    components {
+     Hierarchy "{5D06E95AFB171BCA}" {
+      Enabled 1
+     }
+    }
+    coords -7.597 0.139 -9.929
+    angleY 103.651
+    angleZ 33.266
+   }
+  }
+  $grp StaticModelEntity : "{55A3DA68E58453A1}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v2.et" {
+   {
+    ID "61AA7E1DF1F1407F"
+    components {
+     Hierarchy "{5D06E95AFB171BE3}" {
+      Enabled 1
+     }
+    }
+    coords -9.266 0 0.557
+    angleY 87.297
+   }
+   {
+    ID "61AA7E1DF1F74A33"
+    components {
+     Hierarchy "{5D06E95AFB171BEC}" {
+      Enabled 1
+     }
+    }
+    coords 0.336 0.1 -9.958
+    angleY 179.559
+   }
+   {
+    ID "61AA7E1DF1F8BE33"
+    components {
+     Hierarchy "{59B6901B41CCA66E}" {
+      Enabled 1
+     }
+    }
+    coords 7.361 0 -6.267
+    angleY 90
+   }
+   {
+    ID "61AA7E1DF1F8CBAC"
+    components {
+     Hierarchy "{59B6901B41CCA66E}" {
+      Enabled 1
+     }
+    }
+    coords 7.477 0.266 -3.295
+    angleY 90
+   }
+  }
+  GenericEntity : "{5BC2A42119655700}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_PalletMRE_US_01.et" {
+   ID "61AA7E35974E65E3"
+   coords 2.628 0.001 7.378
+   angleY -30.059
+  }
+  $grp GenericEntity : "{6CD65604C7945A66}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_03.et" {
+   {
+    ID "61AA7E1DF1EC2E05"
+    coords 4.474 0 7.338
+    angleY -133.032
+   }
+   {
+    ID "61AA7E1DF1EC2E0A"
+    coords -4.379 0 6.5
+    angleY -22.319
+    {
+     DecalEntity {
+      ID "56E0B29E01E2AC90"
+      coords 0 0 -1.723
+     }
+    }
+   }
+   {
+    ID "61AA7E1DF1F60ECB"
+    coords -5.723 0 0.139
+    angleY -116.419
+   }
+  }
+  GenericEntity : "{7B6EDBC3E88ECD97}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Tracks_03.et" {
+   ID "61AA7E1DF1F60EC9"
+   coords -5.611 0 0.839
+   angleY 86.332
+   {
+    DecalEntity {
+     ID "56E0B29FE0923701"
+     coords 1.953 0 -0.101
+    }
+   }
+  }
+  $grp GenericEntity : "{7D17217711AAD0FB}Prefabs/Props/Military/Camps/DispenserBeverage_W_01/DispenserBeverage_W_01.et" {
+   {
+    ID "61AA7E35974E6585"
+    components {
+     Hierarchy "{61AA7E36EC3322D3}" {
+     }
+    }
+    coords 3.74 0.001 6.685
+    angleY 170.773
+   }
+   {
+    ID "61AA7E35974E6590"
+    components {
+     Hierarchy "{61AA7E361359DB06}" {
+     }
+    }
+    coords 3.207 0.001 6.676
+    angleY -178.657
+   }
+  }
+  GenericEntity : "{7E3F6F5A6BAEC717}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_20ft_olive.et" {
+   ID "61AAE2AFE4C491AF"
+   components {
+    Hierarchy "{61AB3B1603E09AEA}" {
+    }
+   }
+   coords 5.263 0 -9.192
+   angleY 90
+  }
+  GenericEntity : "{7F671B405CDBF0A2}Prefabs/Props/Airport/GeneratorAirfield_US_01/GeneratorAirfield_US_01.et" {
+   ID "61AA7E1DF1F14060"
+   components {
+    Hierarchy "{5D647736D958E7CD}" {
+     Enabled 1
+    }
+   }
+   coords -7.256 0.001 5.532
+   angleY 84.66
+  }
+  GenericEntity : "{82FA510945A5FA33}Prefabs/Props/Military/WaterTanks/MobileWaterTank_US_01_base.et" {
+   ID "61AA7E35ACA15A7C"
+   components {
+    Hierarchy "{61AA7E3617971154}" {
+    }
+   }
+   coords -3.927 0 -6.414
+   angleY -17.325
+  }
+  $grp GenericEntity : "{86BA5E5CD528D5BC}Prefabs/Props/Military/Sandbags/Sandbag_01_end_plastic.et" {
+   {
+    ID "61AA7E1DF1EC95C0"
+    components {
+     Hierarchy "{5D06E95AFB171B93}" {
+      Enabled 1
+     }
+    }
+    coords 7.382 0.301 -2.577
+    angleY -91.542
+   }
+   {
+    ID "61AA7E1DF1F06EA1"
+    components {
+     Hierarchy "{5D06E95AFB171B93}" {
+      Enabled 1
+     }
+    }
+    coords -9.139 0.014 -3.515
+    angleY 88.225
+   }
+   {
+    ID "61AA7E1DF1F06EA2"
+    components {
+     Hierarchy "{5D06E95AFB171B94}" {
+      Enabled 1
+     }
+    }
+    coords -9.172 0.014 -2.192
+    angleY -90.189
+   }
+   {
+    ID "61AA7E1DF1F1D7C8"
+    components {
+     Hierarchy "{5D06E95AFB171B81}" {
+      Enabled 1
+     }
+    }
+    coords -8.831 0.014 3.934
+    angleY -84.122
+   }
+   {
+    ID "61AA7E1DF1F1E3E1"
+    components {
+     Hierarchy "{5D06E95AFB171B85}" {
+      Enabled 1
+     }
+    }
+    coords -8.93 0.014 2.147
+    angleY 96.621
+   }
+   {
+    ID "61AA7E1DF1F33FAE"
+    components {
+     Hierarchy "{5D06E95AFB171B85}" {
+      Enabled 1
+     }
+    }
+    coords 7.101 0.068 -6.894
+    angleY -83.146
+   }
+   {
+    ID "61AA7E1DF1F34147"
+    components {
+     Hierarchy "{5D06E95AFB171B94}" {
+      Enabled 1
+     }
+    }
+    coords 7.41 0.301 -3.9
+    angleY 90.044
+   }
+   {
+    ID "61AA7E1DF1F72A05"
+    components {
+     Hierarchy "{5D06E95AFB171B88}" {
+      Enabled 1
+     }
+    }
+    coords 1.024 0 -9.883
+    angleY 177.929
+   }
+   {
+    ID "61AA7E1DF1F74A32"
+    components {
+     Hierarchy "{5D06E95AFB171B8C}" {
+      Enabled 1
+     }
+    }
+    coords -1.879 0 -9.922
+    angleY 3.681
+   }
+   {
+    ID "61AA7E1DF1F96F1F"
+    components {
+     Hierarchy "{5D06E95AFB171B88}" {
+      Enabled 1
+     }
+    }
+    coords 4.3 0 10.474
+    angleY 0.314
+   }
+  }
+  $grp GenericEntity : "{894A1AFDCB71CD0D}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_02.et" {
+   {
+    ID "61AA7E1DF1F72A0A"
+    coords -6.955 0.1 -7.546
+    angleY 6.961
+   }
+   {
+    ID "61AA7E1DF1F99E52"
+    coords 7.205 0 5.21
+    angleY -35.469
+   }
+   {
+    ID "61AA7E1DF1F99E53"
+    coords 4.452 0 8.031
+   }
+  }
+  GenericEntity : "{8F623F3CB68525DC}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Cluttered_US_01.et" {
+   ID "61AA7E1DF1F60EC8"
+   coords -8.908 -0.698 7.132
+   angleY -89.1
+  }
+  $grp StaticModelEntity : "{93E06E731212BD96}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Triple.et" {
+   {
+    ID "61AA7E1DF1EC306D"
+    components {
+     Hierarchy "{5D06E95AFB171BB4}" {
+      Enabled 1
+     }
+    }
+    coords -10.554 0 -1.037
+    angleY 0.119
+   }
+   {
+    ID "61AA7E1DF1EC322B"
+    components {
+     Hierarchy "{5D06E95AFB171B98}" {
+      Enabled 1
+     }
+    }
+    coords -10.44 0 4.577
+    angleY 4.959
+   }
+   {
+    ID "61AA7E1DF1EC9D0F"
+    components {
+     Hierarchy "{5D06E95AFB171BA4}" {
+      Enabled 1
+     }
+    }
+    coords -10.618 0 1.693
+    angleY -0.94
+   }
+   {
+    ID "61AA7E1DF1ECDC96"
+    components {
+     Hierarchy "{5D06E95AFB171BA8}" {
+      Enabled 1
+     }
+    }
+    coords -10.455 0 -3.956
+    angleY 173.383
+   }
+   {
+    ID "61AA7E1DF1F3E7E2"
+    components {
+     Hierarchy "{5D06E95AFB171BA4}" {
+      Enabled 1
+     }
+    }
+    coords 8.438 0.001 -3.031
+    angleY 179.293
+   }
+   {
+    ID "61AA7E1DF1F3E7E3"
+    components {
+     Hierarchy "{5D06E95AFB171BB4}" {
+      Enabled 1
+     }
+    }
+    coords 8.455 0.001 -5.842
+    angleY -179.648
+   }
+   {
+    ID "61AA7E1DF1F73D2A"
+    components {
+     Hierarchy "{5D06E95AFB171BAC}" {
+      Enabled 1
+     }
+    }
+    coords -4.497 0 -10.605
+    angleY 94.444
+   }
+   {
+    ID "61AA7E1DF1F7D576"
+    components {
+     Hierarchy "{5D06E95AFB171BA0}" {
+      Enabled 1
+     }
+    }
+    coords -1.982 0 -10.689
+    angleY 94.913
+   }
+   {
+    ID "61AA7E1DF1F7D577"
+    components {
+     Hierarchy "{5D06E95AFB171BB1}" {
+      Enabled 1
+     }
+    }
+    coords 0.641 0 -10.81
+    angleY 90.366
+   }
+   {
+    ID "61AA7E1DF1F856AE"
+    components {
+     Hierarchy "{5D06E95AFB171BA8}" {
+      Enabled 1
+     }
+    }
+    coords -9.251 -0.001 -8.262
+    angleY 149.388
+   }
+   {
+    ID "61AA7E1DF1F8BE3F"
+    components {
+     Hierarchy "{5D06E95AFB171BA4}" {
+      Enabled 1
+     }
+    }
+    coords 8.438 0.001 0.117
+    angleY 179.293
+   }
+   {
+    ID "61AA7E1DF1F92941"
+    components {
+     Hierarchy "{5D06E95AFB171BB1}" {
+      Enabled 1
+     }
+    }
+    coords 4.721 0 11.384
+    angleY -87.249
+   }
+   {
+    ID "61AA7E1DF1FF61F7"
+    components {
+     Hierarchy "{5D06E95AFB171BA4}" {
+      Enabled 1
+     }
+    }
+    coords 8.438 0.001 2.947
+    angleY 179.293
+   }
+  }
+  $grp StaticModelEntity : "{B03F9691E961C4CA}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v3.et" {
+   {
+    ID "61AA7E1DF1F1D603"
+    components {
+     Hierarchy "{5D06E95AFB171BB8}" {
+      Enabled 1
+     }
+    }
+    coords -8.895 0 6.112
+    angleY 89.092
+   }
+   {
+    ID "61AA7E1DF1F79055"
+    components {
+     Hierarchy "{5D06E95AFB171B45}" {
+      Enabled 1
+     }
+    }
+    coords -2.609 0.1 -9.786
+    angleY 4.014
+   }
+   {
+    ID "61AA7E1DF1F856AF"
+    components {
+     Hierarchy "{5D06E95AFB171BB8}" {
+      Enabled 1
+     }
+    }
+    coords -8.052 0.37 -7.75
+    angleY 50.24
+   }
+  }
+  ESCT_VehicleSpawnPoint : "{B2E25648324D259A}Prefabs/Misc/VehicleSpawnPoint.et" {
+   ID "61AA7E1DF1FF61EE"
+   coords -5.368 0 -0.119
+   m_aIncludedEditableEntityLabels {
+    24
+   }
+   m_aExcludedEditableEntityLabels {
+    51
+   }
+  }
+  $grp StaticModelEntity : "{C1576E5555582214}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_short.et" {
+   {
+    ID "61AA7E1DF1EC306C"
+    components {
+     Hierarchy "{5D06E95AFB171B55}" {
+      Enabled 1
+     }
+    }
+    coords -9.044 0.1 -3.701
+    angleY 92.053
+   }
+   {
+    ID "61AA7E1DF1F152AD"
+    components {
+     Hierarchy "{5D06E95AFB171B55}" {
+      Enabled 1
+     }
+    }
+    coords -9.206 0 -2.312
+    angleY 92.053
+   }
+   {
+    ID "61AA7E1DF1F9EB52"
+    components {
+     Hierarchy "{5D06E95AFB171B56}" {
+      Enabled 1
+     }
+    }
+    coords 4.684 0 10.402
+    angleY 4.86
+   }
+  }
+  $grp StaticModelEntity : "{CABCA96DA5450B05}Prefabs/Structures/Military/Camps/AirfieldMatting_01/AirfieldMatting_US_01_long.et" {
+   {
+    ID "61AA7E1DF1F44415"
+    components {
+     Hierarchy "{5E6911EB2840BD73}" {
+     }
+    }
+    coords -0.09 0 6.12
+    angleY 2.573
+   }
+   {
+    ID "61AA7E1DF1F4442A"
+    components {
+     Hierarchy "{5E6911EB2840E28D}" {
+     }
+    }
+    coords -0.137 0 5.087
+    angleY 2.573
+   }
+   {
+    ID "61AA7E1DF1F4C621"
+    components {
+     Hierarchy "{5E6911EB2840BD73}" {
+     }
+    }
+    coords 3.404 0 6
+    angleY 2.573
+   }
+   {
+    ID "61AA7E1DF1F4FE3D"
+    components {
+     Hierarchy "{5E6911EB2840E28D}" {
+     }
+    }
+    coords 3.357 0 4.967
+    angleY 2.573
+   }
+   {
+    ID "61AA7E1DF1F50952"
+    components {
+     Hierarchy "{5E6911EB2840E28D}" {
+     }
+    }
+    coords -5.475 0 3.8
+    angleY 84.377
+   }
+   {
+    ID "61AA7E1DF1F50D47"
+    components {
+     Hierarchy "{5E6911EB2840BD73}" {
+     }
+    }
+    coords -4.447 0 3.901
+    angleY 84.377
+   }
+   {
+    ID "61AA7E1DF1F6E51D"
+    components {
+     Hierarchy "{5E6911EB2840BD73}" {
+     }
+    }
+    coords -4.825 0 7.376
+    angleY 84.377
+   }
+   {
+    ID "61AA7E1DF1F6E51E"
+    components {
+     Hierarchy "{5E6911EB2840E28D}" {
+     }
+    }
+    coords -5.854 0 7.275
+    angleY 84.377
+   }
+   {
+    ID "61AA7E1DF1FA28B4"
+    components {
+     Hierarchy "{5E6911EB2840E28D}" {
+     }
+    }
+    coords 6.846 0 4.818
+    angleY 2.573
+   }
+   {
+    ID "61AA7E1DF1FA726D"
+    components {
+     Hierarchy "{5E6911EB2840BD73}" {
+     }
+    }
+    coords 6.893 0 5.851
+    angleY 2.573
+   }
+  }
+  $grp GenericEntity : "{DC4B11930753ABC2}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_base.et" {
+   {
+    ID "61AA7E1DF1F856AD"
+    components {
+     Hierarchy "{61AA7E360167C8F0}" {
+     }
+    }
+    coords -8.976 0 -6.532
+    angleY -114.97
+   }
+   {
+    ID "61AA7E1DF1F99E58"
+    components {
+     Hierarchy "{61AA7E3605061194}" {
+     }
+    }
+    coords -7.248 0 -8.977
+    angleY -142.874
+   }
+  }
+  $grp GenericEntity : "{F76BD5785C7FE191}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_ObservationPoint.et" {
+   {
+    ID "61AA7E351A23B260"
+    components {
+     Hierarchy "{61AA7E360816C6C1}" {
+     }
+    }
+    coords 7.461 0.001 5.32
+    angleY 0
+   }
+   {
+    ID "61AA7E353B0D789A"
+    components {
+     Hierarchy "{61AA7E360DC73CAA}" {
+     }
+    }
+    coords -5.26 0.052 8.029
+    angleY 0
+   }
+  }
+  GenericEntity : "{FB0F12529D2FD0DA}Prefabs/Props/Military/FieldKitchenTrailerUS_01.et" {
+   ID "61AA7E35974E65C2"
+   components {
+    Hierarchy "{61AA7E3630F711F5}" {
+    }
+   }
+   coords 4.524 0.001 7.884
+   angleY -78.036
+  }
+  GenericEntity : "{FFBABD777EBFF08E}Prefabs/MilitaryCrates/MilitaryCrate_Medicine_US.et" {
+   ID "61AA7E1DF1FF61ED"
+   coords 3.472 0.146 0.239
+   angleY -88.103
+  }
+ }
+}

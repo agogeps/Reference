@@ -1,0 +1,7 @@
+ESCT_CharacterSpawnPoint {
+ ID "6063186959F8E8B3"
+ components {
+  Hierarchy "{6063186959F8E88B}" {
+  }
+ }
+}

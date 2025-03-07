@@ -1,0 +1,16 @@
+GenericEntity {
+ ID "62FB3880588BA25D"
+ components {
+  MeshObject "{62FB38806CB94695}" {
+   Object "{7AF20DCFB3F30494}Assets/Vegetation/Tree/Pinus_Sylvestris/Dst/t_pinus_sylvestris_2s_dst_base.xob"
+  }
+  RigidBody "{62FB38806EBD7E66}" {
+   SimState Collision
+   Static 1
+  }
+  Hierarchy "{62FB38806D17132D}" {
+  }
+ }
+ coords -6.502 1.424 2.808
+ Flags 1027
+}

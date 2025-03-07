@@ -1,0 +1,86 @@
+GenericEntity {
+ ID "619ED3851EB9C905"
+ components {
+  ESCT_LocationStorageComponent "{619ED382D4C0A21C}" {
+   m_IsSpawnGuaranteed 1
+  }
+  ESCT_StorageArsenalComponent "{619ED382DB71447F}" {
+  }
+  MeshObject "{619ED3859C584A0B}" {
+   ObjectHeightmapBias 0
+   ObjectHeightmapTraceBias 0
+  }
+  RigidBody "{619ED3858975E87B}" {
+   Gravity 0
+   AngularSleepingThreashold 1
+   ResponseIndex "SmallDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_FactionAffiliationComponent "{619EED62871A4761}" {
+  }
+  SCR_SoundDataComponent "{619ED3829B562257}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{619ED38295D986AC}" {
+     m_sSoundProject "{A73D28179B395F19}Sounds/Props/Military/AmmoBoxes/AmmoBox_Big_Wooden/Props_AmmoBox_Big_Wooden.acp"
+     m_sSoundEventName "SOUND_CONTAINER_OPEN"
+    }
+    SCR_AudioSourceConfiguration "{619ED38295750A86}" {
+     m_sSoundProject "{A73D28179B395F19}Sounds/Props/Military/AmmoBoxes/AmmoBox_Big_Wooden/Props_AmmoBox_Big_Wooden.acp"
+     m_sSoundEventName "SOUND_CONTAINER_CLOSE"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{619ED38229150736}" {
+   Attributes SCR_ItemAttributeCollection "{619ED38227750F9F}" {
+    ItemDisplayName UIInfo "{619ED3822425016D}" {
+     Name "#Escapists-Item_Crate_Header"
+     Description "#Escapists-Item_Crate_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{619ED38268E65382}" {
+     Weight 50
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{619ED38273A9FB48}" {
+      CameraPreset Top
+      CameraDistanceToItem 1.25
+     }
+    }
+    m_Size SLOT_2x2
+    m_SlotType SLOT_ANY
+    m_bDraggable 0
+    m_bStackable 0
+   }
+   m_fMaxWeight 75
+  }
+  SCR_InventoryStorageManagerComponent "{619ED382C39BDB5B}" {
+  }
+  ActionsManagerComponent "{619ED382500AAA81}" {
+   ActionContexts {
+    UserActionContext "{619ED385A992B96D}" {
+     ContextName "StorageContext"
+     Position PointInfo "{613C8764B0F982CA}" {
+     }
+     Radius 1
+     Height 0
+    }
+   }
+   additionalActions {
+    SCR_OpenStorageAction "{619ED385BE9271A8}" {
+     ParentContextList {
+      "StorageContext"
+     }
+     UIInfo UIInfo "{613C87649278AFC0}" {
+      Name "#Escapists-UserAction_OpenCrate"
+     }
+     "Inventory action" 1
+    }
+   }
+  }
+  RplComponent "{619ED382FC09B206}" {
+  }
+  Hierarchy "{619ED382F8A6968B}" {
+  }
+ }
+ coords 139.601 1 94.247
+}

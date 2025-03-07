@@ -1,0 +1,62 @@
+MatPBRMulti {
+ MaskMap "{8FBF820AA7B85CA5}Assets/Items/Fuel/Jerrycan_01/Data/JerryCan_01_GLOBAL_MASK.edds"
+ MaskRedScale 0.3
+ MaskGreenScale 1
+ MaskBlueScale 1
+ GlobalNMOMap "{86747DE209CE9C85}Assets/Items/Fuel/Jerrycan_01/Data/JerryCan_01_NMO.edds"
+ Enabled_4 1
+ Color_4 0.068 0.056 0.033 1
+ BCR_4 "{366028E90066FC57}Assets/_SharedData/Dirt/ST_Dirt_Sand_BCR.edds"
+ NMO_4 "{370535C4B4BFD3B2}Assets/_SharedData/Dirt/ST_Clay_Rough01_1m_NMO.edds"
+ MaskSharpness_4 1.329
+ MaskOffset_4 0.084
+ Mask_4 "{BD7A9CC72D73B91E}Assets/_SharedData/DetailMask/ST_Paint_Peeling_01_Mask1.edds"
+ MaskUVScale_4 8.743
+ UVTransform_4 MatUVTransform "{52B49B17AF315588}" {
+  TilingU 4
+  TilingV 4
+  OffsetU 0.07
+  OffsetV -0.098
+  Rotation 17.622
+ }
+ DetNormal_4 0.769
+ Roughness_4 1.084
+ Enabled_3 1
+ Color_3 0.127 0.108 0.092 1
+ BCR_3 "{FA742FE6A11B2766}Assets/_SharedData/Metal/ST_Steel_Base_01_BCR.edds"
+ NMO_3 "{C2AC9474786C75F8}Assets/_SharedData/Metal/ST_Steel_Base_01_NMO.edds"
+ MaskSharpness_3 5.305
+ MaskOffset_3 0.083
+ Mask_3 "{B62129F4BA24B2EA}Assets/_SharedData/DetailMask/ST_Concrete_04_Mask1.edds"
+ UVTransform_3 MatUVTransform "{52B49B1156CFCA07}" {
+  TilingU 3
+  TilingV 3
+  OffsetU -0.63
+  OffsetV 0.494
+  Rotation 285.063
+ }
+ DetNormal_3 1.608
+ Roughness_3 2.063
+ Enabled_2 1
+ Color_2 0.07 0.078 0.035 1
+ BCR_2 "{1837E633B1A92A98}Assets/_SharedData/Metal/ST_MetalPaint_Coated_02_1m_BCR.edds"
+ NMO_2 "{839CBC1678749998}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_NMO.edds"
+ MaskSharpness_2 1.049
+ Mask_2 "{B62129F4BA24B2EA}Assets/_SharedData/DetailMask/ST_Concrete_04_Mask1.edds"
+ MaskUVScale_2 1.749
+ UVTransform_2 MatUVTransform "{52B49B158EA97A36}" {
+  TilingU 4.9
+  TilingV 4
+  Rotation 7.552
+ }
+ DetNormal_2 0.909
+ Roughness_2 0.95
+ Color_1 0.262 0 0 1
+ BCR_1 "{1837E633B1A92A98}Assets/_SharedData/Metal/ST_MetalPaint_Coated_02_1m_BCR.edds"
+ NMO_1 "{839CBC1678749998}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_NMO.edds"
+ UVTransform_1 MatUVTransform "{52B49B101FF480F7}" {
+  TilingU 4
+  TilingV 4
+ }
+ Roughness_1 1.118
+}

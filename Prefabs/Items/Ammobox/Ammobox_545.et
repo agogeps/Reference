@@ -1,0 +1,62 @@
+GenericEntity : "{9B05F4928AB76388}Prefabs/Items/Ammobox/AmmoBox_Base.et" {
+ ID "613CC245B9915C7A"
+ components {
+  InventoryItemComponent "{613CC25DB9B9240F}" {
+   Attributes SCR_ItemAttributeCollection "{613CC25DB0CF1ADC}" {
+    CustomAttributes {
+     SCR_ItemOfInterestAttribute "{613CC25D955C2905}" {
+      m_InterestType AMMO
+     }
+     PreviewRenderAttributes "{613CC25DC0039E68}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1.75
+      FOV 10
+      AspectRatio 1
+      PreviewModel "{14EA4D87418CBB67}Assets/Props/Military/AmmoBox/AmmoBox_545x39_1080rnd/AmmoBox_545x39_1080rnd.xob"
+      LodModel 0
+     }
+    }
+    m_Size SLOT_2x2
+    m_SlotType SLOT_BACKPACK
+   }
+  }
+  MeshObject "{613CC25E508B2245}" {
+   Object "{14EA4D87418CBB67}Assets/Props/Military/AmmoBox/AmmoBox_545x39_1080rnd/AmmoBox_545x39_1080rnd.xob"
+   ObjectHeightmapBias 0
+   ObjectHeightmapTraceBias 0
+  }
+  RigidBody "{613CC25E6CC8C694}" {
+   Mass 4.5
+   AngularSleepingThreashold 1
+   ResponseIndex "TinyDestructible"
+   ModelGeometry 1
+  }
+  ActionsManagerComponent "{613CC246CEDB1A8E}" {
+   additionalActions {
+    SCR_PickUpItemAction "{613CC2460B4C52CB}" {
+     "Sort Priority" 0
+    }
+    ESCT_ConvertCartridgesToMagazinesAction "{613CC246066F034B}" {
+     Duration 1
+     "Sort Priority" 0
+     m_ResultMagazine "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+     m_iMagazinesQuantityPerUse 3
+    }
+    ESCT_ConvertCartridgesToMagazinesAction "{613D10333651C8C5}" {
+     ParentContextList {
+      "default"
+     }
+     Duration 1
+     m_sActionName "#Escapists-UserAction_ConvertCartridges_MG"
+     m_ResultMagazine "{BC74DAC891D48540}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Ball.et"
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{613D4D02E3E45C86}" {
+      m_sSoundProject "{1A1F49248284A1CF}Sounds/Props/Military/AmmoBoxes/AmmoBox_81mm_mortar_3rnd/Props_AmmoBox_81mm_mortar_3rnd.acp"
+      m_sSoundEventName "SOUND_CONTAINER_OPEN"
+     }
+    }
+   }
+  }
+ }
+ coords 135.766 1 108.273
+ Flags 4194307
+}

@@ -1,0 +1,139 @@
+GenericEntity : "{3B47502BD0C6E3C8}PrefabsEditable/Compositions/Locations/E_Location_Base.et" {
+ ID "617EF4B50D28275F"
+ components {
+  FactionAffiliationComponent "{617EF4AA53E236D3}" {
+   "faction affiliation" "FIA"
+  }
+ }
+ coords 39.673 1 119.512
+ {
+  SCR_DestructibleBuildingEntity : "{0031C11C2D0AB6D3}Prefabs/Structures/Military/Bunkers/Bunker_01/Bunker_01_1fp_Hideout.et" {
+   ID "62D70E3359A7F48F"
+   coords 0 0 1.265
+  }
+  GenericEntity : "{17A78A0D3701386A}Prefabs/Compositions/Misc/SubCompositions/Garbage/Tire_Stack_Garbage_01.et" {
+   ID "620899136AD5C855"
+   coords 3.144 0 0.455
+   angleY -80.604
+  }
+  GenericEntity : "{1E6236712330B010}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_1_decals_01.et" {
+   ID "620899136AD5C850"
+   components {
+    Hierarchy "{6208991084B9D7B0}" {
+    }
+   }
+   coords -2.145 0 -1.616
+  }
+  GenericEntity : "{361EEFE7B91BF9E8}Prefabs/Compositions/Misc/SubCompositions/BarrelMetalGroup_01.et" {
+   ID "620899136AD55827"
+   coords -3.472 0 1.703
+   angleY -83.555
+  }
+  GenericEntity : "{62B2ADC4243454F9}Prefabs/Props/Civilian/Jerrycan_01.et" {
+   ID "620899136AD5C86D"
+   components {
+    Hierarchy "{61E304EE4AB499A4}" {
+    }
+   }
+   coords 2.962 0 2.746
+   angleY -50.679
+  }
+  GenericEntity : "{6C57BFFFA642C60C}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_04.et" {
+   ID "620899136AD5C85B"
+   coords 0.127 0 -4.702
+   angleY 179.124
+  }
+  $grp GenericEntity : "{6CD65604C7945A66}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_03.et" {
+   {
+    ID "620899136AD5583A"
+    coords 0.245 0 2.199
+    angleY -67.413
+   }
+   {
+    ID "620899136AD5583B"
+    coords -0.005 0 -0.399
+    angleY -39.71
+    {
+     DecalEntity {
+      ID "56E0B29E01E2AC90"
+      coords -1.25 0 -1.185
+      angleX -90
+      angleY -108.133
+      angleZ -180
+     }
+    }
+   }
+  }
+  GenericEntity : "{95A8C3D0FF935870}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_LoiterPoint_LeanRight.et" {
+   ID "6208990233C11D6A"
+   components {
+    Hierarchy "{62089902094FA1AE}" {
+    }
+   }
+   coords -3.086 0.201 -3.352
+  }
+  GenericEntity : "{9B7F08BF4C938AD2}Prefabs/Structures/Military/Camps/Canvas_Covers/Soviet/CanvasCover_Medium_Soviet.et" {
+   ID "620899136AD5C840"
+   components {
+    SCR_HorizontalAlignComponent "{62D70E328FA81746}" {
+    }
+    Hierarchy "{5A427B47A9DF881A}" {
+     Enabled 1
+    }
+   }
+   coords 0.012 0.471 -3.686
+   angleY -0.863
+   scale 0.85
+  }
+  GenericEntity : "{A4E14002C47285EE}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_LoiterPoint_LeanLeft.et" {
+   ID "6208990233C11D18"
+   components {
+    Hierarchy "{62089902044EF043}" {
+    }
+   }
+   coords 0.191 0.201 -0.473
+  }
+  GenericEntity : "{B898D2A1F45058F6}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUSSR_01.et" {
+   ID "620899136AD5C86B"
+   components {
+    Hierarchy "{5654C1ECEE54C864}" {
+     Enabled 1
+    }
+   }
+   coords 0.886 0.707 -4.617
+   angleY 133.163
+  }
+  StaticModelEntity : "{C6BFE324CCCFE6C4}Prefabs/Props/Military/Furniture/CotMilitary_USSR_01.et" {
+   ID "620899136AD55829"
+   components {
+    Hierarchy "{5CCCBEF333EFE053}" {
+     Enabled 1
+    }
+   }
+   coords 0.054 0.051 -2.495
+   angleY 0.052
+  }
+  GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+   ID "620899136AD5582E"
+   components {
+    Hierarchy "{5D647736AC15734C}" {
+     Enabled 1
+    }
+   }
+   coords 0.004 -0.038 -2.658
+   angleX -0.006
+   angleY 89.971
+   angleZ 0.001
+  }
+  GenericEntity : "{E9CDA137E0F1DCAA}Prefabs/Compositions/Misc/SubCompositions/CrateWooden_Cluttered_US_02.et" {
+   ID "620899136AD5C859"
+   coords 3.241 0 1.801
+   angleY 0.669
+  }
+  ESCT_CharacterSpawnPoint : "{F28B2B542F6C684A}Prefabs/CharacterSpawnPoint.et" {
+   ID "620899136AD55838"
+   coords -1.82 0 -3.826
+   angleY -132.169
+  }
+ }
+}

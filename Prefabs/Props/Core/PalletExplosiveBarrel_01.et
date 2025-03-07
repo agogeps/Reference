@@ -1,0 +1,104 @@
+GenericEntity : "{1D240D11F623DF4E}Prefabs/Props/Core/ExplosiveBarrel_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  ESCT_BarrelDamageManagerComponent "{5624A88D86EFE8BA}" {
+   "Additional hit zones" {
+    ESCT_FlammableHitZone Default {
+     ColliderNames {
+      "UTM_PalletFuel_02"
+     }
+     BaseDamageMultiplier 3
+     MaxHealth 80
+     DamageReduction 5
+     DamageThreshold 5
+     "Fragmentation multiplier" 5
+     "Explosive multiplier" 10
+     "Incendiary multiplier" 16
+     m_fLightSmokeStopTime 0
+     m_fHeavySmokeStopTime 0
+     m_fIgnitingSmokeStokeTime 0
+     m_fMinFireBurningTime 20
+     m_fMaxFireBurningTime 40
+     m_sBurningParticle "{4D5CD8B2B5DE8916}Particles/Vehicle/Vehicle_fire_engine_medium.ptc"
+     m_sBurningGroundParticle "{A9259561960FD620}Particles/Vehicle/Vehicle_fire_ground_medium.ptc"
+    }
+   }
+   "Fall damage min speed" 3
+   "Fall damage max speed" 18
+   CollisionVelocityThreshold 5
+   "Heavy damage threshold" 70
+   m_SecondaryFires SCR_SecondaryExplosions "{61CE71C2764EFF33}" {
+    m_aSecondaryExplosionTypes {
+     SCR_SecondaryExplosionType "{61CD292D2DFCE72F}" {
+      m_eSecondaryExplosionType FUEL
+      m_aSecondaryExplosions {
+       SCR_SecondaryExplosion "{5E3EB0EFE30542AB}" {
+        m_fMinValue 120
+        m_eSecondaryExplosionScale LARGE
+        m_sSecondaryExplosionPrefab "{342AA153837E89E5}Prefabs/Weapons/Warheads/Fires/Fire_Generic_Large.et"
+        m_sSecondaryFireParticles "{93CAB5E5559B5C32}Particles/Vehicle/Vehicle_fire_engine_big.ptc"
+       }
+       SCR_SecondaryExplosion "{5E3EB0EFE3FEC702}" {
+        m_fMinValue 30
+        m_eSecondaryExplosionScale MEDIUM
+        m_sSecondaryExplosionPrefab "{D4D4E341EA4371A3}Prefabs/Weapons/Warheads/Fires/Fire_Generic_Medium.et"
+        m_sSecondaryFireParticles "{4D5CD8B2B5DE8916}Particles/Vehicle/Vehicle_fire_engine_medium.ptc"
+       }
+       SCR_SecondaryExplosion "{5E3EB0EFE3D3A61D}" {
+        m_fMinValue 0
+        m_eSecondaryExplosionScale SMALL
+        m_sSecondaryExplosionPrefab "{D4D4E341EA4371A3}Prefabs/Weapons/Warheads/Fires/Fire_Generic_Medium.et"
+        m_sSecondaryFireParticles "{4D5CD8B2B5DE8916}Particles/Vehicle/Vehicle_fire_engine_medium.ptc"
+       }
+      }
+     }
+    }
+   }
+   m_fBaseHealth 200
+   m_DestroySpawnObjects {
+    SCR_ParticleSpawnable "{61CE71C2DD80AEBD}" {
+     m_vOffsetPosition 0 -0.3 0
+     m_Particle "{66DAEB775AA8CA4C}Particles/Props/Dest_Prop_Metal_Medium.ptc"
+    }
+    SCR_PrefabSpawnable "{61CE71C228C35A59}" {
+     m_vOffsetPosition 0 0.1 0
+     m_Prefabs {
+      "{8BC4C95E01FC9BD3}Prefabs/Weapons/Warheads/Explosions/Explosion_Fuel_Large.et"
+     }
+     m_fRandomVelocityLinear 0.09
+    }
+    SCR_PrefabSpawnable "{61D75159F2AF449D}" {
+     m_vOffsetPosition 0 0.35 0
+     m_Prefabs {
+      "{F1929AE7DC824D81}Prefabs/Weapons/Warheads/Warhead_ExplosiveCharge_TNT400g.et"
+     }
+    }
+   }
+   m_eMaterialSoundType BREAK_METAL
+   m_fSecondaryFireDamageDelay 1.001
+  }
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{631CE15E7004324E}Assets/Props/Industrial/Pallets/PalletFuel_01.xob"
+   Materials {
+    MaterialAssignClass "{61CE71C28043F3EE}" {
+     SourceMaterial "Barrel_01"
+     AssignedMaterial "{AC74F2495F3C0BE5}Assets/Props/Industrial/BarrelFuel_01/Data/ExplosiveBarrel_01.emat"
+    }
+    MaterialAssignClass "{61CE71C28043F3FC}" {
+     SourceMaterial "Color_pallet"
+     AssignedMaterial "{3E0F757B1E346CD5}Assets/Props/Industrial/BarrelFuel_01/Data/ExplosiveBarrel_01_ColorPallete.emat"
+    }
+   }
+   LODFactors {
+    50 5 2 1 1
+   }
+   ObjectHeightmapBias 0
+   ObjectHeightmapTraceBias 0
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   AngularSleepingThreashold 1
+   ResponseIndex "HugeDestructible"
+  }
+ }
+ coords 119.485 1 125.01
+}

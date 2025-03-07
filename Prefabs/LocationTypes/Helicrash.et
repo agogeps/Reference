@@ -1,0 +1,9 @@
+ESCT_HelicrashLocationHolder {
+ ID "62FD054DC2293DF5"
+ components {
+  Hierarchy "{62FD054DDF23FF35}" {
+  }
+ }
+ coords 1604.971 4.501 892.057
+ Flags 1027
+}

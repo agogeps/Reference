@@ -1,0 +1,41 @@
+GenericEntity : "{042D698144932DF6}Prefabs/MilitaryCrates/MilitaryCrate_Supplies_US.et" {
+ ID "619ED3851EB9C905"
+ components {
+  ESCT_EditableStorageComponent "{622AE51F3EEFC334}" {
+  }
+  ESCT_LocationStorageComponent "{619ED382D4C0A21C}" {
+   Enabled 0
+  }
+  SCR_EditableEntityComponent "{622AE51EFEE1D18E}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{622AE51EFD6C6C92}" {
+    Name "#Escapists-EditableEntity_MilitaryCrate_US_Title"
+    Description "#Escapists-EditableEntity_MilitaryCrate_Description"
+    Icon "{10C0A9A305E8B3A4}UI/Imagesets/Tasks/Task_Icons.imageset"
+    IconSetName "Icon_Task_Rearm_UI"
+    m_Image "{B0EF6BEA6F20A3FA}UI/Textures/EditorPreviews/Auto/Props/Military/AmmoBoxes/EquipmentBoxStack/E_EquipmentBoxStack_US_01_V3.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     1001 20001
+    }
+    m_aAutoLabels {
+     1 108 11
+    }
+   }
+   m_bAutoRegister ALWAYS
+   m_Flags 769
+  }
+  SCR_PreviewEntityComponent "{622AE51F09E1949E}" {
+   m_aEntries {
+    SCR_BasePreviewEntry "{622AE51F0908166D}" {
+     m_iParentID 0
+     m_Mesh "{BF6677F0B846FCF6}Assets/Props/Military/AmmoBox/EquipmentBoxStack/EquipmentBoxStack_01_V3.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ coords 30.073 1 110.105
+}

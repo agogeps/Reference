@@ -1,0 +1,23 @@
+GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_CampaignBuildingCompositionComponent "{5E96A067C097D570}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{5D66ED1096104FD8}" {
+   Enabled 0
+  }
+ }
+ coords 0 0 0
+ {
+  GenericEntity : "{F76BD5785C7FE191}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_ObservationPoint.et" {
+   ID "61829C30D5174C45"
+   components {
+    Hierarchy "{5E989B7FD5A4A8A2}" {
+    }
+   }
+   coords -0.771 0 1.254
+   angleY -62.644
+  }
+ }
+}

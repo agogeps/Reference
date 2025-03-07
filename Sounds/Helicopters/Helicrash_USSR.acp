@@ -1,0 +1,429 @@
+AudioClass {
+ signals {
+  SignalClass {
+   id 27661
+   name "Signal Reverb"
+   tl 436.278 104.695
+   res "{76CBB40EF7F227B6}Sounds/_SharedData/Signals/Reverb/Reverb_Base.sig"
+   inputsport {
+    1 35 40 112 139
+   }
+   outputsport {
+    34 39 105 106 107 110
+   }
+   inputvalues {
+    40 1 1 16000 16000
+   }
+   inputvaluesmin {
+    0 0 0 0 0
+   }
+   inputvaluesmax {
+    100 1 1 16000 16000
+   }
+   path "{76CBB40EF7F227B6}Sounds/_SharedData/Signals/Reverb/Reverb_Base.sig"
+  }
+  SignalClass {
+   id 31757
+   name "Signal Occlusion"
+   tl -792.249 243.753
+   res "{A45B14CDEA2D5DCD}Sounds/_SharedData/Signals/Props/Props_Occlusion.sig"
+   inputsport {
+    1 6 7 23 52 56
+   }
+   outputsport {
+    5 37
+   }
+   inputvalues {
+    0 0 0 0 1000 400
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    1 1 1 1 10000 10000
+   }
+   path "{A45B14CDEA2D5DCD}Sounds/_SharedData/Signals/Props/Props_Occlusion.sig"
+  }
+  SignalClass {
+   id 36877
+   name "Signal 15"
+   tl 152.25 -127
+   res "{9DEC40DAE4E5212C}Sounds/_SharedData/Signals/OneSignal/Trigger.sig"
+   inputsport {
+    1
+   }
+   outputsport {
+    2
+   }
+   inputvalues {
+    1
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    1
+   }
+   path "{9DEC40DAE4E5212C}Sounds/_SharedData/Signals/OneSignal/Trigger.sig"
+  }
+ }
+ sounds {
+  SoundClass {
+   id 2057
+   name "SOUND_HELICRASH_MI8"
+   version 5
+   tl 148.19 -28.139
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 36877
+       port 2
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 1042
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   outState 12299
+   outStatePort 79879
+   transformation Offset
+   offsetName "Warning_Speakers"
+  }
+  SoundClass {
+   id 54281
+   name "WARNING_SOUND_TURN_OFF"
+   version 5
+   tl 149.02 144.684
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 55314
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    8 0
+   }
+   volume_dB -6
+   outState 12299
+   outStatePort 79879
+   transformation Offset
+   offset 0 1 0
+   eventType "OnStart - Stop"
+  }
+ }
+ mixers {
+  MixerClass {
+   id 12299
+   name "OutputState"
+   version 4
+   tl 419.278 445.445
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   ins {
+    ConnectionsClass connections {
+     id 79879
+     links {
+      ConnectionClass connection {
+       id 2057
+       port 65
+      }
+      ConnectionClass connection {
+       id 54281
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 152583
+     links {
+      ConnectionClass connection {
+       id 24605
+       port 65
+      }
+      ConnectionClass connection {
+       id 54281
+       port 5
+      }
+     }
+    }
+   }
+   pi {
+    49152 0
+   }
+   path "{B764D803219C775E}Sounds/FinalMix.afm"
+   inputs {
+    "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialog" "Music" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb" "VON_Reverb" "Dialog_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "UI" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct" "SFX_Reverb_Small" "SFX_Reverb_Medium" "SFX_Reverb_Large" "WPN_Shots_Player" "Dialog_Reverb_Small" "Dialog_Reverb_Medium" "Dialog_Reverb_Large" "Dialog_Delay_Exterior"
+   }
+  }
+ }
+ shaders {
+  ShaderClass {
+   id 1042
+   name "Shader 1"
+   version 5
+   tl -66 -36
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 33820
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 32787
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 30741
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 59396
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    23 0
+   }
+  }
+  ShaderClass {
+   id 55314
+   name "Shader 1"
+   version 5
+   tl -77.607 208.922
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 57372
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 56339
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 58389
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 53252
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    23 0
+   }
+  }
+ }
+ amplitudes {
+  AmplitudeClass {
+   id 32787
+   name "Amplitude 3"
+   version 5
+   tl -590.604 273.193
+   curve "1/r"
+   outerRange 70
+   slopeFactor 3.2
+  }
+  AmplitudeClass {
+   id 56339
+   name "Amplitude 3"
+   version 5
+   tl -348.037 400.991
+   curve "1/r"
+   outerRange 70
+   slopeFactor 3.2
+  }
+ }
+ frequency {
+  FrequencyClass {
+   id 30741
+   name "Frequency Base"
+   version 5
+   tl -588.342 366.526
+   ins {
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 31757
+       port 37
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+   pu {
+    16 0
+   }
+   dynamicUpdate 1
+   enableDistanceAtt 1
+   enableDirectivity 1
+   directivityFactor 0.6
+  }
+  FrequencyClass {
+   id 58389
+   name "Frequency Base"
+   version 5
+   tl -341.925 471.527
+   pi {
+    16 0
+   }
+   pu {
+    16 0
+   }
+   dynamicUpdate 1
+   enableDistanceAtt 1
+   enableDirectivity 1
+   directivityFactor 0.6
+  }
+ }
+ banks_local {
+  BankLocalClass {
+   id 53252
+   name "WarningTurnOff"
+   version 7
+   tl -300.607 194.394
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{BCB0577671D30F95}Sounds/Radio/radio_turn_on.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 59396
+   name "Warning Beep"
+   version 7
+   tl -330.694 -40.833
+   Volume -4
+   "Loop count" 255
+   "Infinite loop" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{6A5000BE907EFD34}Sounds/Vehicles/Helicopters/Mi-8MT/Samples/WarningVoiceLines/Vehicles_Mi-8MT_WarningBeep_LP.wav"
+    }
+   }
+  }
+ }
+ spatialities {
+  SpatialityClass {
+   id 33820
+   name "Spatiality 2"
+   version 5
+   tl -584.75 188.372
+   spatialFactor 1
+  }
+  SpatialityClass {
+   id 57372
+   name "Spatiality 2"
+   version 5
+   tl -328.095 302.221
+   spatialFactor 1
+  }
+ }
+ auxOuts {
+  AuxOutClass {
+   id 24605
+   name "AuxOut Reverb INT"
+   version 5
+   tl 425.723 318.947
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 2057
+       port 5
+      }
+      ConnectionClass connection {
+       id 54281
+       port 5
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 27661
+       port 34
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 27661
+       port 39
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   pu {
+    6 0
+   }
+   OSPort 152583
+  }
+ }
+ version 1
+ listenerWindowModel "{A6373BE246B5C482}Assets/Vehicles/Helicopters/Mi8/Mi8MT_base.xob"
+}

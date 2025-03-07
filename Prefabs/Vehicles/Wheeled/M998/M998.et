@@ -1,0 +1,8 @@
+Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  ESCT_CarAlarmComponent "{612AB463D2F22D59}" {
+   Enabled 0
+  }
+ }
+}

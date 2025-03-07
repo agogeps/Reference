@@ -1,0 +1,16 @@
+ParticleEffectEntity {
+ ID "62FB16BCCEC05A48"
+ components {
+  SignalsManagerComponent "{62FB16BC929F9D10}" {
+  }
+  RplComponent "{62FB16BC833F1D28}" {
+  }
+  Hierarchy "{62FB16BC816F198D}" {
+  }
+ }
+ coords 113.305 1 119.99
+ Flags 1027
+ UseFrameEvent 1
+ DeleteWhenStopped 1
+ EffectPath "{30B678ED32C177C2}Particles/Vehicle/Helicopter/Helicopter_Smoke_Damaged.ptc"
+}

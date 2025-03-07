@@ -1,0 +1,9 @@
+GenericEntity {
+ ID "5CCEC603A58CB072"
+ components {
+  ESCT_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType FIRETEAM
+   m_bPickRandomGroupType 1
+  }
+ }
+}

@@ -1,0 +1,18 @@
+ESCT_MoveTask {
+ ID "6088C47EA8857749"
+ components {
+  SCR_MapDescriptorComponent "{6088C47EA8857742}" {
+   VisibleOnMap 0
+   MainType Task
+   Scale 0
+   ForceRotationAngle 0
+   ForceGroupScale 1
+  }
+ }
+ m_sName "#Escapists-Task_ReachExtractionPoint_Name"
+ m_sDescription "#Escapists-Task_ReachExtractionPoint_Description"
+ m_sMapIconName "Task_Move"
+ m_sTaskListIconName "Icon_Task_Move"
+ m_bNotifyAssignment 1
+ m_fMaxDistance 25
+}

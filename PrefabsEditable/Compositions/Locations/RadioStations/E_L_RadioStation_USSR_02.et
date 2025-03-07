@@ -1,0 +1,146 @@
+GenericEntity : "{3B47502BD0C6E3C8}PrefabsEditable/Compositions/Locations/E_Location_Base.et" {
+ ID "626CE7E6960785A2"
+ {
+  GenericEntity : "{0CD83D10C5439A16}PrefabsEditable/Auto/Structures/Military/CamoNets/Soviet/E_CamoNet_Medium_Soviet.et" {
+   ID "626CE7E6960785DF"
+   coords -0.018 0 0.018
+  }
+  GenericEntity : "{11AAC380569EC0EC}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/Dst/EquipmentBoxStack_01_V2_dst_03_USSR.et" {
+   ID "626CE7E6960785DA"
+   components {
+    Hierarchy "{605F0DA8E73D7749}" {
+    }
+   }
+   coords 3.359 0 1.308
+   angleY 82.725
+  }
+  $grp StaticModelEntity : "{172DD50ACF177B9E}Prefabs/Props/Military/Furniture/ChairMilitary_USSR_01.et" {
+   {
+    ID "626CE7E69607218C"
+    components {
+     Hierarchy "{605F0DA8E3251FAA}" {
+     }
+    }
+    coords -2.578 0 1.717
+    angleY -21.231
+   }
+   {
+    ID "626CE7E69607218D"
+    components {
+     Hierarchy "{605F0DA8FCA7B3E4}" {
+     }
+    }
+    coords 0.066 0 -1.212
+    angleY -46.802
+   }
+  }
+  GenericEntity : "{2FCB46C395C9CBE7}Prefabs/Props/Airport/GeneratorAirfield_USSR_01/GeneratorAirfield_USSR_01.et" {
+   ID "626CE7E6960758DA"
+   components {
+    Hierarchy "{626D2CC0F0ED3F82}" {
+    }
+   }
+   coords 0.541 0 -3.313
+  }
+  StaticModelEntity : "{314F06D60B8E4BBF}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_RadioStation_USSR.et" {
+   ID "626CE7E69607218F"
+   coords 0.598 0 -1.994
+   angleY 0
+  }
+  ESCT_EquipmentSlotEntity : "{423D2F7F798F4173}Prefabs/SlotEntities/EquipmentSlotEntity.et" {
+   ID "626CE7E696072183"
+   coords -2.954 0.877 2.573
+   angleY 51.001
+  }
+  GenericEntity : "{5B8922E61D8DF345}Prefabs/Props/Military/Antennas/Antenna_R161_01.et" {
+   ID "626CE7E696072185"
+   components {
+    Hierarchy "{605F0DA3E0880F38}" {
+    }
+   }
+   coords -0.018 0 0.018
+   angleY 158.93
+  }
+  GenericEntity : "{6CD65604C7945A66}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_03.et" {
+   ID "626CE7E696072198"
+   coords 0.402 0 1.874
+   angleY -129.96
+  }
+  GenericEntity : "{7F95D831CA586F06}Prefabs/Compositions/Misc/SubCompositions/CableReelWooden_Cluttered_USSR_01.et" {
+   ID "626CE7E69607219C"
+   coords -3.306 0 2.541
+   angleY -159.167
+  }
+  ESCT_StorageSlotEntity : "{844DE1702B3FEE88}Prefabs/SlotEntities/StorageSlotEntity.et" {
+   ID "626CE7E69607219E"
+   coords 2.009 0.075 1.834
+   angleY -103.678
+  }
+  GenericEntity : "{9E2D46C5ED3EBC84}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/Dst/EquipmentBoxStack_01_V1_dst_01_USSR.et" {
+   ID "626CE7E696072190"
+   components {
+    Hierarchy "{605F0DA8F3C27772}" {
+    }
+   }
+   coords 3.239 0 2.538
+   angleY -120.253
+  }
+  GenericEntity : "{A419F4547954DA05}Prefabs/Props/Construction/CableReel/CableReelWooden_01.et" {
+   ID "626CE7E696072197"
+   components {
+    Hierarchy "{605F0DA8CED80BDB}" {
+    }
+   }
+   coords -2.114 0 3.883
+   angleY -50.115
+  }
+  ESCT_EquipmentSlotEntity : "{D5BD96A48EC924ED}Prefabs/SlotEntities/WeaponSlotEntity.et" {
+   ID "626CE7E6960721A9"
+   coords 3.071 0.314 1.387
+   angleY 172.734
+  }
+  GenericEntity : "{E105D2F87098E1D8}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_LoiterPoint.et" {
+   ID "626CE7E6960721AC"
+   components {
+    Hierarchy "{606F0E8476A8F597}" {
+    }
+   }
+   coords -2.912 -1.219 2.498
+   angleY 32.867
+  }
+  GenericEntity : "{E58EB485925C24CA}Prefabs/Props/Core/ExplosiveBarrel_01_Dynamic.et" {
+   ID "626CE7E6960721AE"
+   components {
+    Hierarchy "{626CE7E7DAD49A28}" {
+    }
+   }
+   coords -3.311 0.13 3.723
+   angleY 76.788
+  }
+  ESCT_CharacterSpawnPoint : "{F28B2B542F6C684A}Prefabs/CharacterSpawnPoint.et" {
+   ID "626CE7E6960721AF"
+   coords 0.843 0.387 -0.15
+   angleY 44.316
+  }
+  $grp GenericEntity : "{F76BD5785C7FE191}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_ObservationPoint.et" {
+   {
+    ID "626CE7E6960721A1"
+    components {
+     Hierarchy "{605F0DA8CA92DDA8}" {
+     }
+    }
+    coords 0.613 0.374 1.705
+    angleY -104.791
+   }
+   {
+    ID "626CE7E6960758D8"
+    components {
+     Hierarchy "{605F0DA8CA92DDA8}" {
+     }
+    }
+    coords -4.119 0.374 -0.725
+    angleY 146.413
+   }
+  }
+ }
+}

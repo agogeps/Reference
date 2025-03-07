@@ -1,0 +1,32 @@
+GenericEntity : "{9569026177545A20}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  AICombatPropertiesComponent "{59CE86D96C332DDF}" {
+   UsedAgainst 23
+  }
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "#Escapists-Magazine_RPK74APTracer_Name"
+     Description "#Escapists-Magazine_AK74APTracer_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{548695E22AFB97DA}" {
+     Weight 0.31
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{548695E22AFB97DC}" {
+     }
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    m_sAmmoType "#Escapists-Magazine_AK74APTracer_Description"
+    m_eAmmoTypeFlags 6
+   }
+   AmmoMapping {
+    3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+   }
+  }
+ }
+}

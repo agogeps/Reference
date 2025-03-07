@@ -1,0 +1,82 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  ESCT_LocationStorageComponent "{61AA7E3DA81A98F6}" {
+   Enabled 0
+  }
+  ESCT_StorageArsenalComponent "{61AA7E3DAF3C5AC6}" {
+   Enabled 0
+   m_iItemQuantity 10
+   m_eSupportedArsenalItemTypes HEAL
+   m_eSupportedArsenalItemModes 226
+  }
+  SCR_SoundDataComponent "{61AA7E3D8E1EF510}" {
+   Enabled 0
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{61AA7E3DB04714E6}" {
+     m_sSoundProject "{91563693DBD0AA99}Sounds/Props/Furniture/Safe/Props_Safe.acp"
+     m_sSoundEventName "SOUND_CONTAINER_OPEN"
+    }
+    SCR_AudioSourceConfiguration "{61AA7E3DB75757F9}" {
+     m_sSoundProject "{91563693DBD0AA99}Sounds/Props/Furniture/Safe/Props_Safe.acp"
+     m_sSoundEventName "SOUND_CONTAINER_CLOSE"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{61AA7E3C08353D16}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{61AA7E3C0C1DF8CD}" {
+    ItemDisplayName UIInfo "{61AA7E3C3EA82692}" {
+     Name "#Escapists-Item_MedicineCabinet_Header"
+     Description "#Escapists-Item_MedicineCabinet_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{61AA7E3C619DA1EE}" {
+     Weight 20
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{61AA7E3D929D0C2E}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 2
+      FOV 60
+      AspectRatio 1
+      LodModel 0
+     }
+    }
+    m_SlotType SLOT_ANY
+    m_bDraggable 0
+    m_bStackable 0
+   }
+   m_fMaxWeight 25
+  }
+  SCR_InventoryStorageManagerComponent "{61AA7E3C15C32A56}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{61AA7E3CC19CCE61}" {
+   Enabled 0
+   ActionContexts {
+    UserActionContext "{61AA7E3CC6AB3BBB}" {
+     ContextName "StorageContext"
+     Position PointInfo "{613C8764B0F982CA}" {
+      Offset -0.0093 0.5846 0.2597
+     }
+     Radius 1
+     Height 0
+    }
+   }
+   additionalActions {
+    SCR_OpenStorageAction "{61AA7E3CE573D67A}" {
+     ParentContextList {
+      "StorageContext"
+     }
+     UIInfo UIInfo "{613C87649278AFC0}" {
+      Name "#Escapists-UserAction_OpenLocker"
+     }
+     "Inventory action" 1
+    }
+   }
+  }
+  Hierarchy "{61AA7E3CD2321F9C}" {
+   Enabled 0
+  }
+ }
+}

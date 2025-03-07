@@ -1,0 +1,6 @@
+SCR_AIGroup : "{CB58D90EA14430AD}Prefabs/Groups/OPFOR/Group_USSR_SentryTeam.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{15A90B2AAA2C3232}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MilitaryPoliceman_Carbine.et" "{15A90B2AAA2C3232}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MilitaryPoliceman_Carbine.et"
+ }
+}

@@ -1,0 +1,32 @@
+ESCT_Location {
+ ID "5F34A696233BA600"
+ components {
+  ESCT_LocationCharacterManagerComponent "{60610C258FA40543}" {
+  }
+  ESCT_LocationCompositionComponent "{6167088C6C0BAC60}" {
+  }
+  ESCT_LocationItemManagerComponent "{608F049C532F28A5}" {
+  }
+  ESCT_LocationMilBuildingManagerComponent "{60C4C4D08FA81A5E}" {
+  }
+  ESCT_LocationPatrolManagerComponent "{6090E851BAB949BD}" {
+  }
+  ESCT_LocationStorageManagerComponent "{619C6DB5F77280F7}" {
+   m_eSpawnOrder Late
+  }
+  ESCT_MapDescriptorComponent "{60D65A3AE823D8DA}" {
+   VisibleOnMap 0
+   MapItemDescriptor 1
+   m_ItemDef "AR_icon_question_mark_02"
+  }
+  ESCT_MilitaryBuildingStorageComponent "{6157490CB0B15EF8}" {
+  }
+  FactionAffiliationComponent "{61E30022E60BB4C5}" {
+  }
+  RplComponent "{5F3CF96A7F4A2DBB}" {
+   Streamable Disabled
+  }
+ }
+ Flags 1027
+ m_eLocationType Undefined
+}

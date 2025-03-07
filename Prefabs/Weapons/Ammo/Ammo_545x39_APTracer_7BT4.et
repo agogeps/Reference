@@ -1,0 +1,28 @@
+TracerProjectile : "{1D9DDE1632F33A9E}Prefabs/Weapons/Ammo/Ammo_545x39_Ball_7N6.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   InitSpeed 880
+   Mass 0.00368
+   ProjectileEffects {
+    ProjectileDamage "{614D10B3AFF6C832}" {
+     DamageValue 0.5
+     DamageType Incendiary
+     DamageEffects {
+      SCR_IncendiaryBulletDamageEffect "{619CE088A1325D62}" {
+      }
+     }
+    }
+   }
+   MushroomingDamageMultiplier 0
+   PenetrationDepth 10
+   PenetrationSpeed 808
+  }
+ }
+ coords 2286.571 51.001 2167.505
+ ProjectileVisibleTimeScale 2
+ ProjectileModel "{141B6A1F89173504}Assets/Weapons/Ammo/Tracers/Tracer_green.xob"
+ CartridgeModel "{4151A07E837DC7EB}Assets/Weapons/Ammo/Bullets/545x39/Cartridge_545x39_US.xob"
+ "Tracer Burn Start After" 0.02
+ "Tracer Burn Time" 1.9
+}

@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter : "{894628A45793E7A0}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{60E69A2DF2E7E070}" {
+     PrefabsToSpawn {
+      "{4039A3734D4BD470}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M995_AP.et" "{4039A3734D4BD470}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M995_AP.et" "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+   }
+  }
+ }
+}

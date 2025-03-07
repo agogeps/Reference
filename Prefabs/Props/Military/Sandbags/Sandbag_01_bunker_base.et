@@ -1,0 +1,13 @@
+GenericEntity : "{79F9A63498708E62}Prefabs/Props/Military/Sandbags/Sandbag_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  ESCT_PopulatedBuildingComponent "{60F0CCD305882057}" {
+  }
+ }
+ {
+  ESCT_CharacterSpawnPoint : "{F28B2B542F6C684A}Prefabs/CharacterSpawnPoint.et" {
+   ID "60F0CCD31D5C4F20"
+   coords 0.085 0.029 0.593
+  }
+ }
+}
